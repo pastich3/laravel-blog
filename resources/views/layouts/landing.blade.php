@@ -15,10 +15,7 @@
 </head>
 <body class="bg-light">
     <div id="app">
-
-        <div class="header">
-            Header graphic goes here
-        </div>
+        @include('shared/_landing_navbar')
 
         <div class="container">
             <div class="row">
@@ -28,9 +25,7 @@
             </div>
         </div>
 
-        <div class="footer">
-            Footer goes here, with <a href="#">Contact Us </a>
-        </div>
+        @include('shared/footer')
     </div>
 
     <!-- Scripts -->

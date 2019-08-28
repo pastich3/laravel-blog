@@ -2,7 +2,7 @@
 
 @section('content')
 	<div>
-		<div class="container">
+		<div class="">
 			<div id="testimonialCarousel" style="height: 180px" data-interval="12000" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 					@include('shared._carousel_testimonial', [
@@ -97,8 +97,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="d-flex justify-content-center align-items-center">
+	<div style="background-color: lightgray; height: 430px" class="mt-3 d-flex justify-content-center align-items-center">
+		Video Content
 		<!-- Vimeo::request('/me/videos', ['per_page' => 5], 'GET') -->
+	</div>
+	<div style="background-color: gray; height: 162px" class="d-flex justify-content-center align-items-center">
+		Video selector
 	</div>
 	<div>
 		<div class="font-weight-bold mt-5">
@@ -108,7 +112,7 @@
 			Why does a strategy developed by your best people or an outside consultant bog down as soon as it hits your front-line people? Why is the status quo so difficult to change? Why indeed. At The Tatham Group, we don’t give you the answers. We give you a way to solve these problems yourself, once and for all. In the process, your organization will do more with less, reach its true potential, save millions of dollars thanks to insights gained and delight your customers.
 		</div>
 	</div>
-	<landing-contact
+<!-- 	<landing-contact
 		user-name-placeholder="@lang('users.placeholder.name')"
 		user-email-placeholder="@lang('users.placeholder.email')"
 		company-name-placeholder="@lang('tatham.placeholder.company_name')"
@@ -117,5 +121,5 @@
 		company-name-label="@lang('tatham.attributes.company_name')"
 		button="@lang('tatham.submit')"
 	>	
-	</landing-contact>
+	</landing-contact> -->
 @endsection
