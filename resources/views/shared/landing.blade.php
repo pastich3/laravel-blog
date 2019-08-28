@@ -3,7 +3,7 @@
 @section('content')
 	<div class="d-none d-md-flex justify-content-center align-items-center">
 		<div class="container">
-			<div id="testimonialCarousel" class="px-md-4 px-xl-5 carousel slide" data-ride="carousel">
+			<div id="testimonialCarousel" data-interval="12000" class="px-md-4 px-xl-5 carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 					@include('shared._carousel_testimonial', [
 						'content' => "“In two days, the staff came out with a clear understanding of what we’re trying to do.  In my previous experience, it took a couple of weeks for people to even understand what business-process reengineering was.  Once the folks on the line are given the approach and the time to focus on the problems, they have all the answers.”",
@@ -53,13 +53,3 @@
 	</div> -->
 
 @endsection
-@push('inline-scripts')
-	<script>
-		jQuery(document).ready(function() {
-			// Sets interval...what is transition slide speed?
-			    $('#testimonialCarousel').carousel({
-			    interval: 10000
-			});
-		});
-	</script>
-@endpush
