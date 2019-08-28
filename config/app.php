@@ -152,7 +152,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Vimeo\Laravel\VimeoServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -220,6 +220,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
+        'Vimeo' => Vimeo\Laravel\Facades\Vimeo::class,
     ],
 
 ];
