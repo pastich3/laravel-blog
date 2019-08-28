@@ -15,9 +15,12 @@
 </head>
 <body class="bg-light">
     <div id="app">
-        <div class="container">
-            @include('shared/alerts')
 
+        <div class="header">
+            Header graphic goes here
+        </div>
+
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     @yield('content')
@@ -25,7 +28,9 @@
             </div>
         </div>
 
-        @include('shared/footer')
+        <div class="footer">
+            Footer goes here, with <a href="#">Contact Us </a>
+        </div>
     </div>
 
     <!-- Scripts -->

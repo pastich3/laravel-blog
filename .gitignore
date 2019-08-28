@@ -16,3 +16,6 @@ public/media/
 /storage/medialibrary
 /log
 .phpunit.result.cache
+TODO
+out.txt
+package-lock.json
