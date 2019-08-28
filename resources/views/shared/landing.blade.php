@@ -3,7 +3,7 @@
 @section('content')
 	<div>
 		<div class="container">
-			<div id="testimonialCarousel" style="height: 180px" data-interval="12000" class="px-md-4 px-xl-5 carousel slide" data-ride="carousel">
+			<div id="testimonialCarousel" style="height: 180px" data-interval="12000" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 					@include('shared._carousel_testimonial', [
 						'content' => "“In two days, the staff came out with a clear understanding of what we’re trying to do.  In my previous experience, it took a couple of weeks for people to even understand what business-process reengineering was.  Once the folks on the line are given the approach and the time to focus on the problems, they have all the answers.”",
@@ -11,7 +11,6 @@
 						'title' => "Executive Vice President & CFO",
 						'company' => "Aegon Canada",
 						'bgColor' => 'gray',
-						'wordLimit' => 20,
 						'itemActive' => 'active'
 					])
 
@@ -21,7 +20,6 @@
 						'title' => "President and Chief Operating Officer",
 						'company' => "Canada Life Assurance Company",
 						'bgColor' => 'gray',
-						'wordLimit' => 20,
 					])
 
 					@include('shared._carousel_testimonial', [
@@ -30,7 +28,6 @@
 						'title' => "CEO",
 						'company' => "Canada Life Limited",
 						'bgColor' => 'gray',
-						'wordLimit' => 20,
 					])
 
 					@include('shared._carousel_testimonial', [
@@ -39,7 +36,6 @@
 						'title' => "President and CEO",
 						'company' => "Equitable Life of Canada",
 						'bgColor' => 'gray',
-						'wordLimit' => 20,
 					])
 
 					@include('shared._carousel_testimonial', [
@@ -48,7 +44,6 @@
 						'title' => "Chief Administrator",
 						'company' => "NASA",
 						'bgColor' => 'gray',
-						'wordLimit' => 20,
 					])
 
 					@include('shared._carousel_testimonial', [
@@ -57,7 +52,6 @@
 						'title' => "Business Development Director",
 						'company' => "Rockwell Collins",
 						'bgColor' => 'gray',
-						'wordLimit' => 20,
 					])
 
 					@include('shared._carousel_testimonial', [
@@ -66,7 +60,6 @@
 						'title' => "President & Chief Executive Officer, Canada Division,",
 						'company' => "Sara Lee Intimate Apparel",
 						'bgColor' => 'gray',
-						'wordLimit' => 20,
 					])
 
 					@include('shared._carousel_testimonial', [
@@ -75,7 +68,6 @@
 						'title' => "Chief of Oncology",
 						'company' => "Trillium Health Partners",
 						'bgColor' => 'gray',
-						'wordLimit' => 20,
 					])
 
 					@include('shared._carousel_testimonial', [
@@ -84,7 +76,6 @@
 						'title' => "SVP and Business Leader",
 						'company' => "Wells Fargo Bank",
 						'bgColor' => 'gray',
-						'wordLimit' => 20,
 					])
 
 					@include('shared._carousel_testimonial', [
@@ -93,14 +84,13 @@
 						'title' => "Head of Trust & Fiduciary Services",
 						'company' => "Wells Fargo Bank",
 						'bgColor' => 'gray',
-						'wordLimit' => 20,
 					])
 				</div>
-				<a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+				<a class="justify-content-start ml-1 carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
 				</a>
-				<a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+				<a class="justify-content-end mr-1 carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
@@ -111,10 +101,10 @@
 		<!-- Vimeo::request('/me/videos', ['per_page' => 5], 'GET') -->
 	</div>
 	<div>
-		<div class="lead my-2">
+		<div class="font-weight-bold mt-5">
 			Why do the same problems keep recurring in your organization?
 		</div>
-		<div>
+		<div class="mt-1">
 			Why does a strategy developed by your best people or an outside consultant bog down as soon as it hits your front-line people? Why is the status quo so difficult to change? Why indeed. At The Tatham Group, we don’t give you the answers. We give you a way to solve these problems yourself, once and for all. In the process, your organization will do more with less, reach its true potential, save millions of dollars thanks to insights gained and delight your customers.
 		</div>
 	</div>
