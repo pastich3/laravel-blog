@@ -18,6 +18,8 @@ return [
   'contact' => 'Contact',
   'testimonials' => 'Testimonials',
 
+  'landing_page_question_header' => 'Why do the same problems keep recurring in your organization?',
+  'landing_page_question_content' => 'Why does a strategy developed by your best people or an outside consultant bog down as soon as it hits your front-line people? Why is the status quo so difficult to change? Why indeed. At The Tatham Group, we don’t give you the answers. We give you a way to solve these problems yourself, once and for all. In the process, your organization will do more with less, reach its true potential, save millions of dollars thanks to insights gained and delight your customers.',
 
   'testimonial_content' => [
     [

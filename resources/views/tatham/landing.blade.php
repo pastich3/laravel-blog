@@ -5,10 +5,10 @@
 		<div class="">
 			<div>
 				<div class="font-weight-bold">
-					Why do the same problems keep recurring in your organization?
+					{{ __('tatham.landing_page_question_header') }}
 				</div>
 				<div class="mt-1">
-					Why does a strategy developed by your best people or an outside consultant bog down as soon as it hits your front-line people? Why is the status quo so difficult to change? Why indeed. At The Tatham Group, we don’t give you the answers. We give you a way to solve these problems yourself, once and for all. In the process, your organization will do more with less, reach its true potential, save millions of dollars thanks to insights gained and delight your customers.
+					{{ __('tatham.landing_page_question_content') }}
 				</div>
 			</div>
 		</div>
