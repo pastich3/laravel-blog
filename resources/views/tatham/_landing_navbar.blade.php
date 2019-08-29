@@ -16,21 +16,23 @@
                     </li>
                 </ul>
             @endadmin
-            <div>
-                {{ link_to_route('your_story', __('tatham.your_story'), [], ['class' => 'nav-link text-decoration-none btn btn-primary']) }}
-            </div>
-            <div>
-                {{ link_to_route('our_story', __('tatham.our_story'), [], ['class' => 'nav-link text-decoration-none btn btn-primary']) }}
-            </div>
-            <div>
-                {{ link_to_route('testimonials', __('tatham.testimonials'), [], ['class' => 'nav-link text-decoration-none btn btn-primary']) }}
-            </div>
-            <div>
-                {{ link_to_route('blog', __('tatham.blog'), [], ['class' => 'nav-link text-decoration-none btn btn-primary']) }}
-            </div>
-            <div>
-                {{ link_to_route('contact', __('tatham.contact'), [], ['class' => 'nav-link text-decoration-none btn btn-primary']) }}
-            </div>
+            <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item">
+                    {{ link_to_route('your_story', __('tatham.your_story'), [], ['class' => 'nav-link']) }}
+                </li>
+                <li class="nav-item mx-1 px-1">
+                    {{ link_to_route('our_story', __('tatham.our_story'), [], ['class' => 'nav-link']) }}
+                </li>
+                <li class="nav-item mx-1 px-1">
+                    {{ link_to_route('testimonials', __('tatham.testimonials'), [], ['class' => 'nav-link']) }}
+                </li>
+                <li class="nav-item mx-1 px-1">
+                    {{ link_to_route('blog', __('tatham.blog'), [], ['class' => 'nav-link']) }}
+                </li>
+                <li class="nav-item mx-1 px-1">
+                    {{ link_to_route('contact', __('tatham.contact'), [], ['class' => 'nav-link']) }}
+                </li>
+            </ul>
             <ul class="navbar-nav ml-auto">
                 @guest
                     <li class="nav-item">{{ link_to_route('login', __('auth.login'), [], ['class' => 'nav-link']) }}</li>
