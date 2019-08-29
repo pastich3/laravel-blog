@@ -12,7 +12,11 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
-Route::get('/your_story', 'HomeController@your_story')->name('your_story');
+Route::get('/your_story', 'HomeController@yourStory')->name('your_story');
+Route::get('/our_story', 'HomeController@ourStory')->name('our_story');
+Route::get('/blog', 'HomeController@blog')->name('blog');
+Route::get('/contact', 'HomeController@contact')->name('contact');
+Route::get('/testimonials', 'HomeController@testimonials')->name('testimonials');
 // Route::get('/', 'PostController@index')->name('home');
 // Route::get('/posts/feed', 'PostFeedController@index')->name('posts.feed');
 // Route::resource('posts', 'PostController')->only('show');
