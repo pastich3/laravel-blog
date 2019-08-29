@@ -12,6 +12,11 @@ return [
 
   'submit' => 'Submit',
 
+  'video_descriptions' => [
+    'description_1' => 'What sets Tatham apart?',
+    'description_2' => 'Solving your problems. Once. And for all.',
+  ], // end video_descriptions
+
   'your_story' => 'Your Story',
   'our_story' => 'Our Story',
   'blog' => 'Blog',
