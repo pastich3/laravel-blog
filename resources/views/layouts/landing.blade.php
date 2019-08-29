@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+    @stack('pre-inline-scripts')
 </head>
 <body class="bg-light">
     <div id="app">
@@ -20,7 +21,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    @stack('pre-inline-scripts')
                     @yield('content')
                 </div>
             </div>
