@@ -13,13 +13,15 @@
 			</div>
 		</div>
 	</div>
-	<div style="background-color: lightgray; height: 430px" class="mt-3 d-flex justify-content-center align-items-center">
+	<div>
+		@include('tatham._videos_embed')
+	</div>
+	<!-- <div style="background-color: lightgray; height: 430px" class="mt-3 d-flex justify-content-center align-items-center">
 		Video Content
-		<!-- Vimeo::request('/me/videos', ['per_page' => 5], 'GET') -->
 	</div>
 	<div style="background-color: gray; height: 162px" class="d-flex justify-content-center align-items-center">
 		Video selector
-	</div>
+	</div> -->
 	@include('tatham.testimonial_carousel')
 <!-- 	<landing-contact
 		user-name-placeholder="@lang('users.placeholder.name')"
@@ -29,6 +31,6 @@
 		user-email-label="@lang('users.attributes.email')"
 		company-name-label="@lang('tatham.attributes.company_name')"
 		button="@lang('tatham.submit')"
-	>	
+	>
 	</landing-contact> -->
 @endsection
