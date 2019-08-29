@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/your_story', 'HomeController@your_story')->name('your_story');
 // Route::get('/', 'PostController@index')->name('home');
 // Route::get('/posts/feed', 'PostFeedController@index')->name('posts.feed');
 // Route::resource('posts', 'PostController')->only('show');

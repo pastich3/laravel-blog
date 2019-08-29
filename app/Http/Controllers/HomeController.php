@@ -13,7 +13,16 @@ class HomeController extends Controller
      */
     public function index(Request $request): View
     {
-        return view('shared.landing');
+        return view('tatham.landing');
     }
+
+    /**
+     * Show the application dashboard.
+     */
+    public function your_story(Request $request): View
+    {
+        return view('tatham.your_story');
+    }
+
 
 }

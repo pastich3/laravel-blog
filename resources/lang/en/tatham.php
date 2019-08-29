@@ -10,5 +10,7 @@ return [
     'company_name' => 'Company name',
   ],
 
-  'submit' => 'Submit'
+  'submit' => 'Submit',
+
+  'your_story' => 'Your Story'
 ];

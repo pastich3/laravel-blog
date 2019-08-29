@@ -15,7 +15,7 @@
 </head>
 <body class="bg-light">
     <div id="app">
-        @include('shared/_landing_navbar')
+        @include('tatham/_landing_navbar')
 
         <div class="container">
             <div class="row">

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+<nav style="background-color: #00b8c8" class="navbar navbar-light fixed-top navbar-expand-md">
     <div class="container">
         <!-- Branding Image -->
         {{ link_to_route('home', config('app.name', 'Laravel'), [], ['class' => 'navbar-brand']) }}
@@ -16,7 +16,9 @@
                     </li>
                 </ul>
             @endadmin
-
+            <div>
+                {{ link_to_route('your_story', __('tatham.your_story'), [], ['class' => 'nav-link text-decoration-none btn btn-primary']) }}
+            </div>
             <ul class="navbar-nav ml-auto">
                 @guest
                     <li class="nav-item">{{ link_to_route('login', __('auth.login'), [], ['class' => 'nav-link']) }}</li>
