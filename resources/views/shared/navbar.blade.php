@@ -31,14 +31,14 @@
                 <!-- <li class="nav-item">
                     {{ link_to_route('blog', __('tatham.blog'), [], ['class' => 'nav-link']) }}
                 </li> -->
-                <li class="nav-item d-flex justify-content-center">
+                <!-- <li class="nav-item d-flex justify-content-center">
                     {{ link_to_route('contact', __('tatham.contact'), [], ['class' => 'nav-link']) }}
-                </li>
+                </li> -->
             </ul>
             <ul class="navbar-nav ml-auto">
                 @guest
-                    <li class="nav-item d-flex justify-content-center">{{ link_to_route('login', __('auth.login'), [], ['class' => 'nav-link']) }}</li>
-                    <li class="nav-item d-flex justify-content-center">{{ link_to_route('register', __('auth.register'), [], ['class' => 'nav-link']) }}</li>
+                    <!-- <li class="nav-item d-flex justify-content-center">{{ link_to_route('login', __('auth.login'), [], ['class' => 'nav-link']) }}</li>
+                    <li class="nav-item d-flex justify-content-center">{{ link_to_route('register', __('auth.register'), [], ['class' => 'nav-link']) }}</li> -->
                 @else
                     <li class="nav-item dropdown">
                         <a v-pre href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

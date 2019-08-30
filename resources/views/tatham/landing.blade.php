@@ -2,8 +2,8 @@
 
 @section('content')
 	<div>
-		<div class="">
-			<div>
+		<div class="d-flex justify-content-center">
+			<div style="max-width:800px">
 				<div class="font-weight-bold d-flex">
 					{{ __('tatham.landing_page_question_header') }}
 				</div>
