@@ -3,9 +3,11 @@
 @endpush
 
 <div class="d-flex justify-content-center">
-    <div class="wistia_embed wistia_async_mtcq0lapdc playlistLinks=auto" style="height:360px;width:640px">&nbsp;</div>
+    <div class="d-flex flex-fill wistia_embed wistia_async_mtcq0lapdc playlistLinks=auto"
+        style="min-width: 180px; min-height: 320px; max-height:360px; max-width:640px">&nbsp;
+    </div>
 </div>
-<div class="d-flex flex-row" style="height: 140px">
+<div class="d-flex flex-row flex-wrap pb-1 justify-content-center" style="min-height: 140px">
 
     @include('tatham._video_link', [
         'video_code' => 'mtcq0lapdc',
@@ -20,4 +22,5 @@
         'description' => __('tatham.video_descriptions.description_2'),
         'videoLength' => '4:31',
     ])
+
 </div>
