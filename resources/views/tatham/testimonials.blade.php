@@ -1,4 +1,4 @@
-@extends('layouts.landing')
+@extends('layouts.app')
 
 @section('content')
     <div class="justify-content-center d-flex font-weight-bolder huge"> {{ __('tatham.testimonials') }} </div>

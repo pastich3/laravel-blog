@@ -1,4 +1,4 @@
-@extends('layouts.landing')
+@extends('layouts.app')
 @section('content')
 	<div class="justify-content-center d-flex font-weight-bolder huge"> {{ __('tatham.your_story') }} </div>
 		<div class="justify-content-center d-flex huge"> {{ __('tatham.your_story_content.inaction_mega_header') }} </div>
@@ -22,6 +22,6 @@
 			<h3> {{ __('tatham.your_story_content.clients_header') }} </h3>
 				<div class="ml-5 mr-5"> {!! __('tatham.your_story_content.clients_content') !!} </div>
 
-	@include('tatham.testimonial_carousel')
+	@include('tatham._testimonial_carousel')
 
 @endsection

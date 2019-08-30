@@ -1,4 +1,4 @@
-@extends('layouts.landing')
+@extends('layouts.app')
 
 @section('content')
 	<div>
@@ -22,7 +22,7 @@
 	<div style="background-color: gray; height: 162px" class="d-flex justify-content-center align-items-center">
 		Video selector
 	</div> -->
-	@include('tatham.testimonial_carousel')
+	@include('tatham._testimonial_carousel')
 <!-- 	<landing-contact
 		user-name-placeholder="@lang('users.placeholder.name')"
 		user-email-placeholder="@lang('users.placeholder.email')"
