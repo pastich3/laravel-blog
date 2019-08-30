@@ -1,4 +1,4 @@
-<nav style="background-color: #00b8c8" class="navbar navbar-light fixed-top navbar-expand-md">
+<nav class="navbar navbar-light fixed-top navbar-expand-md">
     <div class="container">
         <!-- Branding Image -->
         <a href="{{route('home')}}" class="navbar-brand mr-5">
