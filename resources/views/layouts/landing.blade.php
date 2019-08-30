@@ -18,7 +18,7 @@
     <div id="app">
         @include('tatham/_landing_navbar')
 
-        <div class="container">
+        <div class="container" style="margin-top: 60px; margin-bottom: 60px;">
             <div class="row">
                 <div class="col-md-12">
                     @yield('content')
