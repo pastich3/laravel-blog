@@ -4,7 +4,7 @@
 
 <div class="d-flex justify-content-center">
     <div class="d-flex flex-fill wistia_embed wistia_async_mtcq0lapdc playlistLinks=auto"
-        style="min-width: 180px; min-height: 320px; max-height:468px; max-width:832px">&nbsp;
+        style="min-width: 180px; min-height: 320px; max-height:360px; max-width:640px">&nbsp;
     </div>
 </div>
 <div class="d-flex flex-row flex-wrap pb-1 justify-content-center" style="min-height: 140px">
