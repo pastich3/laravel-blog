@@ -15,8 +15,11 @@ return [
   'submit' => 'Submit',
 
   'video_descriptions' => [
-    'description_1' => 'What sets Tatham apart?',
-    'description_2' => 'Solving your problems. Once. And for all.',
+    'description_1' => 'Solving your problems. Once. And for all.',
+    'description_2' => 'The cost of inaction',
+    'description_3' => 'Cycle of hell',
+    'description_4' => 'Empowering your people',
+    'description_5' => 'What sets Tatham apart?',
   ], // end video_descriptions
 
   'contact_fields' => [

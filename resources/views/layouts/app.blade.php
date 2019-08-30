@@ -17,7 +17,7 @@
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
     @stack('pre-inline-scripts')
 </head>
-<body class="bg-light">
+<body class="bg-light" style="background-color: lightgray">
     <div id="app">
         @include('shared/navbar')
 

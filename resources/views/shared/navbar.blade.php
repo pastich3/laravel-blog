@@ -2,7 +2,7 @@
     <div class="container">
         <!-- Branding Image -->
         <a href="{{route('home')}}" class="navbar-brand mr-5">
-            <img style="width: 68px; height: 39px" src="{{URL::asset('images/TathamImagePreview1.jpg')}}">
+            <img style="height: 40px" src="{{URL::asset('images/logo.png')}}">
         </a>
 
         <!-- Collapsed Hamburger -->
