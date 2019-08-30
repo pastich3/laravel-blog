@@ -16,13 +16,9 @@
 	<div class="mt-2">
 		@include('tatham._videos_embed')
 	</div>
-	<!-- <div style="background-color: lightgray; height: 430px" class="mt-3 d-flex justify-content-center align-items-center">
-		Video Content
-	</div>
-	<div style="background-color: gray; height: 162px" class="d-flex justify-content-center align-items-center">
-		Video selector
-	</div> -->
+
 	@include('tatham._testimonial_carousel')
+
 <!-- 	<landing-contact
 		user-name-placeholder="@lang('users.placeholder.name')"
 		user-email-placeholder="@lang('users.placeholder.email')"
