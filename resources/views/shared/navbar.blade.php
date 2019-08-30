@@ -1,8 +1,8 @@
-<nav class="navbar navbar-light fixed-top navbar-expand-md">
+<nav class="navbar navbar-light fixed-top navbar-expand-md pt-0 pb-0">
     <div class="container">
         <!-- Branding Image -->
         <a href="{{route('home')}}" class="navbar-brand mr-5">
-            <img style="height: 40px" src="{{URL::asset('images/logo.png')}}">
+            <img style="height: 56px" src="{{URL::asset('images/logo.png')}}">
         </a>
 
         <!-- Collapsed Hamburger -->
