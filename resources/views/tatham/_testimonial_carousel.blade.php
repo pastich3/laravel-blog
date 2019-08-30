@@ -15,11 +15,11 @@
 			</div>
 			<a class="justify-content-start ml-1 carousel-control-prev" style="width: 60px" href="#testimonialCarousel" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
+				<span class="sr-only">{{ __('tatham.carousel_previous') }} </span>
 			</a>
 			<a class="justify-content-end mr-1 carousel-control-next" style="width: 60px" href="#testimonialCarousel" role="button" data-slide="next">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
+				<span class="sr-only">{{ __('tatham.carousel_next') }} </span>
 			</a>
 		</div>
 	</div>

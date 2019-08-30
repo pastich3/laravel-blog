@@ -10,6 +10,8 @@ return [
     'company_name' => 'Company name',
   ],
 
+  'carousel_previous' => 'Previous',
+  'carousel_next' => 'Next',
   'submit' => 'Submit',
 
   'video_descriptions' => [
