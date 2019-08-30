@@ -4,10 +4,10 @@
 	<div>
 		<div class="">
 			<div>
-				<div class="font-weight-bold d-flex justify-content-center">
+				<div class="font-weight-bold d-flex">
 					{{ __('tatham.landing_page_question_header') }}
 				</div>
-				<div class="mt-1 mx-3">
+				<div class="mt-1 mb-3">
 					{{ __('tatham.landing_page_question_content') }}
 				</div>
 			</div>
