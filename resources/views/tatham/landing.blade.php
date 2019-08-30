@@ -18,15 +18,4 @@
 	</div>
 
 	@include('tatham._testimonial_carousel')
-
-<!-- 	<landing-contact
-		user-name-placeholder="@lang('users.placeholder.name')"
-		user-email-placeholder="@lang('users.placeholder.email')"
-		company-name-placeholder="@lang('tatham.placeholder.company_name')"
-		user-name-label="@lang('users.attributes.name')"
-		user-email-label="@lang('users.attributes.email')"
-		company-name-label="@lang('tatham.attributes.company_name')"
-		button="@lang('tatham.submit')"
-	>
-	</landing-contact> -->
 @endsection

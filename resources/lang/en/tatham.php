@@ -19,10 +19,16 @@ return [
     'description_2' => 'Solving your problems. Once. And for all.',
   ], // end video_descriptions
 
+  'contact_fields' => [
+    'company_name' => 'Company Name',
+    'phone' => 'Phone Number'
+  ],
+
   'your_story' => 'Your Story',
   'our_story' => 'Our Story',
   'blog' => 'Blog',
   'contact' => 'Contact',
+  'contact_us' => 'Contact Us',
   'testimonials' => 'Testimonials',
 
   'landing_page_question_header' => 'Why do the same problems keep recurring in your organization?',

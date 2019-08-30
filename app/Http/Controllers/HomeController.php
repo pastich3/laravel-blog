@@ -41,4 +41,8 @@ class HomeController extends Controller
         return view('tatham.testimonials');
     }
 
+    public function contactInfoSubmitted(Request $request): View
+    {
+        return view('tatham.contact_submitted');
+    }
 }
