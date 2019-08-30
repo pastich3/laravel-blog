@@ -1,7 +1,9 @@
 <nav style="background-color: #00b8c8" class="navbar navbar-light fixed-top navbar-expand-md">
     <div class="container">
         <!-- Branding Image -->
-        {{ link_to_route('home', config('app.name', 'Laravel'), [], ['class' => 'navbar-brand mr-5']) }}
+        <a href="{{route('home')}}" class="navbar-brand mr-5">
+            <img style="width: 68px; height: 39px" src="{{URL::asset('images/TathamImagePreview1.jpg')}}">
+        </a>
 
         <!-- Collapsed Hamburger -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
