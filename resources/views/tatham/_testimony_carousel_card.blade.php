@@ -1,10 +1,5 @@
-<div style="background-color: {{ $bgColor }}; height: 200px;" class="py-3 px-3 carousel-item {{$itemActive ?? ''}}">
+<div style="background-color: {{ $bgColor }}; height: 200px" class="py-3 px-3 carousel-item {{$itemActive ?? ''}}">
 	<div class="px-5">
-		<div>
-			<a target="_blank" class="text-decoration-none justify-content-end align-items-start d-flex" href="/testimonials">
-				<i class="fa fa-external-link"></i>
-			</a>
-		</div>
 		<div class="d-flex justify-content-center" style="height: 100px; margin-bottom: 20px">
 			<span style="max-width: 450px">
 			@php $maxLen = 200; @endphp
