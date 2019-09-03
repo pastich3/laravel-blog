@@ -19,6 +19,17 @@
                 </ul>
             @endadmin
             <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                        <a v-pre href="#" class="nav-link dropdown-toggle" id="ourStoryDropdownToggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Stories
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="ourStoryDropdownToggle">
+                            {{ link_to_route('your_story', __('tatham.your_story'), [], ['class' => 'dropdown-item']) }}
+                            <div class="dropdown-divider"></div>
+                            {{ link_to_route('our_story', __('tatham.our_story'), [], ['class' => 'dropdown-item']) }}
+                        </div>
+                </li>
                 <li class="nav-item d-flex justify-content-center">
                     {{ link_to_route('your_story', __('tatham.your_story'), [], ['class' => 'nav-link']) }}
                 </li>

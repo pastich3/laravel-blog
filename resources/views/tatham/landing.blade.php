@@ -2,7 +2,30 @@
 
 @section('content')
 	<div>
+		<div>
+
+		</div>
+
+		<span class="d-flex justify-content-center font-weight-bold huge"> What sets Tatham apart? </span>
 		<div class="d-flex justify-content-center">
+			<div class="p-4 card-shadow" style="max-width: 40em">
+				<span class="d-flex text-center">
+					We help clients make execution of strategy a core competency.
+					We work closely with clients to develop a culture rooted in diversity, inclusion, dignity, and respect.
+					We leverage experiential learning to provide shared experience and a common language as the basis for a way of working that keeps focus on the customer, and provides transparency and sufficient structure to allow for distributed decision making.
+					We will not show up with a large team of consultants, we will develop your existing team from the top down, and the bottom up.
+				</span>
+			</div>
+		</div>
+
+		<div class="mt-5 d-flex justify-content-center">
+			<div class="d-flex justify-content-between w-75">
+				<span>33 customers helped</span>
+				<span>$1 billion saved</span>
+				<span>3 months</span>
+			</div>
+		</div>
+		<!-- <div class="d-flex justify-content-center">
 			<div style="max-width:800px">
 				<div class="font-weight-bold d-flex">
 					{{ __('tatham.landing_page_question_header') }}
@@ -11,11 +34,8 @@
 					{{ __('tatham.landing_page_question_content') }}
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="mt-2">
-		@include('tatham._videos_embed')
+		</div> -->
 	</div>
 
-	@include('tatham._testimonial_carousel')
+	<!-- @include('tatham._testimonial_carousel') -->
 @endsection
