@@ -25,6 +25,16 @@
 				<span>3 months</span>
 			</div>
 		</div>
+		<div>
+			NASA &lt;icon&gt; redesigned the operations process for the Hubble Space Telescope so that wait time for scientists went from 18 months to 3 weeks and cut cost by $100M.
+		</div>
+		<div>
+
+		</div>
+	@include('tatham._testimonial_carousel')
+		<!-- <div>
+			namedrop clients
+		</div> -->
 		<!-- <div class="d-flex justify-content-center">
 			<div style="max-width:800px">
 				<div class="font-weight-bold d-flex">
@@ -37,5 +47,4 @@
 		</div> -->
 	</div>
 
-	<!-- @include('tatham._testimonial_carousel') -->
 @endsection
