@@ -21,6 +21,10 @@
     <div id="app">
         @include('shared/navbar')
 
+        <div class="mt-5 pt-4 d-flex justify-content-center">
+            @include('cookieConsent::index')
+        </div>
+
         <div class="container" style="margin-top: 90px; margin-bottom: 60px;">
             @include('shared/alerts')
 
