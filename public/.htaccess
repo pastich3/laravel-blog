@@ -3,6 +3,9 @@
         Options -MultiViews -Indexes
     </IfModule>
 
+    AddType image/svg+xml svg svgz
+    AddEncoding gzip svgz
+
     RewriteEngine On
 
     # Handle Authorization Header
