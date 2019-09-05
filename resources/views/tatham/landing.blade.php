@@ -33,7 +33,7 @@
 
 				</span>
 				<span class="card-shadow p-3 mx-3">
-					<div class="d-flex justify-content-center"> <img style="height: 90px;" src="/images/wells_fargo_logo.png"> </div>
+					<div class="d-flex justify-content-center"> <img style="height: 120px;" src="/images/wells_fargo_logo.png"> </div>
 					<div class="">
 						Blah blah short description
 					</div>
@@ -44,7 +44,7 @@
 
 				</span>
 				<span class="card-shadow p-3 mx-3">
-					<div class="d-flex justify-content-center"> <img style="height: 70px;" src="/images/walmart_logo.png"> </div>
+					<div class="d-flex justify-content-center"> <img style="height: 120px;" src="/images/walmart_logo.png"> </div>
 					<div class="">
 						Blah blah short description
 					</div>
