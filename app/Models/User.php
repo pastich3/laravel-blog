@@ -110,6 +110,14 @@ class User extends Authenticatable implements MustVerifyEmailContract
     }
 
     /**
+     * Check if the user has role client
+     */
+    public function isClient(): bool
+    {
+        return $this->hasRole(Role::ROLE_CLIENT);
+    }
+
+    /**
      * Return the user's posts
      */
     public function posts(): HasMany
