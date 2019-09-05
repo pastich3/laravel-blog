@@ -3,35 +3,62 @@
 @section('content')
 	<div>
 		<div>
-
+			<span class="d-flex justify-content-center font-weight-bold h3"> For our clients, execution of strategy becomes a core competency </span>
 		</div>
-
-		<span class="d-flex justify-content-center font-weight-bold huge"> What sets Tatham apart? </span>
 		<div class="d-flex justify-content-center">
 			<div class="p-4 card-shadow" style="max-width: 40em">
 				<span class="d-flex text-center">
-					We help clients make execution of strategy a core competency.
-					We work closely with clients to develop a culture rooted in diversity, inclusion, dignity, and respect.
-					We leverage experiential learning to provide shared experience and a common language as the basis for a way of working that keeps focus on the customer, and provides transparency and sufficient structure to allow for distributed decision making.
-					We will not show up with a large team of consultants, we will develop your existing team from the top down, and the bottom up.
+					We help organizations develop a culture of innovation rooted in diversity, inclusion, dignity, and respect.
+					By creating shared experiences and a common language, we establish a way of working that keeps focus on the customer and enables distributed decision making. This makes your company more responsive and competitive.
+					We practice what we preach, by being both responsive and nimble. We don’t show up with a large team of consultants. Instead, we use experiential learning to develop your existing team both from the top down and the bottom up.
 				</span>
 			</div>
 		</div>
 
+		<div class="mt-5">
+			@include('tatham._testimonial_carousel')
+		</div>
+
 		<div class="mt-5 d-flex justify-content-center">
 			<div class="d-flex justify-content-between w-75">
-				<span>33 customers helped</span>
-				<span>$1 billion saved</span>
-				<span>3 months</span>
+				<span class="card-shadow p-3 mx-3">
+					<div class="d-flex justify-content-center"> <img style="height: 120px;" src="/images/nasa_logo.png"> </div>
+					<div class="">
+						Blah blah short description
+					</div>
+					<div class="d-none">
+						Blah blah very very very very long description
+					</div>
+					<a href="#"> Read more &gt; </a>
+
+				</span>
+				<span class="card-shadow p-3 mx-3">
+					<div class="d-flex justify-content-center"> <img style="height: 90px;" src="/images/wells_fargo_logo.png"> </div>
+					<div class="">
+						Blah blah short description
+					</div>
+					<div class="d-none">
+						Blah blah very very very very long description
+					</div>
+					<a href="#"> Read more &gt; </a>
+
+				</span>
+				<span class="card-shadow p-3 mx-3">
+					<div class="d-flex justify-content-center"> <img style="height: 70px;" src="/images/walmart_logo.png"> </div>
+					<div class="">
+						Blah blah short description
+					</div>
+					<div class="d-none">
+						Blah blah very very very very long description
+					</div>
+					<a href="#"> Read more &gt; </a>
+
+				</span>
 			</div>
-		</div>
-		<div>
-			NASA &lt;icon&gt; redesigned the operations process for the Hubble Space Telescope so that wait time for scientists went from 18 months to 3 weeks and cut cost by $100M.
 		</div>
 		<div>
 
 		</div>
-	@include('tatham._testimonial_carousel')
 		<!-- <div>
 			namedrop clients
 		</div> -->

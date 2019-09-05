@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-center">
-	<div style="max-width: 450px">
+	<div style="max-width: 800px">
 		<div id="testimonialCarousel" data-interval="12000" class="mt-3 carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				@foreach (__('tatham.testimonial_content') as $testimony)
