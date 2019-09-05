@@ -28,6 +28,13 @@ return [
     'message' => 'Message (limit 255 characters)'
   ],
 
+  'email' => [
+    'contact_submitted' => [
+        'confirmation_subject' => 'Contact Information Submitted',
+        'confirmation_body' => 'Hello :name! We are sending you this email to confirm we have received your contact information. Please do not reply.',
+    ],
+  ],
+
   'your_story' => 'Your Story',
   'our_story' => 'Our Story',
   'blog' => 'Blog',
