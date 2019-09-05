@@ -24,7 +24,8 @@ return [
 
   'contact_fields' => [
     'company_name' => 'Company Name',
-    'phone' => 'Phone Number'
+    'phone' => 'Phone Number',
+    'message' => 'Message (limit 255 characters)'
   ],
 
   'your_story' => 'Your Story',
