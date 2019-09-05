@@ -4,7 +4,6 @@
 <div class="row justify-content-md-center">
     <div class="col-md-6">
         <h1>@lang('tatham.contact_us')</h1>
-
         {!! Form::open(['route' => 'contactPost', 'role' => 'form', 'method' => 'POST']) !!}
             <div class="form-group">
                 {!! Form::label('name', __('validation.attributes.name') . ' *', ['class' => 'control-label']) !!}
@@ -39,6 +38,7 @@
 
                 @error('phone')
                     <span class="invalid-feedback">{{ $message }}</span>
+
                 @enderror
             </div>
 

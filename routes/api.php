@@ -12,7 +12,6 @@
 */
 
 Route::prefix('v1')->namespace('Api\V1')->group(function () {
-    Route::post('/contact', 'TathamContactController@contact')->name('contactPost');
 //     Route::middleware(['auth:api', 'verified'])->group(function () {
 //         // Comments
 //         Route::apiResource('comments', 'CommentController')->only('destroy');

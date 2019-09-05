@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Api\V1;
+namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Http\Resources\Post as PostResource;
@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
 use App\Events\ContactFormSubmitted;
-use App\Http\Requests\Api\ContactFormRequest;
+use App\Http\Requests\ContactFormRequest;
 use App\Models\ContactInfo;
 
 class TathamContactController extends Controller
