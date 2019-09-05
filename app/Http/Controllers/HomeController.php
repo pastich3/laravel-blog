@@ -26,11 +26,6 @@ class HomeController extends Controller
         return view('tatham.our_story');
     }
 
-    public function blog(Request $request): View
-    {
-        return view('tatham.blog');
-    }
-
     public function contact(Request $request): View
     {
         return view('tatham.contact');

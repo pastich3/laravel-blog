@@ -42,9 +42,9 @@
                 <li class="nav-item d-flex justify-content-center">
                     {{ link_to_route('testimonials', __('tatham.testimonials'), [], ['class' => 'nav-link']) }}
                 </li>
-                <!-- <li class="nav-item">
+                <li class="nav-item">
                     {{ link_to_route('blog', __('tatham.blog'), [], ['class' => 'nav-link']) }}
-                </li> -->
+                </li>
                 @guest
                     <li class="nav-item d-flex justify-content-center">
                         {{ link_to_route('contact', __('tatham.contact'), [], ['class' => 'nav-link']) }}
