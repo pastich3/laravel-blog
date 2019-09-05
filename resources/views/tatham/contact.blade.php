@@ -17,7 +17,7 @@
 
             <div class="form-group">
                 {!! Form::label('email', __('validation.attributes.email') . ' *', ['class' => 'control-label']) !!}
-                {!! Form::email('email', old('email'), ['class' => 'form-control' . ($errors->has('email') ? ' is-invalid' : ''), 'required']) !!}
+                {!! Form::email('email', old('email'), ['class' => 'form-control' . ($errors->has('email') ? ' is-invalid' : ''), 'required', 'maxlength' => 255]) !!}
 
                 @error('email')
                     <span class="invalid-feedback">{{ $message }}</span>
@@ -26,7 +26,7 @@
 
             <div class="form-group">
                 {!! Form::label('name', __('tatham.contact_fields.company_name'), ['class' => 'control-label']) !!}
-                {!! Form::text('company_name', old('company_name'), ['class' => 'form-control' . ($errors->has('company_name') ? ' is-invalid' : '')]) !!}
+                {!! Form::text('company_name', old('company_name'), ['class' => 'form-control' . ($errors->has('company_name') ? ' is-invalid' : ''), 'maxlength' => 255]) !!}
 
                 @error('company_name')
                     <span class="invalid-feedback">{{ $message }}</span>
@@ -35,7 +35,7 @@
 
             <div class="form-group">
                 {!! Form::label('phone', __('tatham.contact_fields.phone'), ['class' => 'control-label']) !!}
-                {!! Form::text('phone', old('phone'), ['class' => 'form-control' . ($errors->has('phone') ? ' is-invalid' : '')]) !!}
+                {!! Form::tel('phone', old('phone'), ['class' => 'form-control' . ($errors->has('phone') ? ' is-invalid' : ''), 'maxlength' => '20']) !!}
 
                 @error('phone')
                     <span class="invalid-feedback">{{ $message }}</span>
