@@ -45,7 +45,6 @@
             <div class="form-group">
                 {!! Form::label('message', __('tatham.contact_fields.message'), ['class' => 'control-label']) !!}
                 {!! Form::textarea('message', old('message'), ['class' => 'form-control' . ($errors->has('message') ? ' is-invalid' : ''), 'style' => 'height: 10em', 'maxlength' => '255']) !!}
-
             </div>
 
             <div class="form-group">
