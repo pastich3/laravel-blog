@@ -28,6 +28,9 @@ class SendContactFormSubmittedConfirmation
      */
     public function handle(ContactFormSubmitted $event)
     {
-        SendContactFormSubmittedConfirmationJob::dispatch($event->getContactInfoId());
+        if (config('app.env') == 'production')
+        {
+            SendContactFormSubmittedConfirmationJob::dispatch($event->getContactInfoId());
+        }
     }
 }

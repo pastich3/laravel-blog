@@ -28,6 +28,9 @@ class SendContactFormSubmittedNotification
      */
     public function handle(ContactFormSubmitted $event)
     {
-        SendContactFormSubmittedNotificationJob::dispatch($event->getContactInfoId());
+        if (config('app.env') == 'production')
+        {
+            SendContactFormSubmittedNotificationJob::dispatch($event->getContactInfoId());
+        }
     }
 }
