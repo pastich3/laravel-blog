@@ -15,9 +15,18 @@ class AddMoreRoles extends Migration
      */
     public function up()
     {
-        Role::create([
+        Role::insert([
             'id' => 3,
-            'name' => 'client'
+            'name' => 'client',
+            'created_at' => date('Y-m-d H:i:s'),
+            'updated_at' => date('Y-m-d H:i:s'),
+        ]);
+
+        Role::insert([
+            'id' => 4,
+            'name' => 'receives_contact_email_notifications',
+            'created_at' => date('Y-m-d H:i:s'),
+            'updated_at' => date('Y-m-d H:i:s'),
         ]);
     }
 
@@ -29,5 +38,6 @@ class AddMoreRoles extends Migration
     public function down()
     {
         Role::where('id', 3)->delete();
+        Role::where('id', 4)->delete();
     }
 }

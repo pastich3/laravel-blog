@@ -6,6 +6,8 @@ use App\Events\ContactFormSubmitted;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
+use App\Jobs\SendContactFormSubmittedNotification as SendContactFormSubmittedNotificationJob;
+
 class SendContactFormSubmittedNotification
 {
     /**
@@ -26,6 +28,6 @@ class SendContactFormSubmittedNotification
      */
     public function handle(ContactFormSubmitted $event)
     {
-        //
+        SendContactFormSubmittedNotificationJob::dispatch($event->getContactInfoId());
     }
 }

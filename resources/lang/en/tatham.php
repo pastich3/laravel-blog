@@ -32,6 +32,8 @@ return [
     'contact_submitted' => [
         'confirmation_subject' => 'Contact Information Submitted',
         'confirmation_body' => 'Hello :name! We are sending you this email to confirm we have received your contact information. Please do not reply.',
+        'notification_subject' => 'New Contact Information Submitted',
+        'notification_body' => ':name has submitted their contact information. Check it out!',
     ],
   ],
 

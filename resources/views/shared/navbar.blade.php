@@ -45,9 +45,11 @@
                 <!-- <li class="nav-item">
                     {{ link_to_route('blog', __('tatham.blog'), [], ['class' => 'nav-link']) }}
                 </li> -->
-                <li class="nav-item d-flex justify-content-center">
-                    {{ link_to_route('contact', __('tatham.contact'), [], ['class' => 'nav-link']) }}
-                </li>
+                @guest
+                    <li class="nav-item d-flex justify-content-center">
+                        {{ link_to_route('contact', __('tatham.contact'), [], ['class' => 'nav-link']) }}
+                    </li>
+                @endguest
             </ul>
             <ul class="navbar-nav ml-auto">
                 @guest

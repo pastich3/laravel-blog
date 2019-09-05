@@ -37,6 +37,6 @@ class foo extends Command
      */
     public function handle()
     {
-            event(new \App\Events\ContactFormSubmitted(1));
+        event(new \App\Events\ContactFormSubmitted(1));
     }
 }
