@@ -1,4 +1,4 @@
-<div style="background-color: {{ $bgColor }};" class="py-3 px-5 carousel-item {{$itemActive ?? ''}}">
+<div class="py-3 px-5 carousel-item {{$itemActive ?? ''}}">
 	<!-- <div class="px-5 d-flex flex-fill flex-column"> -->
 		<div class="d-flex justify-content-center align-items-center" style="margin-bottom: 20px">
 			<span style="max-width: 800px">

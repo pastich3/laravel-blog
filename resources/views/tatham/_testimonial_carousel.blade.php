@@ -8,7 +8,7 @@
 						'person' => $testimony['person'],
 						'title' => $testimony['title'],
 						'company' => $testimony['company'],
-						'bgColor' => '#E1E1E1',
+						'bgColor' => '#FFFFFF',
 						'itemActive' => $loop->first ? 'active' : '',
 					])
 				@endforeach
