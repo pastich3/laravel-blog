@@ -82,7 +82,7 @@
   <section id="hero">
     <div class="hero-container">
       <h1>What sets Tatham apart?</h1>
-      <h2>For our clients, execution of strategy becomes a core competency</h2>
+      <h2 style="margin-top: 1.25em">For our clients, execution of strategy becomes a core competency</h2>
       <a href="#contact" class="btn-get-started">Let's talk</a>
     </div>
   </section><!-- #hero -->
@@ -97,7 +97,7 @@
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">Few Words About Us</h2>
+            <h2 class="title">About Us</h2>
             <p>
               {!! __("tatham.about_us_content") !!}
             </p>
@@ -467,12 +467,12 @@
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Contact</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">Offices in Toronto Ontario and Portland Oregon</p>
         </div>
       </div>
 
       <!-- Uncomment below if you wan to use dynamic maps -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.998348021916!2d-79.40549138406612!3d43.66900417912078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3497e73fff69%3A0xecf090b8db1452c2!2s43%20Madison%20Ave%2C%20Toronto%2C%20ON%20M5R%202S2%2C%20Canada!5e0!3m2!1sen!2sus!4v1568064190263!5m2!1sen!2sus" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.998348021916!2d-79.40549138406612!3d43.66900417912078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3497e73fff69%3A0xecf090b8db1452c2!2s43%20Madison%20Ave%2C%20Toronto%2C%20ON%20M5R%202S2%2C%20Canada!5e0!3m2!1sen!2sus!4v1568064190263!5m2!1sen!2sus" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 
       <div class="container wow fadeInUp mt-5">
         <div class="row justify-content-center">
