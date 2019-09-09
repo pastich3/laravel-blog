@@ -171,7 +171,7 @@
     ============================-->
     <section id="services">
       <div class="container wow fadeIn">
-        <div class="section-header">
+        <div class="section-header" style="margin-bottom: 80px;">
           <h3 class="section-title">Clients</h3>
           <!-- <p class="section-description">Here are some of our clients</p> -->
         </div>

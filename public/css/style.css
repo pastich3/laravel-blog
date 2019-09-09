@@ -616,8 +616,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: -36px;
   left: calc(50% - 36px);
   transition: 0.2s;
-  border-radius: 50%;
-  border: 6px solid #fff;
+  /*border-radius: 50%;*/
+  /*border: 6px solid #fff;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -625,7 +625,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #2dc997;
+  /*background: #2dc997;*/
 }
 
 #services .icon a {
@@ -638,22 +638,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box:hover .icon {
-  background: #fff;
-  border: 2px solid #2dc997;
+  /*background: #fff;*/
+  /*border: 2px solid #2dc997;*/
 }
 
 #services .box:hover .icon i {
-  color: #2dc997;
+  /*color: #2dc997;*/
 }
 
 #services .box:hover .icon a {
-  color: #2dc997;
+  /*color: #2dc997;*/
 }
 
 #services .title {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
+  margin-top: 20px;
   text-transform: uppercase;
 }
 
