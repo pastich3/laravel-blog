@@ -1,16 +1,17 @@
-<div style="background-color: {{ $bgColor }}; height: 200px" class="py-3 px-3 carousel-item {{$itemActive ?? ''}}">
-	<div class="px-5">
-		<div class="d-flex justify-content-center" style="height: 100px; margin-bottom: 20px">
+<div style="background-color: {{ $bgColor }};" class="py-3 px-5 carousel-item {{$itemActive ?? ''}}">
+	<!-- <div class="px-5 d-flex flex-fill flex-column"> -->
+		<div class="d-flex justify-content-center align-items-center" style="margin-bottom: 20px">
 			<span style="max-width: 800px">
-			@php $maxLen = 700; @endphp
-			{!! strlen($content) > $maxLen ? implode(' ', array_slice(explode(' ', rtrim(substr($content, 0, $maxLen), ",. ")), 0, -1)) . ' ...' : $content !!}
+			{!! $content !!}
 			</span>
 		</div>
-		<div style="font-size: 0.65em;" class="d-flex font-italic justify-content-end">
-			{{ $person }}, {{ $title }}
+		<div style="position: absolute; bottom: 0.75em; right: 0.75em;" class="d-flex align-items-end justify-content-end flex-column">
+			<div style="font-size: 0.65em;" class="d-flex font-italic justify-content-end">
+				{{ $person }}, {{ $title }}
+			</div>
+			<div class="d-flex justify-content-end font-weight-bold">
+				{{ $company }}
+			</div>
 		</div>
-		<div class="d-flex justify-content-end font-weight-bold">
-			{{ $company }}
-		</div>
-	</div>
+	<!-- </div> -->
 </div>

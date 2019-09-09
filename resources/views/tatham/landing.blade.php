@@ -138,8 +138,10 @@
           <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
 
         </div>
+        <div style="height: 800px;">
+			     @include('tatham._testimonial_carousel')
+        </div>
         <div class="row counters">
-			@include('tatham._testimonial_carousel')
 
   				<!-- <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">232</span>
@@ -576,6 +578,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  @stack('inline-scripts')
 
 </body>
 </html>
