@@ -252,4 +252,11 @@ The big ‘aha’ moment for many people is when they see that no matter what th
 
 NASA shortened the time for scientists to access the Hubble Space Telescope from 18 months to 3 weeks and cut costs by $100 million. Continental Insurance shortened the time to obtain an insurance policy from 92 days to 2 hours. Delta Airlines saved $635,000 per year on the Frequent Flyer Program. R.W. Johnson Pharmaceutical Research Institute streamlined product development from eight years to four years. The Canada Life Assurance Company documented a 30% improvement in productivity. This resulted in $200,000 to the bottom line not as a cost reduction, but in new business otherwise gone to competition.'),
   ], // end your_story_content
+
+    "about_us_content" => nl2br("We help organizations develop a culture of innovation rooted in diversity, inclusion, dignity, and respect.
+    
+By creating shared experiences and a common language, we establish a way of working that keeps focus on the customer and enables distributed decision making. This makes your company more responsive and competitive.
+
+We practice what we preach, by being both responsive and nimble. We don’t show up with a large team of consultants. Instead, we use experiential learning to develop your existing team both from the top down and the bottom up.")
+
 ];

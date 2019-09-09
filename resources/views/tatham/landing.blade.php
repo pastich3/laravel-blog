@@ -50,8 +50,8 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li><a href="#services">Services</a></li> -->
+          <li><a href="#portfolio">Case Studies</a></li>
           <li><a href="#team">Team</a></li>
           <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
@@ -81,9 +81,9 @@
   ============================-->
   <section id="hero">
     <div class="hero-container">
-      <h1>Welcome to Regna</h1>
-      <h2>We are team of talanted designers making websites with Bootstrap</h2>
-      <a href="#about" class="btn-get-started">Get Started</a>
+      <h1>What sets Tatham apart?</h1>
+      <h2>For our clients, execution of strategy becomes a core competency</h2>
+      <a href="#contact" class="btn-get-started">Let's talk</a>
     </div>
   </section><!-- #hero -->
 
@@ -99,10 +99,10 @@
           <div class="col-lg-6 content order-lg-1 order-2">
             <h2 class="title">Few Words About Us</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              {!! __("tatham.about_us_content") !!}
             </p>
 
-            <div class="icon-box wow fadeInUp">
+            <!-- <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
               <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
@@ -118,7 +118,7 @@
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Dolor Sitema</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
+            </div> -->
 
           </div>
 
@@ -134,12 +134,14 @@
     <section id="facts">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">Facts</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">What our clients say</h3>
+          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
+
         </div>
         <div class="row counters">
+			@include('tatham._testimonial_carousel')
 
-  				<div class="col-lg-3 col-6 text-center">
+  				<!-- <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">232</span>
             <p>Clients</p>
   				</div>
@@ -157,7 +159,7 @@
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">15</span>
             <p>Hard Workers</p>
-  				</div>
+  				</div> -->
 
   			</div>
 
@@ -170,33 +172,33 @@
     <section id="services">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">Services</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Clients</h3>
+          <!-- <p class="section-description">Here are some of our clients</p> -->
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <div class="icon"><a href=""><img style="height: 120px;" src="/images/nasa_logo.png"></a></div>
               <h4 class="title"><a href="">Lorem Ipsum</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
+              <div class="icon"><a href=""><img style="height: 120px;" src="/images/wells_fargo_logo.png"></a></div>
               <h4 class="title"><a href="">Dolor Sitema</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
+              <div class="icon"><a href=""><img style="height: 120px;" src="/images/walmart_logo.png"></a></div>
               <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+          <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
               <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
               <h4 class="title"><a href="">Magni Dolores</a></h4>
@@ -216,7 +218,7 @@
               <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
-          </div>
+          </div> -->
         </div>
 
       </div>
@@ -229,11 +231,11 @@
       <div class="container wow fadeIn">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3 class="cta-title">How is Tatham different?</h3>
+            <p class="cta-text">We're not trying to sell you a product or one-size-fits-all solution. Basically, we're awesome.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">Let's talk</a>
           </div>
         </div>
 
@@ -246,18 +248,18 @@
     <section id="portfolio">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Portfolio</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Case Studies</h3>
+          <p class="section-description">Do we need any text here?</p>
         </div>
         <div class="row">
 
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-logo">Logo</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">Aerospace</li>
+              <li data-filter=".filter-card">e-Commerce</li>
+              <li data-filter=".filter-logo">Financial</li>
+              <li data-filter=".filter-web">Insurance</li>
             </ul>
           </div>
         </div>
@@ -470,7 +472,7 @@
       </div>
 
       <!-- Uncomment below if you wan to use dynamic maps -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.998348021916!2d-79.40549138406612!3d43.66900417912078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3497e73fff69%3A0xecf090b8db1452c2!2s43%20Madison%20Ave%2C%20Toronto%2C%20ON%20M5R%202S2%2C%20Canada!5e0!3m2!1sen!2sus!4v1568064190263!5m2!1sen!2sus" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
 
       <div class="container wow fadeInUp mt-5">
         <div class="row justify-content-center">

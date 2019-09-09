@@ -21,8 +21,6 @@
     <div id="app">
         @include('shared/navbar')
 
-        <!-- @include('cookieConsent::index') -->
-
         <div class="container" style="margin-top: 90px; margin-bottom: 60px;">
             @include('shared/alerts')
 
