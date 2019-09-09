@@ -138,9 +138,7 @@
           <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
 
         </div>
-        <div style="height: 800px;">
-			     @include('tatham._testimonial_carousel')
-        </div>
+			   @include('tatham._testimonial_carousel')
         <div class="row counters">
 
   				<!-- <div class="col-lg-3 col-6 text-center">
@@ -554,7 +552,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Regna</strong>. All Rights Reserved
+        &copy; Copyrightf <strong>Regna</strong>. All Rights Reserved
       </div>
 
     </div>
