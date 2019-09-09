@@ -6,6 +6,7 @@
 /public/js
 /public/mix-manifest.json
 public/media/
+public/vendor
 /vendor
 /.idea
 /.vagrant
@@ -19,3 +20,4 @@ public/media/
 TODO
 out.txt
 package-lock.json
+.DS_Store
