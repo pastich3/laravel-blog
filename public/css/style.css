@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#home {
   width: 100%;
   height: 100vh;
   background: url(../images/AdobeStock_232418570_Preview.jpeg) top center;
@@ -145,12 +145,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #home {
     background-attachment: fixed;
   }
 }
 
-#hero:before {
+#home:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
-#hero .hero-container {
+#home .hero-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#hero h1 {
+#home h1 {
   margin: 30px 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -183,27 +183,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #home h1 {
     font-size: 28px;
     line-height: 36px;
   }
 }
 
-#hero h2 {
+#home h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 24px;
 }
 
 @media (max-width: 768px) {
-  #hero h2 {
+  #home h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 }
 
-#hero .btn-get-started {
+#home .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
+#home .btn-get-started:hover {
   background: #008ba1;
   border: 2px solid #008ba1;
 }
@@ -597,13 +597,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Services Section
 --------------------------------*/
-#services {
+#clients {
   background: #fff;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
 
-#services .box {
+#clients .box {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
@@ -613,7 +613,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fafafa;
 }
 
-#services .icon {
+#clients .icon {
   position: absolute;
   top: -36px;
   left: calc(50% - 36px);
@@ -630,29 +630,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*background: #008ba1;*/
 }
 
-#services .icon a {
+#clients .icon a {
   display: inline-block;
 }
 
-#services .icon i {
+#clients .icon i {
   color: #fff;
   font-size: 24px;
 }
 
-#services .box:hover .icon {
+#clients .box:hover .icon {
   /*background: #fff;*/
   /*border: 2px solid #008ba1;*/
 }
 
-#services .box:hover .icon i {
+#clients .box:hover .icon i {
   /*color: #008ba1;*/
 }
 
-#services .box:hover .icon a {
+#clients .box:hover .icon a {
   /*color: #008ba1;*/
 }
 
-#services .title {
+#clients .title {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
@@ -660,7 +660,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-#services .title a {
+#clients .title a {
   color: #111;
 }
 
@@ -672,7 +672,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ff3860;
 }
 
-#services .description {
+#clients .description {
   font-size: 14px;
   line-height: 24px;
 }

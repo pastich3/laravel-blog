@@ -41,16 +41,16 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" />&nbsp;Tatham</a>
+        <a href="#home"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" />&nbsp;Tatham</a>
         <!-- Uncomment below if you prefer to use a text logo -->
-        <!--<h1><a href="#hero">Regna</a></h1>-->
+        <!--<h1><a href="#home">Regna</a></h1>-->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li class="menu-active"><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <!-- <li><a href="#services">Services</a></li> -->
+          <li><a href="#clients">Clients</a></li>
           <!-- <li><a href="#portfolio">Case Studies</a></li> -->
           <li><a href="#team">Team</a></li>
           <!-- <li class="menu-has-children"><a href="">Drop Down</a>
@@ -79,13 +79,13 @@
   <!--==========================
     Hero Section
   ============================-->
-  <section id="hero">
+  <section id="home">
     <div class="hero-container">
       <h1>What sets Tatham apart?</h1>
       <h2 style="margin-top: 1.25em">For our clients, &nbsp; execution of strategy becomes a core competency</h2>
       <a href="#contact" class="btn-get-started">Let's talk</a>
     </div>
-  </section><!-- #hero -->
+  </section><!-- #home -->
 
   <main id="main">
 
@@ -169,7 +169,7 @@
     <!--==========================
       Services Section
     ============================-->
-    <section id="services">
+    <section id="clients">
       <div class="container wow fadeIn">
         <div class="section-header" style="margin-bottom: 80px;">
           <h3 class="section-title">Clients</h3>
@@ -178,22 +178,22 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><img style="height: 120px;" src="/images/nasa_logo.png"></a></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <div class="icon"><img style="height: 120px;" src="/images/nasa_logo.png"></div>
+              <h4 class="title">Lorem Ipsum</h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href=""><img style="height: 120px;" src="/images/wells_fargo_logo.png"></a></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <div class="icon"><img style="height: 120px;" src="/images/wells_fargo_logo.png"></div>
+              <h4 class="title">Dolor Sitema</h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
-              <div class="icon"><a href=""><img style="height: 120px;" src="/images/walmart_logo.png"></a></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <div class="icon"><img style="height: 120px;" src="/images/walmart_logo.png"></div>
+              <h4 class="title">Sed ut perspiciatis</h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
           </div>
@@ -222,7 +222,7 @@
         </div>
 
       </div>
-    </section><!-- #services -->
+    </section><!-- #clients -->
 
     <!--==========================
     Call To Action Section
