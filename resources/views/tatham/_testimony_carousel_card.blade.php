@@ -1,7 +1,7 @@
-<div style="padding-left: 4em; padding-right: 4em" class="py-3 carousel-item {{$itemActive ?? ''}}">
+<div style="padding-left: 4em; padding-right: 4em; max-width: 750px" class="py-3 carousel-item {{$itemActive ?? ''}}">
 	<!-- <div class="px-5 d-flex flex-fill flex-column"> -->
-		<div class="d-flex justify-content-center align-items-center" style="margin-bottom: 20px">
-			<span style="max-width: 800px">
+		<div class="d-flex ml-4 justify-content-center align-items-center" style="margin-bottom: 20px">
+			<span>
 			{!! $content !!}
 			</span>
 		</div>
