@@ -41,7 +41,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="images/alt_logo_002.png" style="height: 50px" alt="" title="" />&nbsp;Tatham</a>
+        <a href="#hero"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" />&nbsp;Tatham</a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
@@ -473,7 +473,7 @@
 
       <!-- Uncomment below if you wan to use dynamic maps -->
       <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.998348021916!2d-79.40549138406612!3d43.66900417912078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3497e73fff69%3A0xecf090b8db1452c2!2s43%20Madison%20Ave%2C%20Toronto%2C%20ON%20M5R%202S2%2C%20Canada!5e0!3m2!1sen!2sus!4v1568064190263!5m2!1sen!2sus" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-        <div class="d-flex">
+<!--         <div class="d-flex">
           <div class="position-relative w-50 d-flex flex-column justify-content-center align-items-center">
             <img class="w-100" src="/images/toronto.jpeg" alt="picture of Toronto skyline">
             <div class="position-absolute" style="color: white; font-size: 2.5em; font-weight: bold; left: 50%; top: 50%; transform: translate(-50%, -50%);"> Toronto </div>
@@ -482,11 +482,37 @@
             <img class="w-100" src="/images/portland.jpeg" alt="picture of Portland skyline">
             <div class="position-absolute" style="color: white; font-size: 2.5em; font-weight: bold; left: 50%; top: 50%; transform: translate(-50%, -50%);"> Portland </div>
           </div>
+        </div> -->
+      <div class="d-flex justify-content-around flex-wrap">
+        <div class="info d-flex justify-content-center">
+          <div class="pr-2 mr-2">
+            <i class="fa fa-map-marker"></i>
+            <p>43 Madison Avenue<br>Toronto, ON M5R 2S2</p>
+          </div>
+
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p>info@tathaminc.com</p>
+          </div>
+
+          <div class="pl-2 ml-2">
+            <i class="fa fa-phone"></i>
+            <p>+1 503 710 5173</p>
+          </div>
         </div>
-      <div class="container wow fadeInUp mt-5">
+
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/portland.jpeg) fixed center center;" class="container wow fadeInUp mt-5 py-4">
         <div class="row justify-content-center">
 
-          <div class="col-lg-3 col-md-4">
+          <!-- <div class="col-lg-3 col-md-4">
 
             <div class="info">
               <div>
@@ -513,7 +539,7 @@
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
-          </div>
+          </div> -->
 
           <div class="col-lg-5 col-md-8">
             <div class="form">
