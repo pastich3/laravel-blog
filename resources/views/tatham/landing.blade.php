@@ -51,7 +51,7 @@
           <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <!-- <li><a href="#services">Services</a></li> -->
-          <li><a href="#portfolio">Case Studies</a></li>
+          <!-- <li><a href="#portfolio">Case Studies</a></li> -->
           <li><a href="#team">Team</a></li>
           <!-- <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
@@ -245,7 +245,7 @@
     <!--==========================
       Portfolio Section
     ============================-->
-    <section id="portfolio">
+    <!-- <section id="portfolio">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Case Studies</h3>
@@ -388,7 +388,7 @@
         </div>
 
       </div>
-    </section><!-- #portfolio -->
+    </section> --> <!-- #portfolio -->
 
     <!--==========================
       Team Section
