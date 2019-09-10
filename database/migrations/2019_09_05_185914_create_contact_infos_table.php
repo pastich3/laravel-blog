@@ -17,12 +17,11 @@ class CreateContactInfosTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email');
-            $table->string('company_name')->default('');
-            $table->string('phone', 20)->default('');
-            $table->string('message')->default('');
+            $table->string('subject', 128)->default('');
+            $table->string('message', 1024)->default('');
             $table->timestamps();
 
-            $table->unique('email');
+            $table->index('email');
         });
     }
 

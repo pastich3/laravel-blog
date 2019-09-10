@@ -98,16 +98,42 @@ jQuery(document).ready(function($) {
       type: "POST",
       url: action,
       data: str,
+      dataType: "json",
+      error: function(err)
+      {
+        var data = JSON.parse(err.responseText); // validation errors
+        if (data !== undefined)
+        {
+          if (data.errors.name !== undefined)
+          {
+            $("#name-error").text(data.errors.name[0]);
+          }
+          if (data.errors.email !== undefined)
+          {
+            $("#email-error").text(data.errors.email[0]);
+          }
+          if (data.errors.subject !== undefined)
+          {
+            $("#subject-error").text(data.errors.subject[0]);
+          }
+          if (data.errors.message !== undefined)
+          {
+            $("#message-error").text(data.errors.message[0]);
+          }
+        }
+      },
       success: function(msg) {
         // alert(msg);
-        if (msg == 'OK') {
+        if (msg.msg == 'OK') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
+          $(".form-group").hide();
+          $("#submit").hide();
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
+          $('#errormessage').html(msg.msg);
         }
 
       }

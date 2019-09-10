@@ -25,10 +25,9 @@ class ContactFormRequest extends FormRequest
     {
         return [
             'name' => 'required|max:255',
-            'email' => 'required|unique:contact_infos|max:255|email:rfc,dns',
-            'company_name' => 'max:255',
-            'phone' => 'max:20',
-            'message' => 'max:255',
+            'email' => 'required|max:255|email:rfc,dns',
+            'subject' => 'required|max:128',
+            'message' => 'required|max:1024',
         ];
     }
 }

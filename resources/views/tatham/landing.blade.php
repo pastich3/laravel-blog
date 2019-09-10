@@ -509,7 +509,7 @@
           <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
         </div>
       </div>
-      <div style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/portland.jpeg) fixed center center;" class="container wow fadeInUp mt-5 py-4">
+      <div class="container wow fadeInUp mt-5 py-4">
         <div class="row justify-content-center">
 
           <!-- <div class="col-lg-3 col-md-4">
@@ -548,22 +548,22 @@
               <form action="/contact" method="post" role="form" class="contactForm">
                 @csrf
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" maxlength="255" data-msg="Please enter at least 4 characters" />
+                  <div id="name-error" class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" maxlength="255" data-msg="Please enter a valid email" />
+                  <div id="email-error" class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" maxlength="128" data-rule="minlen:4" data-msg="Please enter at least 8 characters of subject" />
+                  <div id="subject-error" class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" maxlength="1024" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div id="message-error" class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center"><button id="submit" type="submit">Send Message</button></div>
               </form>
             </div>
           </div>

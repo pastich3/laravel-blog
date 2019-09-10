@@ -28,9 +28,8 @@ class TathamContactController extends Controller
             $contact_info = ContactInfo::create([
                 'name' => $data['name'],
                 'email' => $data['email'],
-                'company_name' => $data['company_name'] ?? '',
-                'phone' => $data['phone'] ?? '',
-                'message' => $data['message'] ?? '',
+                'subject' => $data['subject'],
+                'message' => $data['message'],
             ]);
 
             event(new ContactFormSubmitted($contact_info->id));
@@ -40,6 +39,6 @@ class TathamContactController extends Controller
             // TODO maybe send an error here?
         }
 
-        return redirect('contact_submitted');
+        return json_encode(['success' => true, 'msg' => 'OK']);
     }
 }
