@@ -399,7 +399,7 @@
           <h3 class="section-title">Team</h3>
           <p class="section-description">We're looking forward to working with you!</p>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-around">
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="images/IMG_6538.jpg" alt=""></div>
