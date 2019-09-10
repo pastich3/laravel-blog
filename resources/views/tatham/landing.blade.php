@@ -483,7 +483,7 @@
             <div class="position-absolute" style="color: white; font-size: 2.5em; font-weight: bold; left: 50%; top: 50%; transform: translate(-50%, -50%);"> Portland </div>
           </div>
         </div> -->
-      <div class="container wow fadeInUp mt-5">
+      <div class="container wow fadeInUp">
         <div class="row justify-content-center">
 
           <div class="col-lg-3 col-md-4">
