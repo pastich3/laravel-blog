@@ -41,7 +41,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#home"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" />&nbsp;Tatham</a>
+        <a href="#home"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" /><span style="font-size: 1.5em">&nbsp;Tatham</span></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#home">Regna</a></h1>-->
       </div>
