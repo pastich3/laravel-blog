@@ -483,36 +483,10 @@
             <div class="position-absolute" style="color: white; font-size: 2.5em; font-weight: bold; left: 50%; top: 50%; transform: translate(-50%, -50%);"> Portland </div>
           </div>
         </div> -->
-      <div class="d-flex justify-content-around flex-wrap">
-        <div class="info d-flex justify-content-center">
-          <div class="pr-2 mr-2">
-            <i class="fa fa-map-marker"></i>
-            <p>43 Madison Avenue<br>Toronto, ON M5R 2S2</p>
-          </div>
-
-          <div>
-            <i class="fa fa-envelope"></i>
-            <p>info@tathaminc.com</p>
-          </div>
-
-          <div class="pl-2 ml-2">
-            <i class="fa fa-phone"></i>
-            <p>+1 503 710 5173</p>
-          </div>
-        </div>
-
-        <div class="social-links">
-          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        </div>
-      </div>
-      <div class="container wow fadeInUp mt-5 py-4">
+      <div class="container wow fadeInUp mt-5">
         <div class="row justify-content-center">
 
-          <!-- <div class="col-lg-3 col-md-4">
+          <div class="col-lg-3 col-md-4">
 
             <div class="info">
               <div>
@@ -538,8 +512,7 @@
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
-
-          </div> -->
+          </div>
 
           <div class="col-lg-5 col-md-8">
             <div class="form">
