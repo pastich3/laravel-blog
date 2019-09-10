@@ -14,11 +14,11 @@
 				@endforeach
 			</div>
 			<a class="justify-content-start carousel-control-prev" data-target="#testimonialCarousel" href="" role="button" data-slide="prev">
-				<span style="color: #3b869b; background-image: none; font-size: 22px" class="fa fa-chevron-left carousel-control-prev-icon" aria-hidden="true"></span>
+				<span style="color: #008ba1; background-image: none; font-size: 50px" class="fa fa-chevron-circle-left carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">{{ __('tatham.carousel_previous') }} </span>
 			</a>
 			<a class="justify-content-end carousel-control-next" data-target="#testimonialCarousel" href="" role="button" data-slide="next">
-				<span style="color: #3b869b; background-image: none; font-size: 22px" class="fa fa-chevron-right carousel-control-next-icon" aria-hidden="true"></span>
+				<span style="color: #008ba1; background-image: none; font-size: 50px" class="fa fa-chevron-circle-right carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">{{ __('tatham.carousel_next') }} </span>
 			</a>
 		</div>
