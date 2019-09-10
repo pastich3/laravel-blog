@@ -27,7 +27,7 @@ class ContactFormRequest extends FormRequest
             'name' => 'required|max:255',
             'email' => 'required|max:255|email:rfc,dns',
             'subject' => 'required|max:128',
-            'message' => 'required|max:1024',
+            'message' => 'required|max:2048',
         ];
     }
 }

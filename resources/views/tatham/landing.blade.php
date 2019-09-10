@@ -560,7 +560,7 @@
                   <div id="subject-error" class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" maxlength="1024" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" maxlength="2048" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div id="message-error" class="validation"></div>
                 </div>
                 <div class="text-center"><button id="submit" type="submit">Send Message</button></div>
