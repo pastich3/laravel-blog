@@ -12,7 +12,7 @@
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700|Gayathri" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700|Michroma" rel="stylesheet">
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -40,7 +40,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#home" class="no-hover-highlight"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" /><span style="letter-spacing: 1px; font-family: 'Gayathri'; font-weight: bold; font-size: 1.5em;">&nbsp;Tatham</span></a>
+        <a href="#home" class="no-hover-highlight"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" /><span style="margin-left:5px; font-family: 'Michroma'; letter-spacing:1px; font-size: 1.5em; font-weight: bold;">&nbsp;Tatham</span></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#home">Regna</a></h1>-->
       </div>
