@@ -234,7 +234,7 @@
             <p class="cta-text">We're not trying to sell you a product or one-size-fits-all solution. Basically, we're awesome.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Let's talk</a>
+            <a class="cta-btn align-middle" href="#contact">Let's talk</a>
           </div>
         </div>
 
