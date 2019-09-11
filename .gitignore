@@ -6,6 +6,7 @@
 /public/js
 /public/mix-manifest.json
 public/media/
+public/vendor
 /vendor
 /.idea
 /.vagrant
@@ -16,3 +17,7 @@ public/media/
 /storage/medialibrary
 /log
 .phpunit.result.cache
+TODO
+out.txt
+package-lock.json
+.DS_Store

@@ -1,5 +1,6 @@
 import CommentForm from './components/comments/CommentForm'
 import CommentList from './components/comments/CommentList'
+import LandingContact from './components/LandingContact'
 import Like from './components/Like'
 import Vue from 'vue'
 
@@ -13,7 +14,8 @@ new Vue({
   components: {
     CommentForm,
     CommentList,
-    Like
+    Like,
+    LandingContact
   },
 
   mounted () {

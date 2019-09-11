@@ -67,6 +67,16 @@ class User extends Authenticatable implements MustVerifyEmailContract
     }
 
     /**
+     * Scope a query to only include users that can receive notifications of new contacts
+     */
+    public function scopeCanReceiveContactEmailNotifications(Builder $query): Builder
+    {
+        return $query->whereHas('roles', function ($query) {
+            $query->where('roles.name', Role::RECEIVES_CONTACT_EMAIL_NOTIFICATIONS);
+        });
+    }
+
+    /**
      * Scope a query to filter available author users.
      */
     public function scopeAuthors(Builder $query): Builder
@@ -107,6 +117,14 @@ class User extends Authenticatable implements MustVerifyEmailContract
     public function isEditor(): bool
     {
         return $this->hasRole(Role::ROLE_EDITOR);
+    }
+
+    /**
+     * Check if the user has role client
+     */
+    public function isClient(): bool
+    {
+        return $this->hasRole(Role::ROLE_CLIENT);
     }
 
     /**

@@ -15,12 +15,13 @@
 
     <!-- Styles -->
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+    @stack('pre-inline-scripts')
 </head>
-<body class="bg-light">
+<body class="bg-tatham-gray">
     <div id="app">
         @include('shared/navbar')
 
-        <div class="container">
+        <div class="container" style="margin-top: 90px; margin-bottom: 60px;">
             @include('shared/alerts')
 
             <div class="row">
