@@ -178,8 +178,8 @@
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
               <div class="icon"><img style="height: 120px;" src="/images/nasa_logo.png"></div>
-              <h4 class="title">Lorem Ipsum</h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title">Big changes for NASA</h4>
+              <p class="description">NASA shortened the time for scientists to access the Hubble Space Telescope from 18 months to 3 weeks and cut costs by $100 million</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
