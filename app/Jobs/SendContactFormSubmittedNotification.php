@@ -12,6 +12,7 @@ use Mail;
 use App\Mail\ContactSubmittedNotification;
 use App\Models\ContactInfo;
 use App\Models\User;
+use App\Helpers\RateLimitHelper;
 
 class SendContactFormSubmittedNotification implements ShouldQueue
 {
@@ -36,9 +37,20 @@ class SendContactFormSubmittedNotification implements ShouldQueue
 
         $users = User::canReceiveContactEmailNotifications()->get();
 
+        $allUsersNotified = true;
         foreach ($users as $user)
         {
-            Mail::to($user->email)->send(new ContactSubmittedNotification($contactInfo));
+            if (RateLimitHelper::throttle('mail', 300, 24))
+            {
+                Mail::to($user->email)->send(new ContactSubmittedNotification($contactInfo));
+            }
+            else
+            {
+                $allUsersNotified = false;
+            }
         }
+
+        $contactInfo->notification_sent = $allUsersNotified;
+        $contactInfo->save();
     }
 }

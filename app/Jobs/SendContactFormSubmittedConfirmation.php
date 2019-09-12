@@ -31,7 +31,12 @@ class SendContactFormSubmittedConfirmation implements ShouldQueue
      */
     public function handle(): void
     {
-        $contactInfo = ContactInfo::find($this->contactInfoId);
-        Mail::to($contactInfo->email)->send(new ContactSubmittedConfirmation($contactInfo));
+        if (RateLimitHelper::throttle('mail', 300, 24))
+        {
+            $contactInfo = ContactInfo::find($this->contactInfoId);
+            Mail::to($contactInfo->email)->send(new ContactSubmittedConfirmation($contactInfo));
+            $contactInfo->confirmation_sent = 1;
+            $contactInfo->save();
+        }
     }
 }
