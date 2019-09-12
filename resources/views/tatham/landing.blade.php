@@ -186,14 +186,14 @@
             <div class="box">
               <div class="icon"><img style="height: 120px;" src="/images/wells_fargo_logo.png"></div>
               <h4 class="title">Big results, quickly</h4>
-              <p class="description">Wells Fargo shortened the time for the central corporate authority to approve projects from 30 days to 1 day. The HR Recruiting Department found hidden capacity and $2.8 million process dollars. The redesigned wire transfer process improved customer experience by going from 3 weeks to 10 minutes to send a wire. </p>
+              <p class="description">Wells Fargo shortened the time for the central corporate authority to approve projects from 30 days to 1 day </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
             <div class="box">
               <div class="icon"><img style="height: 120px;" src="/images/walmart_logo.png"></div>
               <h4 class="title">Change at scale</h4>
-              <p class="description">Walmart implemented serveral improvements in their business process, generating in excess of $300,000,000 in additional revenue in the first year.</p>
+              <p class="description">Walmart implemented serveral improvements in their business process, generating in excess of $300,000,000 in additional revenue in the first year </p>
             </div>
           </div>
 
