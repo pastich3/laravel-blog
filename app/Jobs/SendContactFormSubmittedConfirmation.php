@@ -11,6 +11,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Mail;
 use App\Mail\ContactSubmittedConfirmation;
 use App\Models\ContactInfo;
+use App\Helpers\RateLimitHelper;
 
 class SendContactFormSubmittedConfirmation implements ShouldQueue
 {
