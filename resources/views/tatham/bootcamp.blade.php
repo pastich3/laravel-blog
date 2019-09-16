@@ -36,44 +36,22 @@
   <!--==========================
   Header
   ============================-->
+
+  <!--==========================
+  Header
+  ============================-->
   <header id="header">
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <a href="/" class="no-hover-highlight"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" /><span style="margin-left:5px; font-family: 'Michroma'; letter-spacing:1px; font-size: 1.5em; font-weight: bold;">&nbsp;Tatham</span></a>
         <!-- Uncomment below if you prefer to use a text logo -->
-        <!--<h1><a href="#hero">Regna</a></h1>-->
+        <!--<h1><a href="#home">Regna</a></h1>-->
       </div>
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <!-- <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#about">About Us</a></li> -->
-          <!-- <li><a href="#services">Services</a></li> -->
-          <!-- <li><a href="#portfolio">Case Studies</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact Us</a></li> -->
-        </ul>
-      </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
+
   <main id="main">
     <!--==========================
       Case Study Section
@@ -81,39 +59,24 @@
  <section id="facts">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">What our clients say</h3>
+          <h3 class="section-title">Bootcamp</h3>
           <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
 
         </div>
-         @include('tatham._testimonial_carousel')
+        <div class="content">
 
-        <div class="row counters">
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">232</span>
-            <p>Clients</p>
+          <div class="d-flex justify-content-center">
+              <div class="d-flex flex-fill wistia_embed wistia_async_xjh2z555fc"
+                  style="width: 100%; min-width: 180px; min-height: 320px; max-height:360px; max-width:640px">&nbsp;
+              </div>
           </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">521</span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1,463</span>
-            <p>Hours Of Support</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">15</span>
-            <p>Hard Workers</p>
-          </div>
-
         </div>
-
       </div>
     </section><!-- #facts -->
   </main>
+  <!--==========================
+    Footer
+  ============================-->
   <!--==========================
     Footer
   ============================-->
@@ -126,7 +89,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyrightf <strong>Regna</strong>. All Rights Reserved
+        &copy; Copyright <strong>Tatham Inc</strong>. All Rights Reserved
       </div>
 
     </div>
@@ -135,6 +98,7 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
+  <script charset="ISO-8859-1" src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -153,4 +117,3 @@
   @stack('inline-scripts')
 
 </body>
-</html>
