@@ -77,9 +77,9 @@ targeted by their own strategies, quickly.</p>
     </section><!-- #facts -->
     <section id="clients">
       <div class="container wow fadeIn">
-        <div class="section-header" style="margin-bottom: 80px;">
+        <div class="section-header" style="margin-bottom: 20px;">
           <h3 class="section-title" style="color: #008ba1">Truths</h3>
-          <!-- <p class="section-description">Here are some of our clients</p> -->
+          <p class="section-description">Working with some of the smartest companies around has taught us some important truths about the way we deliver value to them. A few of those stark truths are revealed here for you to consider, to challenge, and to engage us in a dialogue.</p>
         </div>
         <div class="d-flex justify-content-center">
           <div class="row" style="max-width: 1000px;" >
@@ -159,18 +159,18 @@ targeted by their own strategies, quickly.</p>
       </div>
       <div class="container wow fadeIn mt-5">
         <div class="section-header">
-          <!-- <h3 class="section-title">What we offer</h3> -->
+          <h3 class="section-title">Our approach</h3>
           <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
 
         </div>
         <div class="content d-flex justify-content-center w-100">
           <div class="px-3" style="max-width: 750px;">
             <p>The essence of what we offer is powerful. With the Tatham approach,
-            you build an organization capability that can execute strategy and
-            get measurable results faster than you thought possible. Plus there’s
+            you build the organizational capability to <!-- an organization capability that can --> execute strategy and
+            get measurable results faster than you thought possible. Plus, there’s
             an important side effect: you break the cycle of hell where recurring
             business problems must constantly be solved. We provide a systematic
-            process that allows your people to solve problems, once.</p>
+            process that allows your people to solve problems, once and for all.</p>
             <p>Over the years, we believe there’s no competitive offering that’s
             comparable to ours or has the unbroken, 30-year history of successes
             that we’ve achieved with our clients.</p>
@@ -181,20 +181,15 @@ targeted by their own strategies, quickly.</p>
             provide your people with the capability, tools and insight to execute your
             business strategy. You begin to see bottom-line results, usually within 90
             days, as your organization’s operating culture transforms itself.</p>
-            <p>The Tatham Group has had the distinct privilege of working in the
-            background with CEOs at some major companies. Bank of America,
+            <p>Tatham has had the distinct privilege of working in the
+            background with CEOs at some major companies: Bank of America,
             Rockwell International, IBM Canada, TRW, Hughes Space and Electronic
-            Systems, among others. Before retaining us, each sought to improve in
-            its own way some aspect of its business operations. Some tried internal
+            Systems, among others. Before retaining us, each sought to improve some aspect of its business operations in
+            its own way. Some tried internal
             task forces. Others turned to outside consultants. Many grew frustrated
             with good intentions gone astray. Why? The bottom-line results each
-            sought never materialized or could never be sustained</p>
-
-            <p>Working with some of the smartest companies around has taught us
-            some important truths about the way we deliver value to them. A few of
-            those stark truths are revealed on these pages for you to consider, to
-            challenge, and to engage us in a dialogue.</p>
-            <p>We encourage you to do so.</p>
+            sought never materialized or could never be sustained.</p>
+            <p> Then they called us. </p>
           </div>
         </div>
 
