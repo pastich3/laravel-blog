@@ -75,10 +75,67 @@ targeted by their own strategies, quickly.</p>
         </div>
       </div>
     </section><!-- #facts -->
+    <section id="facts" class="pt-0">
+      <!-- <div class="w-100">
+        <img class="w-100 mb-3" style="margin-top: -80px;" src="/images/AdobeStock_258696218_Preview.jpeg">
+      </div> -->
+      <div class="container wow fadeIn mt-5">
+        <div class="section-header mb-5">
+          <h3 class="section-title">Our approach</h3>
+          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
+
+        </div>
+        <div class="content d-flex justify-content-center w-100">
+          <div class="px-3" style="max-width: 750px;">
+            <p>The essence of what we offer is powerful. With the Tatham approach,
+            you build the organizational capability to <!-- an organization capability that can --> execute strategy and
+            get measurable results faster than you thought possible. Plus, there’s
+            an important side effect: you break the cycle of hell where recurring
+            business problems must constantly be solved. We provide a systematic
+            process that allows your people to solve problems, once and for all.</p>
+            <p>Over the years, we believe there’s no competitive offering that’s
+            comparable to ours or has the unbroken, 30-year history of successes
+            that we’ve achieved with our clients.</p>
+            <p>At Tatham, our approach connects pieces of your strategy puzzle into an
+            unanticipated source of competitive advantage: vastly improved business
+            processes. Your own people, not us, using tribal knowledge culled from
+            the front line of your business, end up delivering results. We simply
+            provide your people with the capability, tools and insight to execute your
+            business strategy. You begin to see bottom-line results, usually within 90
+            days, as your organization’s operating culture transforms itself.</p>
+            <p>Tatham has had the distinct privilege of working in the
+            background with CEOs at some major companies: Bank of America,
+            Rockwell International, IBM Canada, TRW, Hughes Space and Electronic
+            Systems, among others. Before retaining us, each sought to improve some aspect of its business operations in
+            its own way. Some tried internal
+            task forces. Others turned to outside consultants. Many grew frustrated
+            with good intentions gone astray. Why? The bottom-line results each
+            sought never materialized or could never be sustained.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #facts -->
+    <section id="call-to-action">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left" style="font-size: 20px">
+            <h3 class="cta-title">READY FOR WHAT’S NEXT?</h3>
+            <p class="cta-text"> The first step is to contact us. Ask us about our proprietary business simulator. We call it Boot Camp for Executives™. Over the years, it has proven to be the critical catalyst for helping our clients to convert strategy into results.</p>
+            <p class="cta-text"> We will be pleased to provide you with references. As we have had the opportunity to work in many different industries, we will try to match past clients who most closely resemble your situation.</p>
+            <p class="cta-text"> You’ll discover that our clients remain our most ardent supporters. Take the  next step. Find out why.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact" >Ready to get results?</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
     <section id="clients">
       <div class="container wow fadeIn">
         <div class="section-header" style="margin-bottom: 20px;">
-          <h3 class="section-title" style="color: #008ba1">Truths</h3>
+          <h3 class="section-title">Truths</h3>
           <p class="section-description">Working with some of the smartest companies around has taught us some important truths about the way we deliver value to them. A few of those stark truths are revealed here for you to consider, to challenge, and to engage us in a dialogue.</p>
         </div>
         <div class="d-flex justify-content-center">
@@ -153,47 +210,6 @@ targeted by their own strategies, quickly.</p>
 
       </div>
     </section><!-- #clients -->
-    <section id="facts">
-      <div class="w-100">
-        <img class="w-100 mb-3" style="margin-top: -80px;" src="/images/AdobeStock_258696218_Preview.jpeg">
-      </div>
-      <div class="container wow fadeIn mt-5">
-        <div class="section-header">
-          <h3 class="section-title">Our approach</h3>
-          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
-
-        </div>
-        <div class="content d-flex justify-content-center w-100">
-          <div class="px-3" style="max-width: 750px;">
-            <p>The essence of what we offer is powerful. With the Tatham approach,
-            you build the organizational capability to <!-- an organization capability that can --> execute strategy and
-            get measurable results faster than you thought possible. Plus, there’s
-            an important side effect: you break the cycle of hell where recurring
-            business problems must constantly be solved. We provide a systematic
-            process that allows your people to solve problems, once and for all.</p>
-            <p>Over the years, we believe there’s no competitive offering that’s
-            comparable to ours or has the unbroken, 30-year history of successes
-            that we’ve achieved with our clients.</p>
-            <p>At Tatham, our approach connects pieces of your strategy puzzle into an
-            unanticipated source of competitive advantage: vastly improved business
-            processes. Your own people, not us, using tribal knowledge culled from
-            the front line of your business, end up delivering results. We simply
-            provide your people with the capability, tools and insight to execute your
-            business strategy. You begin to see bottom-line results, usually within 90
-            days, as your organization’s operating culture transforms itself.</p>
-            <p>Tatham has had the distinct privilege of working in the
-            background with CEOs at some major companies: Bank of America,
-            Rockwell International, IBM Canada, TRW, Hughes Space and Electronic
-            Systems, among others. Before retaining us, each sought to improve some aspect of its business operations in
-            its own way. Some tried internal
-            task forces. Others turned to outside consultants. Many grew frustrated
-            with good intentions gone astray. Why? The bottom-line results each
-            sought never materialized or could never be sustained.</p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #facts -->
 <!--     <section id="team">
         <div class="container wow fadeInUp">
         <div class="section-header">
@@ -215,23 +231,6 @@ targeted by their own strategies, quickly.</p>
         </div>
       </div>
     </section> -->
-    <section id="call-to-action">
-      <div class="container wow fadeIn">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left" style="font-size: 20px">
-            <h3 class="cta-title">READY FOR WHAT’S NEXT?</h3>
-            <p class="cta-text"> The first step is to contact us. Ask us about our proprietary business simulator. We call it Boot Camp for Executives™. Over the years, it has proven to be the critical catalyst for helping our clients to convert strategy into results.</p>
-            <p class="cta-text"> We will be pleased to provide you with references. As we have had the opportunity to work in many different industries, we will try to match past clients who most closely resemble your situation.</p>
-            <p class="cta-text"> You’ll discover that our clients remain our most ardent supporters. Take the  next step. Find out why.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contact" >Ready to get results?</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #call-to-action -->
-
     @include('tatham._landing_contact')
   </main>
   <!--==========================

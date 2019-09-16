@@ -500,7 +500,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #008ba1;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -532,7 +532,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .title {
-  color: #333;
+  color: #008ba1;
   font-weight: 700;
   font-size: 32px;
 }
