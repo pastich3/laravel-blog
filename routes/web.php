@@ -13,6 +13,7 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 // Route::get('/case_studies', 'HomeController@case_studies')->name('case_studies');
+Route::get('/bootcamp', 'HomeController@bootcamp')->name('bootcamp');
 // Route::get('/your_story', 'HomeController@yourStory')->name('your_story');
 // Route::get('/our_story', 'HomeController@ourStory')->name('our_story');
 // Route::get('/contact', 'HomeController@contact')->name('contact');

@@ -236,7 +236,7 @@
               <p>In two days, we’ll retrain the brains of your best people and give them a concrete process and ready-to-go tools to apply to your business issues. Change starts tomorrow.</p>
             </div>
             <div class="d-flex justify-content-center mt-5">
-              <a target="_blank" class="learn-more" href="#more-about-bootcamp"> Learn more </a>
+              <a target="_blank" class="learn-more" href="/bootcamp"> Learn more </a>
             </div>
           </div>
         </div>

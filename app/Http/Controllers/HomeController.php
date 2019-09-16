@@ -16,12 +16,14 @@ class HomeController extends Controller
         return view('tatham.landing');
     }
 
-    /**
-     * Show the application dashboard.
-     */
     public function case_studies(Request $request): View
     {
         return view('tatham.case_studies');
+    }
+
+    public function bootcamp(Request $request): View
+    {
+        return view('tatham.bootcamp');
     }
 
     public function yourStory(Request $request): View
