@@ -189,13 +189,12 @@ targeted by their own strategies, quickly.</p>
             task forces. Others turned to outside consultants. Many grew frustrated
             with good intentions gone astray. Why? The bottom-line results each
             sought never materialized or could never be sustained.</p>
-            <p> Then they called us. </p>
           </div>
         </div>
 
       </div>
     </section><!-- #facts -->
-    <section id="team">
+<!--     <section id="team">
         <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title" style="font-style: italic;">"YOU CAN’T SWIM IN THE OCEAN WITH ONE FOOT ON THE BEACH."</h3>
@@ -215,7 +214,7 @@ targeted by their own strategies, quickly.</p>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section id="call-to-action">
       <div class="container wow fadeIn">
         <div class="row">
@@ -226,7 +225,7 @@ targeted by their own strategies, quickly.</p>
             <p class="cta-text"> You’ll discover that our clients remain our most ardent supporters. Take the  next step. Find out why.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contact" >Let's talk</a>
+            <a class="cta-btn align-middle" href="#contact" >Ready to get results?</a>
           </div>
         </div>
 
