@@ -232,6 +232,45 @@ targeted by their own strategies, quickly.
 
       </div>
     </section><!-- #clients -->
+    <section id="team">
+        <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title" style="font-style: italic;">"YOU CAN’T SWIM IN THE OCEAN WITH ONE FOOT ON THE BEACH."</h3>
+          <p class="section-description"> - Chinese proverb</p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="content px-3" style="max-width: 750px;">
+            <p>Clients retain us after carefully considering the cost of inaction.</p>
+            <p>They decide to reassess how to execute one of their key
+            strategy initiatives. Then, having taken that very large step,
+            they adopt the Tatham systematic approach to executing a
+            breakthrough business strategy and learn to do it themselves.
+            They use our intellectual property that now becomes theirs.
+            Results follow. They deploy the Tatham approach throughout
+            their organization. Significant results follow.</p>
+            <p>We’ve seen it happen for over thirty years.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="call-to-action">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left" style="font-size: 20px">
+            <h3 class="cta-title">READY FOR WHAT’S NEXT?</h3>
+            <p class="cta-text"> The first step is to contact us. Ask us about our proprietary business simulator. We call it Boot Camp for Executives™. Over the years, it has proven to be the critical catalyst for helping our clients to convert strategy into results.</p>
+            <p class="cta-text"> We will be pleased to provide you with references. As we have had the opportunity to work in many different industries, we will try to match past clients who most closely resemble your situation.</p>
+            <p class="cta-text"> You’ll discover that our clients remain our most ardent supporters. Take the  next step. Find out why.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact" >Let's talk</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+    @include('tatham._landing_contact')
   </main>
   <!--==========================
     Footer
