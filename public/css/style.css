@@ -681,6 +681,71 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+/* Bootcamp section */
+
+/* About Us Section
+--------------------------------*/
+#bootcamp {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#bootcamp .bootcamp-container .content {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+#bootcamp .bootcamp-container .inner-content {
+  max-width: 600px;
+  border: 1px solid #e6e6e6;
+  padding: 16px;
+}
+
+#bootcamp .bootcamp-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #bootcamp .bootcamp-container .title {
+    padding-top: 15px;
+  }
+}
+
+#bootcamp .bootcamp-container .content .learn-more {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #008ba1;
+  color: black;
+}
+
+#bootcamp .bootcamp-container .content .learn-more:hover {
+  background: #008ba1;
+  border: 2px solid #008ba1;
+  color: white;
+}
+
+#bootcamp .bootcamp-container p {
+  line-height: 26px;
+}
+
+#bootcamp .bootcamp-container p:last-child {
+  margin-bottom: 0;
+}
+
+
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
