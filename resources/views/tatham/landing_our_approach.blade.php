@@ -162,92 +162,71 @@ targeted by their own strategies, quickly.
         </div>
         <div class="d-flex justify-content-center">
           <div class="row" style="max-width: 1000px;" >
-            <div class="wow fadeInUp w-100" data-wow-delay="0.2s">
-              <div class="box box-shadow">
-                <div class="d-flex justify-content-start" style="">
-                  <div class="truth"> &gt; TRUTH #<span class="number">1</span></div>
-                </div>
-                <h4 class="title d-flex justify-content-start">YOU DEVELOP A STRATEGY THAT BOGS DOWN WHEN IMPLEMENTED.</h4>
+            @include('tatham._approach_card', [
+              'truth_number' => 1,
+              'truth' => 'YOU DEVELOP A STRATEGY THAT BOGS DOWN WHEN IMPLEMENTED.',
+              'left_div_text' => 'WE ENABLE COMPANIES TO ACHIEVE SUPERIOR PERFORMANCE THROUGH MASTERFUL EXECUTION OF THEIR STRATEGY.',
+              'list_header' => 'Our Approach:',
+              'bullet_points' => [
+                'Create a culture that thrives on a revitalized, company-wide customer orientation.',
+                'Focus on performance constraints that prevent you from delivering on your commitments.',
+                'Empower the front-line people to innovate and implement solutions.',
+              ],
+            ])
 
-                <div class="d-flex justify-content-end">
-                  <div style="max-width: 450px; text-align: left;">
-                    <span class="mb-2 d-flex justify-content-start"> WE ENABLE COMPANIES TO ACHIEVE SUPERIOR PERFORMANCE THROUGH MASTERFUL EXECUTION OF THEIR STRATEGY.</span>
-                    <span class="mb-2 d-flex justify-content-start text-tatham-teal"> Our Approach: </span>
-                    <ul>
-                    <li>Create a culture that thrives on a revitalized, company-wide customer orientation.</li>
-                    <li>Focus on performance constraints that prevent you from delivering on your commitments.</li>
-                    <li>Empower the front-line people to innovate and implement solutions. </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            @include('tatham._approach_card', [
+              'truth_number' => 2,
+              'truth' => 'YOU WANT RESULTS NOW. NOT NEXT YEAR.',
+              'left_div_text' => 'WE DELIVER MEANINGFUL, BOTTOM-LINE RESULTS WITHIN 10-12 WEEKS. EVERY TIME.',
+              'list_header' => 'Our Approach:',
+              'bullet_points' => [
+                'Select a problem that appears nearly unsolvable.',
+                'Begin only if a minimum of $500,000 of bottom-line improvement can be identified.',
+                'Direct six-person teams of your top front-line talent to see beyond their own functional responsibilities.',
+                'Utilize a rigorous discipline that converts learning into practice.',
+                'Provide the teams with analytic techniques, experience, and confidence they require to succeed.',
+                'Deliver measurable results based on your customers’ key requirements.',
+              ],
+            ])
 
+            @include('tatham._approach_card', [
+              'truth_number' => 3,
+              'truth' => 'YOUR ORGANIZATION IS CAPABLE OF MUCH MORE THAN IT IS DELIVERING.',
+              'left_div_text' => 'WE ENABLE COMPANIES TO ACHIEVE SUPERIOR PERFORMANCE THROUGH MASTERFUL EXECUTION OF THEIR STRATEGY.',
+              'list_header' => 'Our Approach:',
+              'bullet_points' => [
+                'Complete pragmatic, not academic, analyses of what’s actually needed to improve end-to-end performance by your people.',
+                'Focus not on the performance of your people, but on the performance of your processes.',
+                'Seamlessly integrate business processes across all departments to most effectively meet customer requirements.',
+                'Enable your company’s most relevant expertise and information to come together rapidly, across all levels and locations in response to customer needs and changes.',
+              ],
+            ])
 
-            <div class="wow fadeInUp w-100" data-wow-delay="0.2s">
-              <div class="box box-shadow">
-                <div class="d-flex justify-content-start">
-                  <div class="truth"> &gt; TRUTH #<span class="number">2</span></div>
-                </div>
-                <h4 class="title d-flex justify-content-start">YOU DEVELOP A STRATEGY THAT BOGS DOWN WHEN IMPLEMENTED.</h4>
+            @include('tatham._approach_card', [
+              'truth_number' => 4,
+              'truth' => 'YOU RESENT ANY DEPENDENCY ON OUTSIDE CONSULTANTS.',
+              'left_div_text' => 'WE MAKE YOUR ORGANIZATION SELF-SUFFICIENT WITHIN NINE MONTHS.',
+              'list_header' => 'Our Approach:',
+              'bullet_points' => [
+                'Tap into a powerful knowledge base: your people. They are the experts who drive your company’s performance.',
+                'Transfer our intellectual capital to your company, allowing you to diagnose and solve current problems as well as future problems not currently visible.',
+                'Make problem-solving a core competency of your organization.',
+                'Ignite your people to act in concert, not in conflict.',
+              ],
+            ])
 
-                <div class="d-flex justify-content-end">
-                  <div style="max-width: 450px; text-align: left;">
-                    <span class="mb-2 d-flex justify-content-start"> WE ENABLE COMPANIES TO ACHIEVE SUPERIOR PERFORMANCE THROUGH MASTERFUL EXECUTION OF THEIR STRATEGY.</span>
-                    <span class="mb-2 d-flex justify-content-start text-tatham-teal"> Our Approach: </span>
-                    <ul>
-                    <li>Create a culture that thrives on a revitalized, company-wide customer orientation.</li>
-                    <li>Focus on performance constraints that prevent you from delivering on your commitments.</li>
-                    <li>Empower the front-line people to innovate and implement solutions. </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div class="wow fadeInUp w-100" data-wow-delay="0.2s">
-              <div class="box box-shadow">
-                <div class="d-flex justify-content-start">
-                  <div class="truth"> &gt; TRUTH #<span class="number">3</span></div>
-                </div>
-                <h4 class="title d-flex justify-content-start">YOU DEVELOP A STRATEGY THAT BOGS DOWN WHEN IMPLEMENTED.</h4>
-
-                <div class="d-flex justify-content-end">
-                  <div style="max-width: 450px; text-align: left;">
-                    <span class="mb-2 d-flex justify-content-start"> WE ENABLE COMPANIES TO ACHIEVE SUPERIOR PERFORMANCE THROUGH MASTERFUL EXECUTION OF THEIR STRATEGY.</span>
-                    <span class="mb-2 d-flex justify-content-start" style="color: green;"> Our Approach: </span>
-                    <ul>
-                    <li>Create a culture that thrives on a revitalized, company-wide customer orientation.</li>
-                    <li>Focus on performance constraints that prevent you from delivering on your commitments.</li>
-                    <li>Empower the front-line people to innovate and implement solutions. </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-              <div class="box">
-                <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-              <div class="box">
-                <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
-                <h4 class="title"><a href="">Nemo Enim</a></h4>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-              <div class="box">
-                <div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
-                <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-              </div>
-            </div> -->
+            @include('tatham._approach_card', [
+              'truth_number' => 5,
+              'truth' => 'YOUR TECHNOLOGY SOLUTIONS HAVEN’T GIVEN YOU THE RESULTS YOU EXPECTED.',
+              'left_div_text' => 'WE ENABLE COMPANIES TO ACHIEVE SUPERIOR PERFORMANCE THROUGH MASTERFUL EXECUTION OF THEIR STRATEGY.',
+              'list_header' => 'Our Approach:',
+              'bullet_points' => [
+                'Never automate an ineffective, cumbersome process.',
+                'Find the root cause of any problem before trying to solve it.',
+                'Make real problems visible, not hidden by people, process or technology.',
+                'Eliminate defects and remove waste from your operations before thinking about any technology options.',
+              ],
+            ])
           </div>
         </div>
 
