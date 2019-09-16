@@ -176,22 +176,22 @@
           <!-- <p class="section-description">Here are some of our clients</p> -->
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="box">
+          <div class="col-lg-4 col-md-6 wow fadeInUp mt-5 mt-lg-0" data-wow-delay="0.2s">
+            <div class="box box-shadow">
               <div class="icon"><img style="height: 120px;" src="/images/nasa_logo.png"></div>
               <h4 class="title">Big changes for NASA</h4>
               <p class="description">NASA shortened the time for scientists to access the Hubble Space Telescope from 18 months to 3 weeks and cut costs by $100 million</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="box">
+          <div class="col-lg-4 col-md-6 wow fadeInUp mt-5 mt-lg-0" data-wow-delay="0.4s">
+            <div class="box box-shadow">
               <div class="icon"><img style="height: 120px;" src="/images/wells_fargo_logo.png"></div>
               <h4 class="title">Big results, quickly</h4>
               <p class="description">Wells Fargo shortened the time for the central corporate authority to approve projects from 30 days to 1 day </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="box">
+          <div class="col-lg-4 col-md-6 wow fadeInUp mt-5 mt-lg-0" data-wow-delay="0.6s">
+            <div class="box box-shadow">
               <div class="icon"><img style="height: 120px;" src="/images/walmart_logo.png"></div>
               <h4 class="title">Change at scale</h4>
               <p class="description">Walmart implemented serveral improvements in their business process, generating in excess of $300,000,000 in additional revenue in the first year </p>
