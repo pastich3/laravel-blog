@@ -56,108 +56,29 @@
     <!--==========================
       Case Study Section
     ============================-->
- <section id="facts" style="background: url(../images/AdobeStock_232418570.jpeg) top center; background-size: cover; color: white;">
+    <section id="facts" style="background: url(../images/AdobeStock_232418570.jpeg) top center; background-size: cover; color: white;">
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title d-flex justify-content-start mt-5" style="color: white;">Targeting bottom-line results</h3>
           <div class="d-flex justify-content-end">
-            <div style="max-width: 300px;">
-              <p class="mt-5 mb-0 pb-0" style="font-weight: bold; font-size: 26px">Getting them, now.</p>
+            <div style="max-width: 600px;">
+              <p class="mt-5 mb-0 pb-0" style="font-weight: bold; font-size: 26px">30 years of success</p>
               <div class="mt-3">
-                <p>What we’ve learned over 30 years from some of the world’s smartest businesses.</p>
+                <p>For more than 30 years, a blue-chip roster of clients
+has quietly, almost secretely, turned to Tatham.
+Each had its own distinctive problem. Yet each faced a
+common situation: how to get the results
+targeted by their own strategies, quickly.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section><!-- #facts -->
-    <section id="about">
-      <div class="container">
-        <div class="row about-container">
-
-          <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">30 years of success</h2>
-            <p>
-For more than 30 years, a blue-chip roster of clients
-has quietly, almost secretely, turned to Tatham.
-Each had its own distinctive problem. Yet each faced a
-common situation: how to get the results
-targeted by their own strategies, quickly.
-            </p>
-
-            <!-- <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div> -->
-
-          </div>
-
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
-        </div>
-
-      </div>
-    </section><!-- #about -->
-    <section id="facts">
-      <div class="container wow fadeIn">
-        <div class="section-header">
-          <!-- <h3 class="section-title">What we offer</h3> -->
-          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
-
-        </div>
-        <div class="content d-flex justify-content-center w-100">
-          <div class="px-3" style="max-width: 750px;">
-            <p>The essence of what we offer is powerful. With the Tatham approach,
-            you build an organization capability that can execute strategy and
-            get measurable results faster than you thought possible. Plus there’s
-            an important side effect: you break the cycle of hell where recurring
-            business problems must constantly be solved. We provide a systematic
-            process that allows your people to solve problems, once.</p>
-            <p>Over the years, we believe there’s no competitive offering that’s
-            comparable to ours or has the unbroken, 30-year history of successes
-            that we’ve achieved with our clients.</p>
-            <p>At Tatham, our approach connects pieces of your strategy puzzle into an
-            unanticipated source of competitive advantage: vastly improved business
-            processes. Your own people, not us, using tribal knowledge culled from
-            the front line of your business, end up delivering results. We simply
-            provide your people with the capability, tools and insight to execute your
-            business strategy. You begin to see bottom-line results, usually within 90
-            days, as your organization’s operating culture transforms itself.</p>
-            <p>The Tatham Group has had the distinct privilege of working in the
-            background with CEOs at some major companies. Bank of America,
-            Rockwell International, IBM Canada, TRW, Hughes Space and Electronic
-            Systems, among others. Before retaining us, each sought to improve in
-            its own way some aspect of its business operations. Some tried internal
-            task forces. Others turned to outside consultants. Many grew frustrated
-            with good intentions gone astray. Why? The bottom-line results each
-            sought never materialized or could never be sustained</p>
-
-            <p>Working with some of the smartest companies around has taught us
-            some important truths about the way we deliver value to them. A few of
-            those stark truths are revealed on these pages for you to consider, to
-            challenge, and to engage us in a dialogue.</p>
-            <p>We encourage you to do so.</p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #facts -->
-     <section id="clients">
+    <section id="clients">
       <div class="container wow fadeIn">
         <div class="section-header" style="margin-bottom: 80px;">
-          <h3 class="section-title">Truths</h3>
+          <h3 class="section-title" style="color: #008ba1">Truths</h3>
           <!-- <p class="section-description">Here are some of our clients</p> -->
         </div>
         <div class="d-flex justify-content-center">
@@ -232,6 +153,53 @@ targeted by their own strategies, quickly.
 
       </div>
     </section><!-- #clients -->
+    <section id="facts">
+      <div class="w-100">
+        <img class="w-100 mb-3" style="margin-top: -80px;" src="/images/AdobeStock_258696218_Preview.jpeg">
+      </div>
+      <div class="container wow fadeIn mt-5">
+        <div class="section-header">
+          <!-- <h3 class="section-title">What we offer</h3> -->
+          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
+
+        </div>
+        <div class="content d-flex justify-content-center w-100">
+          <div class="px-3" style="max-width: 750px;">
+            <p>The essence of what we offer is powerful. With the Tatham approach,
+            you build an organization capability that can execute strategy and
+            get measurable results faster than you thought possible. Plus there’s
+            an important side effect: you break the cycle of hell where recurring
+            business problems must constantly be solved. We provide a systematic
+            process that allows your people to solve problems, once.</p>
+            <p>Over the years, we believe there’s no competitive offering that’s
+            comparable to ours or has the unbroken, 30-year history of successes
+            that we’ve achieved with our clients.</p>
+            <p>At Tatham, our approach connects pieces of your strategy puzzle into an
+            unanticipated source of competitive advantage: vastly improved business
+            processes. Your own people, not us, using tribal knowledge culled from
+            the front line of your business, end up delivering results. We simply
+            provide your people with the capability, tools and insight to execute your
+            business strategy. You begin to see bottom-line results, usually within 90
+            days, as your organization’s operating culture transforms itself.</p>
+            <p>The Tatham Group has had the distinct privilege of working in the
+            background with CEOs at some major companies. Bank of America,
+            Rockwell International, IBM Canada, TRW, Hughes Space and Electronic
+            Systems, among others. Before retaining us, each sought to improve in
+            its own way some aspect of its business operations. Some tried internal
+            task forces. Others turned to outside consultants. Many grew frustrated
+            with good intentions gone astray. Why? The bottom-line results each
+            sought never materialized or could never be sustained</p>
+
+            <p>Working with some of the smartest companies around has taught us
+            some important truths about the way we deliver value to them. A few of
+            those stark truths are revealed on these pages for you to consider, to
+            challenge, and to engage us in a dialogue.</p>
+            <p>We encourage you to do so.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #facts -->
     <section id="team">
         <div class="container wow fadeInUp">
         <div class="section-header">
