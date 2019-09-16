@@ -231,7 +231,7 @@
           <p class="section-description pb-0" style="color: black;">Process-driven, forward thinking</p>
         </div>
         <div class="content">
-          <div class="inner-content">
+          <div class="inner-content box-shadow">
             <div>
               <p>In two days, we’ll retrain the brains of your best people and give them a concrete process and ready-to-go tools to apply to your business issues. Change starts tomorrow.</p>
             </div>
