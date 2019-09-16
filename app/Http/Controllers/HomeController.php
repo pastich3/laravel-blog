@@ -18,12 +18,17 @@ class HomeController extends Controller
 
     public function case_studies(Request $request): View
     {
-        return view('tatham.case_studies');
+        return view('tatham.landing_case_studies');
     }
 
     public function bootcamp(Request $request): View
     {
-        return view('tatham.bootcamp');
+        return view('tatham.landing_bootcamp');
+    }
+
+    public function our_approach(Request $request): View
+    {
+        return view('tatham.landing_our_approach');
     }
 
     public function yourStory(Request $request): View

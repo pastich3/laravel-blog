@@ -44,7 +44,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="/#bootcamp" class="no-hover-highlight"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" /><span style="margin-left:5px; font-family: 'Michroma'; letter-spacing:1px; font-size: 1.5em; font-weight: bold;">&nbsp;Tatham</span></a>
+        <a href="/" class="no-hover-highlight"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" /><span style="margin-left:5px; font-family: 'Michroma'; letter-spacing:1px; font-size: 1.5em; font-weight: bold;">&nbsp;Tatham</span></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#home">Regna</a></h1>-->
       </div>
@@ -56,20 +56,22 @@
     <!--==========================
       Case Study Section
     ============================-->
- <section id="facts">
+ <section id="facts" style="background: url(../images/AdobeStock_232418570.jpeg) top center; background-size: cover; color: white;">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">Bootcamp</h3>
-          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
+          <h3 class="section-title d-flex justify-content-start mt-5" style="color: white;">Targeting bottom-line results</h3>
+          <div class="d-flex justify-content-end">
+            <div style="max-width: 300px;">
+              <p class="mt-5 mb-0 pb-0" style="font-weight: bold; font-size: 26px">Getting them, now.</p>
+              <div class="mt-3">
+                <p>What we’ve learned over 30 years from some of the world’s smartest businesses.</p>
+              </div>
+            </div>
+          </div>
 
         </div>
         <div class="content">
 
-          <div class="d-flex justify-content-center">
-              <div class="d-flex flex-fill wistia_embed wistia_async_xjh2z555fc"
-                  style="width: 100%; min-width: 180px; min-height: 320px; max-height:360px; max-width:640px">&nbsp;
-              </div>
-          </div>
         </div>
       </div>
     </section><!-- #facts -->

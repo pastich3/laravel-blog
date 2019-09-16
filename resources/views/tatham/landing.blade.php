@@ -83,7 +83,7 @@
     <div class="hero-container">
       <h1>What sets Tatham apart?</h1>
       <h2 style="margin-top: 1.25em">For our clients, &nbsp; execution of strategy becomes a core competency</h2>
-      <a href="#bootcamp" class="btn-get-started"> Learn more </a>
+      <a href="/our_approach" class="btn-get-started" target="_blank"> Learn more </a>
     </div>
   </section><!-- #home -->
 
@@ -224,7 +224,7 @@
       </div>
     </section><!-- #clients -->
 
-    <section id="bootcamp">
+    <!-- <section id="bootcamp">
       <div class="bootcamp-container">
         <div class="section-header" style="margin-bottom: 20px;">
           <h3 class="section-title">Bootcamp</h3>
@@ -242,7 +242,7 @@
         </div>
       </div>
 
-    </section><!-- #bootcamp -->
+    </section> --><!-- #bootcamp -->
     <!--==========================
     Call To Action Section
     ============================-->
@@ -251,10 +251,10 @@
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
             <h3 class="cta-title">How is Tatham different?</h3>
-            <p class="cta-text">We're not trying to sell you a product or one-size-fits-all solution. Basically, we're awesome.</p>
+            <p class="cta-text">At Tatham, our approach connects pieces of your strategy puzzle into an unanticipated source of competitive advantage: vastly improved business processes. Your own people, not us, using tribal knowledge culled from the front line of your business, end up delivering results. </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contact">Let's talk</a>
+            <a class="cta-btn align-middle" href="/our_approach" target="_blank">Learn more</a>
           </div>
         </div>
 
