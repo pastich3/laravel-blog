@@ -59,7 +59,7 @@
     <section id="facts" class="pb-0" style="background: url(../images/AdobeStock_232418570.jpeg) top center; background-size: cover; color: white;">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title d-flex justify-content-start mt-5" style="color: white;">Targeting bottom-line results</h3>
+          <p class="section-title d-flex justify-content-start mt-5" style="color: white;">Targeting bottom-line results</p>
           <div class="d-flex justify-content-end">
             <div style="max-width: 600px;">
               <p class="mt-5 mb-0 pb-0" style="font-weight: bold; font-size: 26px">30 years of success</p>
@@ -126,7 +126,7 @@ targeted by their own strategies, quickly.</p>
             <p class="cta-text"> You’ll discover that our clients remain our most ardent supporters. Take the  next step. Find out why.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contact" >Ready to get results?</a>
+            <a class="cta-btn align-middle" href="#contact" >Let's talk</a>
           </div>
         </div>
 

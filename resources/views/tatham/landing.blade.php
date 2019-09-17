@@ -81,8 +81,10 @@
   ============================-->
   <section id="home">
     <div class="hero-container">
-      <h1>What sets Tatham apart?</h1>
-      <h2 style="margin-top: 1.25em">For our clients, &nbsp; execution of strategy becomes a core competency</h2>
+      <h2 style="margin-top: 1.25em">Imagine if everyone in your company could become an expert problem solver.
+      <br><br>Able to innovate and develop new products that your customers don’t even know they want yet.
+      <br><br>For our clients,&nbsp;execution of strategy becomes a core competency.
+</h2>
       <a href="/our_approach" class="btn-get-started" target="_blank"> Learn more </a>
     </div>
   </section><!-- #home -->
