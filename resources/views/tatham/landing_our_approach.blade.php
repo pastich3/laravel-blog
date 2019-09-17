@@ -56,7 +56,7 @@
     <!--==========================
       Case Study Section
     ============================-->
-    <section id="facts" style="background: url(../images/AdobeStock_232418570.jpeg) top center; background-size: cover; color: white;">
+    <section id="facts" class="pb-0" style="background: url(../images/AdobeStock_232418570.jpeg) top center; background-size: cover; color: white;">
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title d-flex justify-content-start mt-5" style="color: white;">Targeting bottom-line results</h3>
@@ -75,7 +75,7 @@ targeted by their own strategies, quickly.</p>
         </div>
       </div>
     </section><!-- #facts -->
-    <section id="facts" class="pt-0">
+    <section id="facts" class="pt-1">
       <!-- <div class="w-100">
         <img class="w-100 mb-3" style="margin-top: -80px;" src="/images/AdobeStock_258696218_Preview.jpeg">
       </div> -->
@@ -163,7 +163,7 @@ targeted by their own strategies, quickly.</p>
                 'Direct six-person teams of your top front-line talent to see beyond their own functional responsibilities.',
                 'Utilize a rigorous discipline that converts learning into practice.',
                 'Provide the teams with analytic techniques, experience, and confidence they require to succeed.',
-                'Deliver measurable results based on your customers’ key requirements.',
+                'Deliver measurable results based on your customers\' key requirements.',
               ],
             ])
 
@@ -173,10 +173,10 @@ targeted by their own strategies, quickly.</p>
               'left_div_text' => 'WE ENABLE COMPANIES TO ACHIEVE SUPERIOR PERFORMANCE THROUGH MASTERFUL EXECUTION OF THEIR STRATEGY.',
               'list_header' => 'Our Approach:',
               'bullet_points' => [
-                'Complete pragmatic, not academic, analyses of what’s actually needed to improve end-to-end performance by your people.',
+                'Complete pragmatic, not academic, analyses of what\'s actually needed to improve end-to-end performance by your people.',
                 'Focus not on the performance of your people, but on the performance of your processes.',
                 'Seamlessly integrate business processes across all departments to most effectively meet customer requirements.',
-                'Enable your company’s most relevant expertise and information to come together rapidly, across all levels and locations in response to customer needs and changes.',
+                'Enable your company\'s most relevant expertise and information to come together rapidly, across all levels and locations in response to customer needs and changes.',
               ],
             ])
 
@@ -186,7 +186,7 @@ targeted by their own strategies, quickly.</p>
               'left_div_text' => 'WE MAKE YOUR ORGANIZATION SELF-SUFFICIENT WITHIN NINE MONTHS.',
               'list_header' => 'Our Approach:',
               'bullet_points' => [
-                'Tap into a powerful knowledge base: your people. They are the experts who drive your company’s performance.',
+                'Tap into a powerful knowledge base: your people. They are the experts who drive your company\'s performance.',
                 'Transfer our intellectual capital to your company, allowing you to diagnose and solve current problems as well as future problems not currently visible.',
                 'Make problem-solving a core competency of your organization.',
                 'Ignite your people to act in concert, not in conflict.',
@@ -195,7 +195,7 @@ targeted by their own strategies, quickly.</p>
 
             @include('tatham._approach_card', [
               'truth_number' => 5,
-              'truth' => 'YOUR TECHNOLOGY SOLUTIONS HAVEN’T GIVEN YOU THE RESULTS YOU EXPECTED.',
+              'truth' => 'YOUR TECHNOLOGY SOLUTIONS HAVEN\'T GIVEN YOU THE RESULTS YOU EXPECTED.',
               'left_div_text' => 'WE ENABLE COMPANIES TO ACHIEVE SUPERIOR PERFORMANCE THROUGH MASTERFUL EXECUTION OF THEIR STRATEGY.',
               'list_header' => 'Our Approach:',
               'bullet_points' => [
