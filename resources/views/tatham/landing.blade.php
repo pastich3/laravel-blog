@@ -106,27 +106,35 @@
               {!! __("tatham.landing_page.section_2_content") !!}
             </p>
 
-            <!-- <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div> -->
-
           </div>
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        </div>
+        <div class="d-flex">
+          <div class="icon-box wow fadeInUp mr-3">
+            <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+            <h4 class="title"><a href="">Focus on the customer</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          </div>
+
+          <div class="icon-box wow fadeInUp ml-3" data-wow-delay="0.2s">
+            <div class="icon"><i class="fa fa-photo"></i></div>
+            <h4 class="title"><a href="">Ignite (Drive, Calling, etc)</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="icon-box wow fadeInUp mr-3" data-wow-delay="0.4s">
+            <div class="icon"><i class="fa fa-bar-chart"></i></div>
+            <h4 class="title"><a href="">Self-sufficiency</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+
+          <div class="icon-box wow fadeInUp ml-3" data-wow-delay="0.4s">
+            <div class="icon"><i class="fa fa-bar-chart"></i></div>
+            <h4 class="title"><a href="">Experiential learning</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
         </div>
 
       </div>
@@ -138,12 +146,12 @@
     <section id="facts">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">What our clients say</h3>
-          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
-
+          <h3 class="section-title">The Prerequisite (PLACEHOLDER) </h3>
+          <p class="section-description">The team you go into bootcamp with will not be the same team you leave with</p>
+          A double edged sword. This bootcamp is not just a teaching tool, it is an evaluation tool. You will find bad actors. You decide how to act on them.
         </div>
-			   @include('tatham._testimonial_carousel')
-        <div class="row counters">
+
+        <!-- <div class="row counters"> -->
 
   				<!-- <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">232</span>
@@ -165,7 +173,7 @@
             <p>Hard Workers</p>
   				</div> -->
 
-  			</div>
+  			<!-- </div> -->
 
       </div>
     </section><!-- #facts -->
