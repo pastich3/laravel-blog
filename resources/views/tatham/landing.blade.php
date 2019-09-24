@@ -81,11 +81,13 @@
   ============================-->
   <section id="home">
     <div class="hero-container">
-      <h2 style="margin-top: 1.25em">Imagine if everyone in your company could become an expert problem solver.
-      <br><br>Able to innovate and develop new products that your customers don’t even know they want yet.
-      <br><br>For our clients,&nbsp;execution of strategy becomes a core competency.
-</h2>
-      <a href="/our_approach" class="btn-get-started" target="_blank"> Learn more </a>
+      <h1>There are two kinds of companies</h1>
+      <h1 style="font-weight: normal; text-transform: none"> Those that rely on consultants, and those that don't</h1>
+      <h2 style="margin-top: 1.25em">Which do you want to be?</h2>
+      <div class="d-flex">
+        <a href="/our_approach" style="width: 180px;" class="btn-get-started" target="_blank"> Consult </a>
+        <a href="/our_approach" style="width: 180px;" class="btn-get-started" target="_blank"> Solve </a>
+      </div>
     </div>
   </section><!-- #home -->
 
@@ -99,9 +101,9 @@
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">About Us</h2>
+            <h2 class="title">{{ __("tatham.landing_page.section_2_header")}}</h2>
             <p>
-              {!! __("tatham.about_us_content") !!}
+              {!! __("tatham.landing_page.section_2_content") !!}
             </p>
 
             <!-- <div class="icon-box wow fadeInUp">

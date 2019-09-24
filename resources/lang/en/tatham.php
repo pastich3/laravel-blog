@@ -10,6 +10,13 @@ return [
     'company_name' => 'Company name',
   ],
 
+  'landing_page' => [
+    'section_2_header' => 'Placeholder',
+    'section_2_content' => nl2br('Imagine a future where change is not a program or an intiative, but what you do everyday.
+You’re self sufficient, don’t need consultants, building a business using your own people.
+Your people are consistnetly innovating and leaping past your competition. Your competitors’ employees want to work for you. Their shareholders are buying your stock.'),
+],
+
   'carousel_previous' => 'Previous',
   'carousel_next' => 'Next',
   'submit' => 'Submit',
@@ -254,7 +261,7 @@ NASA shortened the time for scientists to access the Hubble Space Telescope from
   ], // end your_story_content
 
     "about_us_content" => nl2br("We help organizations develop a culture of innovation rooted in diversity, inclusion, dignity, and respect.
-    
+
 By creating shared experiences and a common language, we establish a way of working that keeps focus on the customer and enables distributed decision making. This makes your company more responsive and competitive.
 
 We practice what we preach, by being both responsive and nimble. We don’t show up with a large team of consultants. Instead, we use experiential learning to develop your existing team both from the top down and the bottom up.")
