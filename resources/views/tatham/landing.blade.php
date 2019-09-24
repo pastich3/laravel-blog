@@ -148,7 +148,7 @@
         <div class="section-header">
           <h3 class="section-title">The Prerequisite (PLACEHOLDER) </h3>
           <p class="section-description">The team you go into bootcamp with will not be the same team you leave with</p>
-          A double edged sword. This bootcamp is not just a teaching tool, it is an evaluation tool. You will find bad actors. You decide how to act on them.
+
         </div>
 
         <!-- <div class="row counters"> -->
