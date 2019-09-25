@@ -81,10 +81,10 @@
   ============================-->
   <section id="home">
     <div class="hero-container">
-      <h1 style="font-weight: normal; text-transform: none">There are two kinds of companies</h1>
-      <h1 style="font-weight: normal; text-transform: none"> Those that rely on consultants, and those that don't</h1>
-      <h2 style="margin-top: 1.25em">Which do you want to be?</h2>
-      <div class="d-flex">
+      <h1 style="font-weight: normal; text-transform: none">There are two kinds of companies;</h1>
+      <h1 style="font-weight: normal; text-transform: none"> Those that depend on consultants, and those that don't.</h1>
+      <h1 style="font-weight: normal; text-transform: none">Which do you want to be?</h2>
+      <div class="d-flex mt-5">
         <a href="/consult" style="width: 180px;" class="btn-get-started" id="consultBtn" target="_blank"> Consult </a>
         <a href="#about" style="width: 180px;" class="btn-get-started" id="innovateBtn"> Innovate </a>
       </div>
