@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Tatham Inc</title>
+  <title>Tatham</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -81,12 +81,12 @@
   ============================-->
   <section id="home">
     <div class="hero-container">
-      <h1>There are two kinds of companies</h1>
+      <h1 style="font-weight: normal; text-transform: none">There are two kinds of companies</h1>
       <h1 style="font-weight: normal; text-transform: none"> Those that rely on consultants, and those that don't</h1>
       <h2 style="margin-top: 1.25em">Which do you want to be?</h2>
       <div class="d-flex">
         <a href="/our_approach" style="width: 180px;" class="btn-get-started" target="_blank"> Consult </a>
-        <a href="/our_approach" style="width: 180px;" class="btn-get-started" target="_blank"> Solve </a>
+        <a href="/our_approach" style="width: 180px;" class="btn-get-started" target="_blank"> Innovate </a>
       </div>
     </div>
   </section><!-- #home -->
@@ -103,6 +103,7 @@
           <div class="col-lg-6 content order-lg-1 order-2">
             <h2 class="title">{{ __("tatham.landing_page.section_2_header")}}</h2>
             <p>
+              <br>
               {!! __("tatham.landing_page.section_2_content") !!}
             </p>
 
@@ -146,7 +147,7 @@
     <section id="facts">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">The Prerequisite (PLACEHOLDER) </h3>
+          <h3 class="section-title">The Prerequisite </h3>
           <p class="section-description">The team you go into bootcamp with will not be the same team you leave with</p>
 
         </div>
