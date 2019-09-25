@@ -111,7 +111,7 @@
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
         </div>
-        <div class="d-flex">
+        <div class="d-flex mt-5">
           <div class="icon-box wow fadeInUp mr-3">
             <div class="icon"><i class="fa fa-shopping-bag"></i></div>
             <h4 class="title"><a href="">Focus on the customer</a></h4>
@@ -141,6 +141,22 @@
       </div>
     </section><!-- #about -->
 
+    <section id="call-to-action">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left" style="font-size: 20px">
+            <h3 class="cta-title">READY FOR WHAT’S NEXT?</h3>
+            <p class="cta-text"> The first step is to contact us. Ask us about our proprietary business simulator. We call it Boot Camp for Executives™. Over the years, it has proven to be the critical catalyst for helping our clients to convert strategy into results.</p>
+            <p class="cta-text"> We will be pleased to provide you with references. As we have had the opportunity to work in many different industries, we will try to match past clients who most closely resemble your situation.</p>
+            <p class="cta-text"> You’ll discover that our clients remain our most ardent supporters. Take the  next step. Find out why.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact" >Let's talk</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
     <!--==========================
       Facts Section
     ============================-->
@@ -235,6 +251,9 @@
         </div>
 
       </div>
+      <div class="d-flex justify-content-center mt-5">
+        <img src="images/clients.png">
+      </div>
     </section><!-- #clients -->
 
     <!-- <section id="bootcamp">
@@ -259,7 +278,7 @@
     <!--==========================
     Call To Action Section
     ============================-->
-    <section id="call-to-action">
+    <!-- <section id="call-to-action">
       <div class="container wow fadeIn">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
@@ -272,7 +291,7 @@
         </div>
 
       </div>
-    </section><!-- #call-to-action -->
+    </section> --><!-- #call-to-action -->
 
     <!--==========================
       Portfolio Section
