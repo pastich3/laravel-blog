@@ -14,7 +14,7 @@ return [
     'section_2_header' => 'Imagine...',
     'section_2_content' => nl2br('Imagine a future where change is not a program or an intiative, but what you do everyday.
 You’re self sufficient, don’t need consultants, building a business using your own people.
-Your people are consistnetly innovating and leaping past your competition. Your competitors’ employees want to work for you. Their shareholders are buying your stock.'),
+Your people are consistently innovating and leaping past your competition. Your competitors’ employees want to work for you. Their shareholders are buying your stock.'),
 ],
 
   'carousel_previous' => 'Previous',
