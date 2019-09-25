@@ -31,6 +31,11 @@ class HomeController extends Controller
         return view('tatham.landing_our_approach');
     }
 
+    public function consult(Request $request): View
+    {
+        return view('tatham.landing_consult');
+    }
+
     public function yourStory(Request $request): View
     {
         return view('tatham.your_story');

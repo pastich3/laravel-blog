@@ -242,9 +242,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#home .btn-get-started:hover {
-  background: #008ba1;
-  border: 2px solid #008ba1;
+
+#consultBtn:hover {
+  background-color: maroon;
+  border: 2px solid maroon;
+}
+
+#innovateBtn:hover {
+  background-color: green;
+  border: 2px solid green;
 }
 
 /*--------------------------------------------------------------
