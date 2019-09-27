@@ -444,55 +444,55 @@
     <!--==========================
       Team Section
     ============================-->
-    <section id="team">
+    <!-- <section id="team">
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Team</h3>
-</br></br>
+</br></br> -->
           <!-- <p class="section-description">We're looking forward to working with you!</p> -->
-        </div>
+        <!-- </div>
         <div class="row d-flex justify-content-around">
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="images/IMG_6538.jpg" alt=""></div>
               <h4>Cameron Mayer</h4>
               <span>Person</span>
-              <div class="social">
+              <div class="social"> -->
                 <!-- <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
                 <a href=""><i class="fa fa-google-plus"></i></a>
                 <a href=""><i class="fa fa-linkedin"></i></a> -->
-              </div>
+              <!-- </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-3 col-md-6">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="images/pres2.jpg" alt=""></div>
               <h4>Michael Tatham</h4>
               <span>Person</span>
-              <div class="social">
+              <div class="social"> -->
                 <!-- <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
                 <a href=""><i class="fa fa-google-plus"></i></a>
                 <a href=""><i class="fa fa-linkedin"></i></a> -->
-              </div>
+              <!-- </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-3 col-md-6">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="images/TathamImagePreview1.jpg" alt=""></div>
               <h4>Michael Tatham Sr</h4>
               <span>Person & Advisor</span>
-              <div class="social">
+              <div class="social"> -->
                 <!-- <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
                 <a href=""><i class="fa fa-google-plus"></i></a>
                 <a href=""><i class="fa fa-linkedin"></i></a> -->
-              </div>
+              <!-- </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- <div class="col-lg-3 col-md-6">
             <div class="member">
@@ -507,10 +507,10 @@
               </div>
             </div>
           </div> -->
-        </div>
+        <!-- </div>
 
-      </div>
-    </section><!-- #team -->
+      </div> -->
+    <!-- </section>#team -->
 
     <!--==========================
       Contact Section
