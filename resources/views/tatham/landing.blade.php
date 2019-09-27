@@ -121,8 +121,8 @@
 
           <div class="icon-box wow fadeInUp ml-3" data-wow-delay="0.2s">
             <div class="icon"><i class="fa fa-photo"></i></div>
-            <h4 class="title"><a href="">Ignite (Drive, Calling, etc)</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <h4 class="title"><a href="">Ignite</a></h4>
+            <p class="description">Creation of buy-in and motivation to ignite transformation efforts.</p>
           </div>
         </div>
         <div class="d-flex">
@@ -135,7 +135,7 @@
           <div class="icon-box wow fadeInUp ml-3" data-wow-delay="0.4s">
             <div class="icon"><i class="fa fa-bar-chart"></i></div>
             <h4 class="title"><a href="">Experiential learning</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <p class="description">A team-building, shared experience that develops a common vision and language for the participants.</p>
           </div>
         </div>
 
