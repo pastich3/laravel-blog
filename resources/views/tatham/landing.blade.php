@@ -49,10 +49,11 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
+          <li><a href="#call-to-action">Boot Camp</a></li>
           <li><a href="#clients">Clients</a></li>
           <!-- <li><a href="#bootcamp">Bootcamp</a></li> -->
           <!-- <li><a href="#portfolio">Case Studies</a></li> -->
-          <li><a href="#team">Team</a></li>
+          <!-- <li><a href="#team">Team</a></li> -->
           <!-- <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
