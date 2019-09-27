@@ -115,7 +115,7 @@
         <div class="d-flex mt-5">
           <div class="icon-box wow fadeInUp mr-3">
             <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-            <h4 class="title"><a href="">Focus on the customer</a></h4>
+            <h4 class="title"><a href="">Customer Compass</a></h4>
             <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
           </div>
 
