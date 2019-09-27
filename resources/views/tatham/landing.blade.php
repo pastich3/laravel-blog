@@ -116,7 +116,13 @@
           <div class="icon-box wow fadeInUp mr-3">
             <div class="icon"><i class="fa fa-shopping-bag"></i></div>
             <h4 class="title"><a href="">Customer Compass</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <p class="description">Ditch The Roadmap and Grab A Customer Compass
+<ul>
+  <li>More comfort with ambiguity</li>
+  <li>Enable business to maintain connection to the customer</li>
+  <li>Change becomes what you do versus done to you</li>
+</ul>
+</p>
           </div>
 
           <div class="icon-box wow fadeInUp ml-3" data-wow-delay="0.2s">
@@ -129,7 +135,7 @@
           <div class="icon-box wow fadeInUp mr-3" data-wow-delay="0.4s">
             <div class="icon"><i class="fa fa-bar-chart"></i></div>
             <h4 class="title"><a href="">Self-sufficiency</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <p class="description">Rely on consultants to augment your organization in areas where you do not need the expertise on staff. Don't depend on consultants for survival</p>
           </div>
 
           <div class="icon-box wow fadeInUp ml-3" data-wow-delay="0.4s">
