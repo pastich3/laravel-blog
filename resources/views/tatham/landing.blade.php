@@ -107,38 +107,36 @@
               <br>
               {!! __("tatham.landing_page.section_2_content") !!}
             </p>
-
           </div>
-
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
         </div>
+
         <div class="d-flex mt-5">
-          <div class="icon-box wow fadeInUp mr-3">
+          <div class="w-50 icon-box wow fadeInUp mr-3">
             <div class="icon"><i class="fa fa-shopping-bag"></i></div>
             <h4 class="title"><a href="">Customer Compass</a></h4>
-            <p class="description">Ditch The Roadmap and Grab A Customer Compass
-<ul>
-  <li>More comfort with ambiguity</li>
-  <li>Enable business to maintain connection to the customer</li>
-  <li>Change becomes what you do versus done to you</li>
-</ul>
-</p>
+            <p class="description">Ditch The Roadmap and Grab A Customer Compass </p>
+              <ul>
+                <li>More comfort with ambiguity</li>
+                <li>Enable business to maintain connection to the customer</li>
+                <li>Change becomes what you do versus done to you</li>
+              </ul>
           </div>
 
-          <div class="icon-box wow fadeInUp ml-3" data-wow-delay="0.2s">
+          <div class="w-50 icon-box wow fadeInUp ml-3" data-wow-delay="0.2s">
             <div class="icon"><i class="fa fa-photo"></i></div>
             <h4 class="title"><a href="">Ignite</a></h4>
             <p class="description">Creation of buy-in and motivation to ignite transformation efforts.</p>
           </div>
         </div>
         <div class="d-flex">
-          <div class="icon-box wow fadeInUp mr-3" data-wow-delay="0.4s">
+          <div class="w-50 icon-box wow fadeInUp mr-3" data-wow-delay="0.4s">
             <div class="icon"><i class="fa fa-bar-chart"></i></div>
             <h4 class="title"><a href="">Self-sufficiency</a></h4>
             <p class="description">Rely on consultants to augment your organization in areas where you do not need the expertise on staff. Don't depend on consultants for survival</p>
           </div>
 
-          <div class="icon-box wow fadeInUp ml-3" data-wow-delay="0.4s">
+          <div class="w-50 icon-box wow fadeInUp ml-3" data-wow-delay="0.4s">
             <div class="icon"><i class="fa fa-bar-chart"></i></div>
             <h4 class="title"><a href="">Experiential learning</a></h4>
             <p class="description">A team-building, shared experience that develops a common vision and language for the participants.</p>
