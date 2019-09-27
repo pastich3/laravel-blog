@@ -82,7 +82,7 @@
   ============================-->
   <section id="home">
     <div class="hero-container">
-      <h1 style="font-weight: normal; text-transform: none">There are two kinds of companies;</h1>
+      <h1 style="font-weight: normal; text-transform: none">There are two kinds of companies:</h1>
       <h1 style="font-weight: normal; text-transform: none"> Those that depend on consultants, and those that don't.</h1>
       <h1 style="font-weight: normal; text-transform: none">Which do you want to be?</h2>
       <div class="d-flex mt-5">
@@ -161,13 +161,13 @@
     <!--==========================
       Facts Section
     ============================-->
-    <section id="facts">
+    <!-- <section id="facts">
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title">The Prerequisite </h3>
           <p class="section-description">The team you go into bootcamp with will not be the same team you leave with</p>
 
-        </div>
+        </div> -->
 
         <!-- <div class="row counters"> -->
 
@@ -193,8 +193,8 @@
 
   			<!-- </div> -->
 
-      </div>
-    </section><!-- #facts -->
+      <!-- </div>
+    </section>#facts -->
 
     <!--==========================
       Services Section

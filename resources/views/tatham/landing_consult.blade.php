@@ -64,7 +64,7 @@
             <div style="max-width: 600px;">
               <p class="mt-5 mb-0 pb-0" style="font-weight: bold; font-size: 26px">Get what you've always got</p>
               <div class="mt-3">
-                <p>Companies who turn to consultants to solve their problems never learn how to solve the problem itself.</p>
+                <p>Companies who turn to consultants to solve their problems never learn how to solve the problem themselves.</p>
               </div>
             </div>
           </div>
@@ -82,9 +82,9 @@
         </div>
         <div class="content d-flex justify-content-center w-100">
           <div class="px-3" style="max-width: 750px;">
-            <p> <a href="https://www.mckinsey.com/"> https://www.mckinsey.com/ </a> </p>
-            <p> <a href="https://www.bain.com/"> https://www.bain.com/ </a> </p>
-            <p> <a href="https://www.bcg.com/"> https://www.bcg.com/ </a> </p>
+              <p> <a href="https://www.bain.com/"> https://www.bain.com/ </a> </p>
+              <p> <a href="https://www.bcg.com/"> https://www.bcg.com/ </a> </p>
+              <p> <a href="https://www.mckinsey.com/"> https://www.mckinsey.com/ </a> </p>
           </div>
         </div>
 
