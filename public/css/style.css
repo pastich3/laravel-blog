@@ -564,7 +564,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
-#about .about-container .icon-box {
+#about .icon-box {
   background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
@@ -572,7 +572,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 768px) {
-  #about .about-container .icon-box {
+  #about .icon-box {
     width: 100%;
   }
 }
