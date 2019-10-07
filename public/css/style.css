@@ -10,7 +10,7 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
 }
 
 a {
@@ -723,22 +723,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #bootcamp {
-  background: #fff;
+  background: #008ba1;
+  /* background: #fff; */
   padding: 80px 0;
 }
 
+#bootcamp .section-title{
+  color: #fff;
+}
+
 #bootcamp .bootcamp-container .content {
+  margin-top: 55px;
   margin-left: 80px;
   margin-right: 80px;
   display: flex;
   justify-content: center;
-  background: #fff;
+  background: #008ba1;
 }
 
 #bootcamp .bootcamp-container .inner-content {
-  max-width: 600px;
-  border: 1px solid #e6e6e6;
+  max-width: 800px;
+  border: 1px solid #008ba1;
   padding: 16px;
+  background: #f7f7f7;
 }
 
 #bootcamp .bootcamp-container .title {

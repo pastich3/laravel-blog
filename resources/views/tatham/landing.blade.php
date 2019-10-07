@@ -49,7 +49,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#call-to-action">Boot Camp</a></li>
+          <li><a href="#bootcamp">Boot Camp</a></li>
           <li><a href="#clients">Clients</a></li>
           <!-- <li><a href="#bootcamp">Bootcamp</a></li> -->
           <!-- <li><a href="#portfolio">Case Studies</a></li> -->
@@ -164,7 +164,27 @@ starting with your customers.</p>
 
       </div>
     </section><!-- #call-to-action -->
-    <!--==========================
+
+    <section id="bootcamp">
+      <div class="bootcamp-container">
+        <div class="section-header" style="margin-bottom: 20px;">
+          <h3 class="section-title">Bootcamp</h3>
+          <p class="section-description pb-0" style="color: white;">Process-driven, forward thinking</p>
+        </div>
+        <div class="content">
+          <div class="inner-content box-shadow">
+            <div>
+              <p>{!! __("tatham.our_story_content.bootcamp_summary")!!}</p>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+              <a target="_blank" class="learn-more" href="#contact"> Learn more </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section> <!-- #bootcamp -->
+    <!-- ==========================
       Facts Section
     ============================-->
     <!-- <section id="facts">
@@ -263,25 +283,6 @@ starting with your customers.</p>
       </div>
     </section><!-- #clients -->
 
-    <!-- <section id="bootcamp">
-      <div class="bootcamp-container">
-        <div class="section-header" style="margin-bottom: 20px;">
-          <h3 class="section-title">Bootcamp</h3>
-          <p class="section-description pb-0" style="color: black;">Process-driven, forward thinking</p>
-        </div>
-        <div class="content">
-          <div class="inner-content box-shadow">
-            <div>
-              <p>In two days, we’ll retrain the brains of your best people and give them a concrete process and ready-to-go tools to apply to your business issues. Change starts tomorrow.</p>
-            </div>
-            <div class="d-flex justify-content-center mt-5">
-              <a target="_blank" class="learn-more" href="/bootcamp"> Learn more </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section> --><!-- #bootcamp -->
     <!--==========================
     Call To Action Section
     ============================-->
