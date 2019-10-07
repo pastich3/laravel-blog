@@ -112,7 +112,12 @@
         </div>
 
         <div class="d-flex mt-5">
-          <div class="w-50 icon-box wow fadeInUp mr-3">
+        <div class="w-50 icon-box wow fadeInUp mr-3" data-wow-delay="0.2s">
+            <div class="icon"><i class="fa fa-fire"></i></div>
+            <h4 class="title"><a href="#call-to-action">Ignite Change</a></h4>
+            <p class="description">Creation of buy-in and motivation to ignite transformation efforts.</p>
+          </div>
+          <div class="w-50 icon-box wow fadeInUp ml-3" data-wow-delay="0.4s">
             <div class="icon"><i class="fa fa-shopping-bag"></i></div>
             <h4 class="title"><a href="#call-to-action">Customer Compass</a></h4>
             <p class="description">Ditch The Roadmap and Grab A Customer Compass </p>
@@ -122,18 +127,12 @@
                 <li>Change becomes what you do versus done to you</li>
               </ul>
           </div>
-
-          <div class="w-50 icon-box wow fadeInUp ml-3" data-wow-delay="0.2s">
-            <div class="icon"><i class="fa fa-fire"></i></div>
-            <h4 class="title"><a href="#call-to-action">Ignite</a></h4>
-            <p class="description">Creation of buy-in and motivation to ignite transformation efforts.</p>
-          </div>
         </div>
-        <div class="d-flex">
-          <div class="w-50 icon-box wow fadeInUp mr-3" data-wow-delay="0.4s">
+        <div class="d-flex mt-5">
+          <div class="w-50 icon-box wow fadeInUp mr-3" data-wow-delay="0.1s">
             <div class="icon"><i class="fa fa-bar-chart"></i></div>
             <h4 class="title"><a href="#call-to-action">Self-sufficiency</a></h4>
-            <p class="description">Rely on consultants to augment your organization in areas where you do not need the expertise on staff. Don't depend on consultants for survival</p>
+            <p class="description">Don't depend on consultants for survival. <br><br>Rely on consultants to augment your organization in areas where you do not need the expertise on staff. </p>
           </div>
 
           <div class="w-50 icon-box wow fadeInUp ml-3" data-wow-delay="0.4s">
@@ -171,7 +170,7 @@ starting with your customers.</p>
           <h3 class="section-title">Bootcamp</h3>
           <p class="section-description pb-0" style="color: white;">Process-driven, forward thinking</p>
         </div>
-        <div class="content">
+        <div class="content container wow fadeInRight">
           <div class="inner-content box-shadow">
             <div>
               <p>{!! __("tatham.our_story_content.bootcamp_summary")!!}</p>

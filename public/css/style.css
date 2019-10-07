@@ -11,6 +11,8 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
 }
 
 a {
@@ -742,9 +744,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #bootcamp .bootcamp-container .inner-content {
-  max-width: 800px;
+  max-width: 935px;
   border: 1px solid #008ba1;
-  padding: 16px;
+  padding: 36px;
   background: #f7f7f7;
 }
 
