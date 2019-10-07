@@ -86,8 +86,8 @@
       <h1 style="font-weight: normal; text-transform: none"> Those that depend on consultants, and those that don't.</h1>
       <h1 style="font-weight: normal; text-transform: none">Which do you want to be?</h2>
       <div class="d-flex mt-5">
-        <a href="/consult" style="width: 180px;" class="btn-get-started" id="consultBtn" target="_blank"> Consult </a>
-        <a href="#about" style="width: 180px;" class="btn-get-started" id="innovateBtn"> Innovate </a>
+        <a href="/consult" style="width: 165px;" class="btn-get-started" id="consultBtn" target="_blank"> Consult </a>
+        <a href="#about" style="width: 165px;" class="btn-get-started" id="innovateBtn"> Innovate </a>
       </div>
     </div>
   </section><!-- #home -->
@@ -111,13 +111,13 @@
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
         </div>
 
-        <div class="d-flex mt-5">
-        <div class="w-50 icon-box wow fadeInUp mr-3" data-wow-delay="0.2s">
+        <div class="d-flex mt-5 flex-wrap flex-md-nowrap justify-content-center">
+        <div class="icon-box wow fadeInUp mr-md-3 mr-0" data-wow-delay="0.2s">
             <div class="icon"><i class="fa fa-fire"></i></div>
             <h4 class="title"><a href="#call-to-action">Ignite Change</a></h4>
             <p class="description">Creation of buy-in and motivation to ignite transformation efforts.</p>
           </div>
-          <div class="w-50 icon-box wow fadeInUp ml-3" data-wow-delay="0.4s">
+          <div class="icon-box wow fadeInUp ml-md-3 ml-0" data-wow-delay="0.4s">
             <div class="icon"><i class="fa fa-shopping-bag"></i></div>
             <h4 class="title"><a href="#call-to-action">Customer Compass</a></h4>
             <p class="description">Ditch The Roadmap and Grab A Customer Compass </p>
@@ -128,14 +128,14 @@
               </ul>
           </div>
         </div>
-        <div class="d-flex mt-5">
-          <div class="w-50 icon-box wow fadeInUp mr-3" data-wow-delay="0.1s">
+        <div class="d-flex mt-5 flex-wrap flex-md-nowrap justify-content-center">
+          <div class="icon-box wow fadeInUp mr-md-3 mr-0" data-wow-delay="0.1s">
             <div class="icon"><i class="fa fa-bar-chart"></i></div>
             <h4 class="title"><a href="#call-to-action">Self-sufficiency</a></h4>
             <p class="description">Don't depend on consultants for survival. <br><br>Rely on consultants to augment your organization in areas where you do not need the expertise on staff. </p>
           </div>
 
-          <div class="w-50 icon-box wow fadeInUp ml-3" data-wow-delay="0.4s">
+          <div class="icon-box wow fadeInUp ml-md-3 ml-0" data-wow-delay="0.4s">
             <div class="icon"><i class="fa fa-bar-chart"></i></div>
             <h4 class="title"><a href="#call-to-action">Experiential learning</a></h4>
             <p class="description">A team-building, shared experience that develops a common vision and language for the participants.</p>
@@ -278,7 +278,7 @@ starting with your customers.</p>
 
       </div>
       <div class="d-flex justify-content-center mt-5">
-        <img src="images/clients.png">
+        <img class="w-100" style="max-width: 900px" src="images/clients.png">
       </div>
     </section><!-- #clients -->
 
