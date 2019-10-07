@@ -124,7 +124,7 @@
           </div>
 
           <div class="w-50 icon-box wow fadeInUp ml-3" data-wow-delay="0.2s">
-            <div class="icon"><i class="fa fa-photo"></i></div>
+            <div class="icon"><i class="fa fa-fire"></i></div>
             <h4 class="title"><a href="">Ignite</a></h4>
             <p class="description">Creation of buy-in and motivation to ignite transformation efforts.</p>
           </div>
@@ -151,9 +151,11 @@
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left" style="font-size: 20px">
             <h3 class="cta-title">READY FOR WHAT’S NEXT?</h3>
-            <p class="cta-text"> The first step is to contact us. Ask us about our proprietary business simulator. We call it Boot Camp for Executives™. Over the years, it has proven to be the critical catalyst for helping our clients to convert strategy into results.</p>
-            <p class="cta-text"> We will be pleased to provide you with references. As we have had the opportunity to work in many different industries, we will try to match past clients who most closely resemble your situation.</p>
-            <p class="cta-text"> You’ll discover that our clients remain our most ardent supporters. Take the  next step. Find out why.</p>
+            <p class="cta-text"> Ask us about our proprietary business simulator. We call it Boot Camp for Executives™. Over the years, it has proven to be the critical catalyst for helping our clients to convert strategy into results.</p>
+            <p class="cta-text">Boot Camp is a window into the “how”. It is a two day business
+simulation designed to let you experience a systematic approach to getting things done
+starting with your customers.</p>
+            <p class="cta-text"> Our clients remain our most ardent supporters. Take the  next step. Find out why.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#contact" >Let's talk</a>
