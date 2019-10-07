@@ -570,7 +570,7 @@ starting with your customers.</p>
       var par = el.parentNode;
       var next = el.nextSibling;
       par.removeChild(el);
-      setTimeout(function() {par.insertBefore(el, next);}, 250)
+      setTimeout(function() {par.insertBefore(el, next);}, 0)
     }
   </script>
   @stack('inline-scripts')
