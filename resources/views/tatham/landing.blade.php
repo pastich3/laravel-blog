@@ -86,8 +86,8 @@
       <h1 style="font-weight: normal; text-transform: none"> Those that depend on consultants, and those that don't.</h1>
       <h1 style="font-weight: normal; text-transform: none">Which do you want to be?</h2>
       <div class="d-flex mt-5">
-        <a href="/consult" style="width: 165px;" class="btn-get-started" id="consultBtn" target="_blank"> Consult </a>
-        <a href="#about" style="width: 165px;" class="btn-get-started" id="innovateBtn"> Innovate </a>
+        <a href="/consult" ontouchend="this.onclick=fix" style="width: 165px;" class="btn-get-started" id="consultBtn" target="_blank"> Consult </a>
+        <a href="#about" ontouchend="this.onclick=fix" style="width: 165px;" class="btn-get-started" id="innovateBtn"> Innovate </a>
       </div>
     </div>
   </section><!-- #home -->
@@ -562,6 +562,17 @@ starting with your customers.</p>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <script>
+    function fix()
+    {
+      var el = this;
+      var par = el.parentNode;
+      var next = el.nextSibling;
+      par.removeChild(el);
+      setTimeout(function() {par.insertBefore(el, next);}, 0)
+    }
+  </script>
   @stack('inline-scripts')
 
 </body>
