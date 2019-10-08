@@ -277,7 +277,7 @@ starting with your customers.</p>
 
       </div>
       <div class="d-flex justify-content-center mt-5">
-        <img class="w-100" style="max-width: 900px" src="images/clients.png">
+        <img class="w-100 wow fadeInUp" style="max-width: 900px" src="images/clients.png">
       </div>
     </section><!-- #clients -->
 
