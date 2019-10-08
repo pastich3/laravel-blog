@@ -132,7 +132,7 @@ You’re self-sufficient, don’t need consultants, building a business using yo
   'about_us' => [
 
     'ignite_content' => '<div class="icon"><i class="fa fa-fire"></i></div>
-    <h4 class="title"><a href="#call-to-action">Ignite Change</a></h4><p class="description"> Create buy-in and motivation to ignite transformation efforts. Innovation is ignited from the top and achieved in the trenches by your own people — a simultaneous top-down/bottom-up ‘sandwich approach’. Starting with the executive team and providing buy-in and motivation to ignite change initiative </p>',
+    <h4 class="title"><a href="#call-to-action">Ignite Change</a></h4><p class="description"> Create buy-in and motivation to ignite transformation efforts. Innovation is ignited from the top and achieved in the trenches by your own people — a simultaneous top-down/bottom-up ‘sandwich approach’. This begins with the executive team to establish buy-in and motivation to begin your journey of change. </p>',
 
     'self_sufficient_content' => '<div class="icon"><i class="fa fa-bar-chart"></i></div>
     <h4 class="title"><a href="#call-to-action">Self-sufficiency</a></h4><p class="description">Don\'t depend on consultants for survival. <br><br>Rely on consultants to augment your organization in areas where you do not need the expertise on staff. </p>',
