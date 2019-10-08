@@ -93,6 +93,23 @@
   </section><!-- #home -->
 
   <main id="main">
+
+  <!--==========================
+    Questions Section
+  ============================-->
+  <section id="questions">
+      <div class="questions-container">
+        <div class="section-header" style="margin-bottom: 20px;">
+        <ul>
+          <p class="question wow fadeInRight">{!! __("tatham.landing_page.questions.competitive") !!}</p>          
+          <p class="question wow fadeInRight">{!! __("tatham.landing_page.questions.bogdown") !!}</p>          
+          <p class="question wow fadeInRight">{!! __("tatham.landing_page.questions.hidden_potential") !!}</p>          
+          <p class="question wow fadeInRight">{!! __("tatham.landing_page.questions.problem_solving") !!}</p>          
+          <p class="question wow fadeInRight">{!! __("tatham.landing_page.questions.implementation_struggle") !!}</p>
+        </ul>      
+        </div>
+      </div>
+    </section>
   <!--==========================
     Quote Section
   ============================-->

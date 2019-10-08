@@ -17,6 +17,13 @@ return [
 You’re self-sufficient, don’t need consultants, building a business using your own people.
 
 Your people are consistently innovating and leaping past your competition. Your competitors’ employees want to work for you. Their shareholders are buying your stock.'),
+    'questions' => [
+        'competitive' => 'Are you concerned with your company’s competitive nature and ability to consistently execute in a competitive landscape?',
+        'bogdown' => 'Does building a fast, flexible end to end customer experience get bogged down as soon as multiple silos in the business require integration?',
+        'hidden_potential' => 'Are you tasked to do more with less but struggling to exploit the hidden potential in your people?',
+        'problem_solving' => 'Do you find that problem resolution is often slow, complex and sub-optimized?',
+        'implementation_struggle' => 'Are solutions to address key business problems a struggle to implement and often marginalized once reaching middle management?'
+    ]
 ],
 
   'carousel_previous' => 'Previous',
@@ -121,7 +128,7 @@ Your people are consistently innovating and leaping past your competition. Your 
   'about_us' => [
 
     'ignite_content' => '<div class="icon"><i class="fa fa-fire"></i></div>
-    <h4 class="title"><a href="#call-to-action">Ignite Change</a></h4><p class="description"> Create buy-in and motivation to ignite transformation efforts. </p>',
+    <h4 class="title"><a href="#call-to-action">Ignite Change</a></h4><p class="description"> Create buy-in and motivation to ignite transformation efforts. Innovation is ignited from the top and achieved in the trenches by your own people — a simultaneous top-down/bottom-up ‘sandwich approach’. Starting with the executive team and providing buy-in and motivation to ignite change initiative </p>',
 
     'self_sufficient_content' => '<div class="icon"><i class="fa fa-bar-chart"></i></div>
     <h4 class="title"><a href="#call-to-action">Self-sufficiency</a></h4><p class="description">Don\'t depend on consultants for survival. <br><br>Rely on consultants to augment your organization in areas where you do not need the expertise on staff. </p>',
