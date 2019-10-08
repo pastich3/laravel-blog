@@ -137,12 +137,12 @@ You’re self-sufficient, don’t need consultants, building a business using yo
     'self_sufficient_content' => '<div class="icon"><i class="fa fa-bar-chart"></i></div>
     <h4 class="title"><a href="#call-to-action">Self-sufficiency</a></h4><p class="description">Our approach makes problem solving a core competency in our clients’ businesses. Everyone in your bussiness is empowered to solve problems once and for all.
     <br><br>
-    Don\'t depend on consultants for survival.</p>',
+    The dependancy on consultants comes to an end.</p>',
 
     'experience_content' => '<div class="icon"><i class="fa fa-bar-chart"></i></div>
-    <h4 class="title"><a href="#call-to-action">Experiential learning</a></h4><p class="description">Experiential exercises like Boot Camp will be the lightning rod to initiate the fundamental changes necessary in the way the business is run - at all levels uniting all generations.
+    <h4 class="title"><a href="#call-to-action">Experiential learning</a></h4><p class="description">Experiential exercises like Boot Camp will be the lightning rod to initiate the fundamental changes necessary in the way the business is run — at all levels uniting all generations.
     <br><br>
-    Experiential exercises rallies the organization to a common vision, language and understanding of the change, how it will happen and the role each person will play.</p>',
+    Experiential exercises rally the organization to a common vision, language and understanding of the change, how it will happen and the role each person will play.</p>',
 
     'customer_compass_content' => '<div class="icon"><i class="fa fa-shopping-bag"></i></div>
     <h4 class="title"><a href="#call-to-action">Customer Compass</a></h4><p class="description">Develop comfort with ambiguity: Ditch the roadmap and use your customers as the compass. This will show what is possible and drive an emotional connection between the customer and business.
