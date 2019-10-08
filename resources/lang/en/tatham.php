@@ -135,18 +135,19 @@ You’re self-sufficient, don’t need consultants, building a business using yo
     <h4 class="title"><a href="#call-to-action">Ignite Change</a></h4><p class="description"> Create buy-in and motivation to ignite transformation efforts. Innovation is ignited from the top and achieved in the trenches by your own people — a simultaneous top-down/bottom-up ‘sandwich approach’. This begins with the executive team to establish buy-in and motivation to begin your journey of change. </p>',
 
     'self_sufficient_content' => '<div class="icon"><i class="fa fa-bar-chart"></i></div>
-    <h4 class="title"><a href="#call-to-action">Self-sufficiency</a></h4><p class="description">Don\'t depend on consultants for survival. <br><br>Rely on consultants to augment your organization in areas where you do not need the expertise on staff. </p>',
+    <h4 class="title"><a href="#call-to-action">Self-sufficiency</a></h4><p class="description">Our approach makes problem solving a core competency in our clients’ businesses. Everyone in your bussiness is empowered to solve problems once and for all.
+    <br><br>
+    Don\'t depend on consultants for survival.</p>',
 
     'experience_content' => '<div class="icon"><i class="fa fa-bar-chart"></i></div>
-    <h4 class="title"><a href="#call-to-action">Experiential learning</a></h4><p class="description">A team-building, shared experience that develops a common vision and language for the participants.</p>',
+    <h4 class="title"><a href="#call-to-action">Experiential learning</a></h4><p class="description">Experiential exercises like Boot Camp will be the lightning rod to initiate the fundamental changes necessary in the way the business is run - at all levels uniting all generations.
+    <br><br>
+    Experiential exercises rallies the organization to a common vision, language and understanding of the change, how it will happen and the role each person will play.</p>',
 
     'customer_compass_content' => '<div class="icon"><i class="fa fa-shopping-bag"></i></div>
-    <h4 class="title"><a href="#call-to-action">Customer Compass</a></h4><p class="description">Ditch The Roadmap and Grab A Customer Compass </p>
-    <ul>
-      <li>More comfort with ambiguity</li>
-      <li>Enable business to maintain connection to the customer</li>
-      <li>Change becomes what you do versus done to you</li>
-    </ul>',
+    <h4 class="title"><a href="#call-to-action">Customer Compass</a></h4><p class="description">Develop comfort with ambiguity: Ditch the roadmap and use your customers as the compass. This will show what is possible and drive an emotional connection between the customer and business.
+    <br><br>
+    Customer issues become clearly visible and self prioritizing.',
 
   ],
   'our_story_content' => [
