@@ -54,7 +54,7 @@ Your people are consistently innovating and leaping past your competition. Your 
   'testimonials' => 'Testimonials',
 
   'landing_page_question_header' => 'Why do the same problems keep recurring in your organization?',
-  'landing_page_question_content' => 'Why does a strategy developed by your best people or an outside consultant bog down as soon as it hits your front-line people? Why is the status quo so difficult to change? Why indeed. At The Tatham Group, we don’t give you the answers. We give you a way to solve these problems yourself, once and for all. In the process, your organization will do more with less, reach its true potential, save millions of dollars thanks to insights gained and delight your customers.',
+  'landing_page_question_content' => 'Why does a strategy developed by your best people or an outside consultant bog down as soon as it hits your front-line people? Why is the status quo so difficult to change? Why indeed. At Tatham, we don’t give you the answers. We give you a way to solve these problems yourself, once and for all. In the process, your organization will do more with less, reach its true potential, save millions of dollars thanks to insights gained and delight your customers.',
 
   'testimonial_content' => [
     [
@@ -70,7 +70,7 @@ Your people are consistently innovating and leaping past your competition. Your 
         'company' => "Canada Life Assurance Company",
     ],
     [
-        'content' => nl2br("“The Tatham Group’s Boot Camp is an intense, valuable and thoroughly enjoyable experience. The interactive and engaging simulation of a classic challenge faced in business the world over, will leave you asking questions, demanding answers and searching deep into every part of your organization to do better for your Customers. Highly recommended!”"),
+        'content' => nl2br("“Tatham’s Boot Camp is an intense, valuable and thoroughly enjoyable experience. The interactive and engaging simulation of a classic challenge faced in business the world over, will leave you asking questions, demanding answers and searching deep into every part of your organization to do better for your Customers. Highly recommended!”"),
         'person' => "Doug Brown",
         'title' => "CEO",
         'company' => "Canada Life Limited",
@@ -82,19 +82,19 @@ Your people are consistently innovating and leaping past your competition. Your 
         'company' => "Equitable Life of Canada",
     ],
     [
-        'content' => nl2br("“I have experienced Boot Camp first-hand, and I am confident that our NASA Senior Management Group and, ultimately, the whole NASA organization, will benefit from Boot Camp. I have seen the results at TRW, and I know other companies have experienced similar successes..”"),
+        'content' => nl2br("“I have experienced Boot Camp first-hand, and I am confident that our NASA Senior Management Group and, ultimately, the whole NASA organization, will benefit from Boot Camp. I have seen the results at TRW, and I know other companies have experienced similar successes.”"),
         'person' => "Daniel S. Goldin",
         'title' => "Chief Administrator",
         'company' => "NASA",
     ],
     [
-        'content' => nl2br("“Strong recommendation for the merit and results of The Tatham Group and Boot Camp. At Rockwell Collins we leveraged its powerful effect as a component of our enterprise approach.”"),
+        'content' => nl2br("“Strong recommendation for the merit and results of Tatham and Boot Camp. At Rockwell Collins we leveraged its powerful effect as a component of our enterprise approach.”"),
         'person' => "Patrick O’Brein",
         'title' => "Business Development Director",
         'company' => "Rockwell Collins",
     ],
     [
-        'content' => nl2br("“Tatham will teach you how to empower your own people to challenge,question,renew and repair your processes in your company. I ran an extremely successful ,extremely profitable and highly visible apparel company and after going to Tatham’s Boot Camp, we took every financial measurement to record levels only because we challenged every employee to challenge every process, empowered them and let them go do it. We focused all our companies efforts on the customer, worked with the customer to fix ,renew or repair our mutual processes together and the results were staggering.”"),
+        'content' => nl2br("“Tatham will teach you how to empower your own people to challenge, question, renew and repair your processes in your company. I ran an extremely successful, extremely profitable and highly visible apparel company and after going to Tatham’s Boot Camp, we took every financial measurement to record levels only because we challenged every employee to challenge every process, empowered them and let them go do it. We focused all our companies efforts on the customer, worked with the customer to fix, renew or repair our mutual processes together and the results were staggering.”"),
         'person' => "Ken Steward",
         'title' => "President & Chief Executive Officer, Canada Division,",
         'company' => "Sara Lee Intimate Apparel",
@@ -106,7 +106,7 @@ Your people are consistently innovating and leaping past your competition. Your 
         'company' => "Trillium Health Partners",
     ],
     [
-        'content' => nl2br("“Participating in the Tatham Group’s Boot Camp we came away equipped with the means and opportunity to change the way we do business. We now think about our business in new and exciting ways building new capabilities and setting the stage for innovation, execution, team member engagement and simply ‘delighting our customers’. It’s about our ‘Journey to World Class’.”"),
+        'content' => nl2br("“Participating in Tatham's Boot Camp we came away equipped with the means and opportunity to change the way we do business. We now think about our business in new and exciting ways building new capabilities and setting the stage for innovation, execution, team member engagement and simply delighting our customers. It’s about our ‘Journey to World Class’.”"),
         'person' => "Kirk Bare",
         'title' => "SVP and Business Leader",
         'company' => "Wells Fargo Bank",
@@ -118,7 +118,26 @@ Your people are consistently innovating and leaping past your competition. Your 
         'company' => "Wells Fargo Bank",
     ],
   ], // end testimonial_content
+  'about_us' => [
 
+    'ignite_content' => '<div class="icon"><i class="fa fa-fire"></i></div>
+    <h4 class="title"><a href="#call-to-action">Ignite Change</a></h4><p class="description"> Create buy-in and motivation to ignite transformation efforts. </p>',
+
+    'self_sufficient_content' => '<div class="icon"><i class="fa fa-bar-chart"></i></div>
+    <h4 class="title"><a href="#call-to-action">Self-sufficiency</a></h4><p class="description">Don\'t depend on consultants for survival. <br><br>Rely on consultants to augment your organization in areas where you do not need the expertise on staff. </p>',
+
+    'experience_content' => '<div class="icon"><i class="fa fa-bar-chart"></i></div>
+    <h4 class="title"><a href="#call-to-action">Experiential learning</a></h4><p class="description">A team-building, shared experience that develops a common vision and language for the participants.</p>',
+
+    'customer_compass_content' => '<div class="icon"><i class="fa fa-shopping-bag"></i></div>
+    <h4 class="title"><a href="#call-to-action">Customer Compass</a></h4><p class="description">Ditch The Roadmap and Grab A Customer Compass </p>
+    <ul>
+      <li>More comfort with ambiguity</li>
+      <li>Enable business to maintain connection to the customer</li>
+      <li>Change becomes what you do versus done to you</li>
+    </ul>',
+
+  ],
   'our_story_content' => [
     // SECTION: BOOTCAMP
     'bootcamp_summary' => nl2br('Boot Camp is a complete immersive learning experience that will get your synapses singing. You’ll learn by doing and applying yourself, through critical thinking and problem solving. You’ll learn — by design.
@@ -144,7 +163,7 @@ Next, a problem-solving checklist is introduced in order to apply a disciplined 
 
 Participants continue to improve the business processes until Push Corporation is flexible, agile, and capable of processing a large volume of different customer orders received one order at a time over the Internet. The simulation is run four times in total during the two days.
 
-At the conclusion of Boot Camp participants identify opportunities for their organization to execute a similar strategy. Tatham facilitators also discuss how to leverage the Tatham Group’s systematic method to achieve breakthrough levels of business performance and financial results as well as developing a list of potential target processes that will be strategic and valuable to redesign.'),
+At the conclusion of Boot Camp participants identify opportunities for their organization to execute a similar strategy. Tatham facilitators also discuss how to leverage Tatham’s systematic method to achieve breakthrough levels of business performance and financial results as well as developing a list of potential target processes that will be strategic and valuable to redesign.'),
     // SECTION: OUR LEADERSHIP
     'leadership_mega_header' => 'Our Leadership',
     // OUR LEADERSHIP TOPIC 1
@@ -246,7 +265,7 @@ As the leader of this company you can’t understand why those infuriating probl
 	'journey_mega_header' => 'Journey',
 	// JOURNEY TOPIC 1
 	'start_journey_header' => 'How do you get started on a journey for change?',
-	'start_journey_content' => nl2br('At The Tatham Group, we know that the most challenging part of the journey is just getting started – admitting there may be a better way of operating. That’s why we begin by creating an emotional experience for our clients through what we call Boot Camp.
+	'start_journey_content' => nl2br('At Tatham, we know that the most challenging part of the journey is just getting started – admitting there may be a better way of operating. That’s why we begin by creating an emotional experience for our clients through what we call Boot Camp.
 
 Clients who go through it call it nothing less than a transformational experience, learning how to fix processes, not the same mistake, over and over.
 

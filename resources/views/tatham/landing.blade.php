@@ -93,6 +93,17 @@
   </section><!-- #home -->
 
   <main id="main">
+  <!--==========================
+    Quote Section
+  ============================-->
+  <section id="quote">
+      <div class="quote-container">
+        <div class="section-header" style="margin-bottom: 20px;">
+          <h3 class="section-title">“Our approach breaks down the functional barriers, roadblocks and mindset that constrain the hidden potential in your business”</h3>
+          <!-- <p class="section-description pb-0">Process-driven, forward thinking</p> -->
+        </div>
+      </div>
+    </section>
 
     <!--==========================
       About Us Section
@@ -113,33 +124,20 @@
 
         <div class="d-flex mt-5 flex-wrap flex-md-nowrap justify-content-center">
         <div class="icon-box wow fadeInUp mr-md-3 mr-0" data-wow-delay="0.2s">
-            <div class="icon"><i class="fa fa-fire"></i></div>
-            <h4 class="title"><a href="#call-to-action">Ignite Change</a></h4>
-            <p class="description">Creation of buy-in and motivation to ignite transformation efforts.</p>
+            {!! __("tatham.about_us.ignite_content") !!}
           </div>
           <div class="icon-box wow fadeInUp ml-md-3 ml-0" data-wow-delay="0.4s">
-            <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-            <h4 class="title"><a href="#call-to-action">Customer Compass</a></h4>
-            <p class="description">Ditch The Roadmap and Grab A Customer Compass </p>
-              <ul>
-                <li>More comfort with ambiguity</li>
-                <li>Enable business to maintain connection to the customer</li>
-                <li>Change becomes what you do versus done to you</li>
-              </ul>
+            {!! __("tatham.about_us.customer_compass_content") !!}
           </div>
         </div>
         <div class="d-flex mt-5 flex-wrap flex-md-nowrap justify-content-center">
-          <div class="icon-box wow fadeInUp mr-md-3 mr-0" data-wow-delay="0.1s">
-            <div class="icon"><i class="fa fa-bar-chart"></i></div>
-            <h4 class="title"><a href="#call-to-action">Self-sufficiency</a></h4>
-            <p class="description">Don't depend on consultants for survival. <br><br>Rely on consultants to augment your organization in areas where you do not need the expertise on staff. </p>
+          <div class="icon-box wow fadeInUp ml-md-3 ml-0" data-wow-delay="0.6s">
+            {!! __("tatham.about_us.experience_content") !!}
+          </div>
+          <div class="icon-box wow fadeInUp mr-md-3 mr-0" data-wow-delay="0.8s">
+            {!! __("tatham.about_us.self_sufficient_content") !!}
           </div>
 
-          <div class="icon-box wow fadeInUp ml-md-3 ml-0" data-wow-delay="0.4s">
-            <div class="icon"><i class="fa fa-bar-chart"></i></div>
-            <h4 class="title"><a href="#call-to-action">Experiential learning</a></h4>
-            <p class="description">A team-building, shared experience that develops a common vision and language for the participants.</p>
-          </div>
         </div>
 
       </div>
@@ -164,6 +162,8 @@ starting with your customers.</p>
       </div>
     </section><!-- #call-to-action -->
 
+    @include('tatham._testimonial_carousel')
+
     <section id="bootcamp">
       <div class="bootcamp-container">
         <div class="section-header" style="margin-bottom: 20px;">
@@ -181,7 +181,6 @@ starting with your customers.</p>
           </div>
         </div>
       </div>
-
     </section> <!-- #bootcamp -->
     <!-- ==========================
       Facts Section

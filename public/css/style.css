@@ -728,6 +728,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+/* Quote section */
+#quote {
+  background: #008ba1;
+  padding: 80px 0;
+}
+#quote .section-title{
+  color: #fff;
+  max-width: 935px;
+  font-family: "Roboto";
+  text-transform: none;
+  font-weight: 500;
+  /* font-size: 18px; */
+}
+
+#quote .quote-container {
+  display: flex;
+  justify-content: center;
+}
+
 /* Bootcamp section */
 
 /* About Us Section
