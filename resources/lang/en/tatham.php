@@ -134,17 +134,17 @@ You’re self-sufficient, don’t need consultants, building a business using yo
     'ignite_content' => '<div class="icon"><i class="fa fa-fire"></i></div>
     <h4 class="title"><a href="#call-to-action">Ignite Change</a></h4><p class="description"> Create buy-in and motivation to ignite transformation efforts. Innovation is ignited from the top and achieved in the trenches by your own people — a simultaneous top-down/bottom-up ‘sandwich approach’. This begins with the executive team to establish buy-in and motivation to begin your journey of change. </p>',
 
-    'self_sufficient_content' => '<div class="icon"><i class="fa fa-bar-chart"></i></div>
+    'self_sufficient_content' => '<div class="icon"><i class="fa fa-superpowers"></i></div>
     <h4 class="title"><a href="#call-to-action">Self-sufficiency</a></h4><p class="description">Our approach makes problem solving a core competency in our clients’ businesses. Everyone has the confidence and the tools to solve problems once and for all.
     <br><br>
     The dependancy on consultants comes to an end.</p>',
 
-    'experience_content' => '<div class="icon"><i class="fa fa-bar-chart"></i></div>
+    'experience_content' => '<div class="icon"><i class="fa fa-graduation-cap"></i></div>
     <h4 class="title"><a href="#call-to-action">Experiential learning</a></h4><p class="description">Experiential exercises like Boot Camp will be the lightning rod to initiate the fundamental changes necessary in the way the business is run — at all levels uniting all generations.
     <br><br>
     Experiential exercises rally the organization to a common vision, language and understanding of the change, how it will happen and the role each person will play.</p>',
 
-    'customer_compass_content' => '<div class="icon"><i class="fa fa-shopping-bag"></i></div>
+    'customer_compass_content' => '<div class="icon"><i class="fa fa-location-arrow"></i></div>
     <h4 class="title"><a href="#call-to-action">Customer Compass</a></h4><p class="description">Develop comfort with ambiguity: Ditch the roadmap and use your customers as the compass. This will show what is possible and drive an emotional connection between the customer and business.
     <br><br>
     Customer issues become clearly visible and self prioritizing.',

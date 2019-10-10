@@ -12,7 +12,7 @@
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700|Michroma" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700|Lato" rel="stylesheet">
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -39,8 +39,8 @@
   <header id="header">
     <div class="container">
 
-      <div id="logo" class="pull-left">
-        <a href="#home" class="no-hover-highlight"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" /><span style="margin-left:5px; font-family: 'Michroma'; letter-spacing:1px; font-size: 1.5em; font-weight: bold;">&nbsp;Tatham</span></a>
+      <div id="logo" class="pull-left" style="margin-top:-14px">
+        <a href="#home" class="no-hover-highlight"><img src="images/alt_logo_002.png" class="" style="margin-top:-16px; height: 50px" alt="" title="" /><span style="font-family: 'Lato'; letter-spacing:1px; font-size: 2.2em; font-style: italic">&nbsp;TATHAM</span></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#home">Regna</a></h1>-->
       </div>
@@ -97,7 +97,7 @@
   <!--==========================
     Questions Section
   ============================-->
-  <section id="questions">
+  <!-- <section id="questions">
       <div class="questions-container">
         <div class="section-header" style="margin-bottom: 20px;">
         <ul>
@@ -109,7 +109,7 @@
         </ul>      
         </div>
       </div>
-    </section>
+    </section> -->
   <!--==========================
     Quote Section
   ============================-->
@@ -136,29 +136,34 @@
               {!! __("tatham.landing_page.section_2_content") !!}
             </p>
           </div>
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+          <!-- <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div> -->
+        </div>
+      </div>
+    </section><!-- #about -->
+
+    <section id="future">
+      <div class="container">
+
+        <div class="d-flex mt-5 flex-wrap flex-md-nowrap justify-content-center">
+          <div class="box box-shadow icon-box wow fadeInUp mr-md-3 mr-0" data-wow-delay="0.2s">
+              {!! __("tatham.about_us.ignite_content") !!}
+          </div>
+          <div class="box box-shadow icon-box wow fadeInUp ml-md-3 ml-0" data-wow-delay="0.4s">
+              {!! __("tatham.about_us.customer_compass_content") !!}
+          </div>
         </div>
 
         <div class="d-flex mt-5 flex-wrap flex-md-nowrap justify-content-center">
-        <div class="icon-box wow fadeInUp mr-md-3 mr-0" data-wow-delay="0.2s">
-            {!! __("tatham.about_us.ignite_content") !!}
-          </div>
-          <div class="icon-box wow fadeInUp ml-md-3 ml-0" data-wow-delay="0.4s">
-            {!! __("tatham.about_us.customer_compass_content") !!}
-          </div>
-        </div>
-        <div class="d-flex mt-5 flex-wrap flex-md-nowrap justify-content-center">
-          <div class="icon-box wow fadeInUp ml-md-3 ml-0" data-wow-delay="0.6s">
+          <div class="box box-shadow icon-box wow fadeInUp mr-md-3 ml-0" data-wow-delay="0.6s">
             {!! __("tatham.about_us.experience_content") !!}
           </div>
-          <div class="icon-box wow fadeInUp mr-md-3 mr-0" data-wow-delay="0.8s">
+          <div class="box box-shadow icon-box wow fadeInUp ml-md-3 mr-0" data-wow-delay="0.8s">
             {!! __("tatham.about_us.self_sufficient_content") !!}
           </div>
-
         </div>
 
       </div>
-    </section><!-- #about -->
+    </section><!-- #future -->
 
     <section id="call-to-action">
       <div class="container wow fadeIn">
