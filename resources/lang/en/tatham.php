@@ -14,13 +14,13 @@ return [
     'section_2_header' => 'Imagine...',
     'section_2_content' => nl2br('Imagine a future where change is not a program or an intiative, but what you do everyday.
     
-    Customer excellence is built into all levels of the business.
+    Customer excellence is built into all levels of your business.
 
 Your people are consistently innovating and leaping past your competition.
 
 Solving problems at root-cause is a core competency for everyone in your company.
 
-You’re self-sufficient, don’t need consultants, building a business using your own people.'),
+You’re self-sufficient, don’t need consultants, building your business with your own people.'),
     'questions' => [
         'competitive' => 'Are you concerned with your company’s competitive nature and ability to consistently execute in a competitive landscape?',
         'bogdown' => 'Does building a fast, flexible end to end customer experience get bogged down as soon as multiple silos in the business require integration?',
