@@ -1,5 +1,11 @@
 jQuery(document).ready(function ($) {
 
+  $("#expandBootcampButton").on('click', function(e) {
+    $("#expandBootcampDiv").removeClass('d-flex');
+    $("#expandBootcampDiv").addClass('d-none');
+    $("#bootcampLetsTalk").removeClass('d-none');
+  });
+
   // Header fixed and Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
