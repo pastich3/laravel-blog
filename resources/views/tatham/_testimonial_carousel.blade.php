@@ -29,7 +29,7 @@
 @push('inline-scripts')
 <script>
 $(document).ready(function() {
-	var items = $('#testimonialCarousel .carousel-item'), // grab all slides
+	var items = $('#testimonialCarousel .carousel-item, #testimonialCarousel .carousel-item .carousel-item-inner'), // grab all slides
 	    heights = [], // create empty array to store height values
 	    tallest; // create variable to make note of the tallest slide
 
