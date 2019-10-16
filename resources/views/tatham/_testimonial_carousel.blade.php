@@ -1,6 +1,6 @@
 <div class="d-flex justify-content-center">
 	<div style="max-width: 800px; width: 85%">
-		<div id="testimonialCarousel" data-interval="12000" class="mt-3 carousel slide" data-ride="carousel">
+		<div id="testimonialCarousel" data-interval="12000" class="carousel slide d-flex align-items-center" data-ride="carousel">
 			<div class="carousel-inner">
 				@foreach (__('tatham.testimonial_content') as $testimony)
 					@include('tatham._testimony_carousel_card', [
@@ -14,11 +14,11 @@
 				@endforeach
 			</div>
 			<a class="justify-content-start carousel-control-prev" data-target="#testimonialCarousel" href="" role="button" data-slide="prev">
-				<span style="color: #008ba1; background-image: none; font-size: 75px" class="fa fa-chevron-circle-left carousel-control-prev-icon" aria-hidden="true"></span>
+				<span style="color: #008ba1; background-image: none; font-size: 75px; margin-bottom: 55px;" class="fa fa-chevron-circle-left carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">{{ __('tatham.carousel_previous') }} </span>
 			</a>
 			<a class="justify-content-end carousel-control-next" data-target="#testimonialCarousel" href="" role="button" data-slide="next">
-				<span style="color: #008ba1; background-image: none; font-size: 75px" class="fa fa-chevron-circle-right carousel-control-next-icon" aria-hidden="true"></span>
+				<span style="color: #008ba1; background-image: none; font-size: 75px; margin-right: 45px; margin-bottom: 55px;" class="fa fa-chevron-circle-right carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">{{ __('tatham.carousel_next') }} </span>
 			</a>
 		</div>
