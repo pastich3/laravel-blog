@@ -310,8 +310,15 @@ starting with your customers.</p>
         </div>
 
       </div>
-      <div class="d-flex justify-content-center mt-5">
+      <!-- <div class="d-flex justify-content-center mt-5">
         <img class="w-100 wow fadeInUp" style="max-width: 900px" src="images/clients.png">
+      </div> -->
+      <div class="mx-4 d-flex justify-content-center flex-wrap mt-5">
+        @for($i = 0; $i < 6; $i++)
+        @foreach (__('tatham.landing_page.icon_case_study_list') as $iconData)
+            <img style="width: 80px; margin: -5px -5px -5px -5px" class="hover-expand h-100" title="{{$iconData['tooltip_text']}}" alt="{{$iconData['tooltip_text']}}" src="{{$iconData['icon_path']}}">
+        @endforeach
+        @endfor
       </div>
     </section><!-- #clients -->
 
