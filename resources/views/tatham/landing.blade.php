@@ -314,11 +314,13 @@ starting with your customers.</p>
         <img class="w-100 wow fadeInUp" style="max-width: 900px" src="images/clients.png">
       </div> -->
       <div class="mx-4 d-flex justify-content-center flex-wrap mt-5">
-        @foreach (__('tatham.landing_page.icon_case_study_list') as $iconData)
+        @php ($count = 0)
+        @foreach (collect(__('tatham.landing_page.icon_case_study_list'))->shuffle() as $iconData)
+        @php ($count++)
             <img
-              style="width: 80px; margin: 5px 5px 5px 5px"
-              data-wow-delay="0.4s"
-              class="wow fadeIn hover-expand h-100"
+              style="width: {{ $iconData['width'] }}px; margin: 5px 5px 5px 5px"
+              data-wow-delay="{{ $count / 10 }}s"
+              class="wow {{ $iconData['effect'] }} hover-expand h-100"
               title="{{$iconData['tooltip_text']}}"
               alt="{{$iconData['tooltip_text']}}"
               src="{{$iconData['icon_path']}}"
