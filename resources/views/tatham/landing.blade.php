@@ -194,10 +194,10 @@ starting with your customers.</p>
         </div>
         <div class="content container wow fadeInRight">
           <div class="inner-content box-shadow">
-            <div>
+            <div class="h-100 d-flex align-items-between flex-column">
               <p>Boot Camp is a complete immersive learning experience that will get your synapses singing. You’ll learn by doing and applying yourself, through critical thinking and problem solving. You’ll learn — by design.</p>
-              <div id="expandBootcampDiv" class="d-flex justify-content-center">
-                <a href="#" id="expandBootcampButton" class="learn-more" data-toggle="collapse" data-target="#bootcampDescription" role="button" aria-expanded="false" aria-controls="bootcampDescription">
+              <div id="expandBootcampDiv" class="d-flex mt-auto justify-content-center">
+                <a href="#" id="expandBootcampButton" class="mb-0 learn-more" data-toggle="collapse" data-target="#bootcampDescription" role="button" aria-expanded="false" aria-controls="bootcampDescription">
                   Learn more
                 </a>
               </div>
@@ -208,9 +208,9 @@ starting with your customers.</p>
                 <p>The big ‘aha’ moment for many people is when they see that no matter what the challenge is, they can fix it, because it’s not beyond them. They feel confident they can come up with their own solutions in a systematic and disciplined way.</p>
                 <p>Ambiguity is no longer a dark place, it's an opportunity to innovate.</p>
               </div>
-            </div>
-            <div class="d-flex justify-content-center mt-5">
-              <a target="_blank" class="learn-more d-none" id="bootcampLetsTalk" href="#contact"> Let's talk </a>
+              <div class="mt-4 justify-content-center d-none" id="bootcampLetsTalk">
+                <a target="_blank" class="learn-more mb-0" href="#contact"> Let's talk </a>
+              </div>
             </div>
           </div>
         </div>

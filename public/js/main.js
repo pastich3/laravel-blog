@@ -4,6 +4,7 @@ jQuery(document).ready(function ($) {
     $("#expandBootcampDiv").removeClass('d-flex');
     $("#expandBootcampDiv").addClass('d-none');
     $("#bootcampLetsTalk").removeClass('d-none');
+    $("#bootcampLetsTalk").addClass('d-flex');
   });
 
   // Header fixed and Back to top button
