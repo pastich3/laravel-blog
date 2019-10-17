@@ -25,6 +25,18 @@ return [
             'icon_path' => '/images/nasa_logo.png',
             'tooltip_text' => 'NASA'
         ],
+        'aegon' => [
+            'icon_path' => '/images/client_logos/Aegon/logo2.png',
+            'tooltip_text' => 'NASA'
+        ],
+        'agf' => [
+            'icon_path' => '/images/client_logos/AGF Investments/agf.png',
+            'tooltip_text' => 'NASA'
+        ],
+        'atlas' => [
+            'icon_path' => '/images/client_logos/Atlas Cold Storage/BLUEATLASMAN.png',
+            'tooltip_text' => 'NASA'
+        ],
       ],
     'section_2_header' => 'Imagine...',
     'section_2_content' => nl2br('Imagine a future where change is not a program or an intiative, but what you do everyday.
