@@ -323,7 +323,7 @@ starting with your customers.</p>
               style="width: {{ $iconData['width'] }}px; margin: 8px 8px 8px 8px"
               data-transition-delay="{{ $count / 10 }}"
               data-animation-name="{{ $effectsList[($count + rand(0, count($effectsList) - 1)) % count($effectsList)] }}"
-              class="star hover-expand h-100"
+              class="star star_animate hover-expand h-100"
               title="{{$iconData['tooltip_text']}}"
               alt="{{$iconData['tooltip_text']}}"
               src="{{$iconData['icon_path']}}"
@@ -623,16 +623,16 @@ starting with your customers.</p>
         var docViewBottom = docViewTop + $(window).height();
         var threshold = 0.6;
 
-        var elemTop = $(elem).offset().top; 
+        var elemTop = $(elem).offset().top;
         var elemBottom = elemTop + $(elem).height();
 
         var paddingTop = $(window).height() * threshold; // smaller means scroll down more before returning true
         var paddingBottom = $(window).height() * threshold; // smaller means scroll up more before returning true
-        
-        
+
+
         var deltaTop = Math.abs(docViewTop - elemTop);
         var deltaBottom = Math.abs(docViewBottom - elemBottom);
-        
+
         if (deltaTop >= deltaBottom) // scrolling up from the bottom of the screen, lower half of element
         {
           console.log('Up from bottom');
@@ -660,8 +660,9 @@ starting with your customers.</p>
       var maxStarDelay = 0;
       if (isScrolledIntoView($(starWrapper)))
       {
-        var starList = $('.star');
+        var starList = $('.star_animate');
         starList.each(function(index, star) {
+            $(star).removeClass('star_animate');
             var starStyle = $(star).attr('style');
             var dataDelay = $(star).attr('data-transition-delay');
             var dataAnimationName = $(star).attr('data-animation-name');
