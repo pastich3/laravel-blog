@@ -25,12 +25,12 @@ return [
             'width' => '80',
             'display_index' => 100
         ],
-        'atlas' => [
-            'icon_path' => '/images/client_logos/Atlas Cold Storage/BLUEATLASMAN.png',
-            'tooltip_text' => 'Atlas Cold Storage',
-            'width' => '120',
-            'display_index' => 100
-        ],
+        // 'atlas' => [
+        //     'icon_path' => '/images/client_logos/Atlas Cold Storage/BLUEATLASMAN.png',
+        //     'tooltip_text' => 'Atlas Cold Storage',
+        //     'width' => '120',
+        //     'display_index' => 100
+        // ],
         'avon' => [
             'icon_path' => '/images/client_logos/Avon/logo.png',
             'tooltip_text' => 'Avon',
@@ -49,21 +49,9 @@ return [
             'width' => '160',
             'display_index' => 4
         ],
-        'bankofphilippineislands' => [
-            'icon_path' => '/images/client_logos/Bank Of Philippine Islands/logo.png',
-            'tooltip_text' => 'Bank Of Philippine Islands',
-            'width' => '160',
-            'display_index' => 100
-        ],
         'bassett_furniture' => [
             'icon_path' => '/images/client_logos/Bassett Furniture/logo.png',
             'tooltip_text' => 'Bassett Furniture',
-            'width' => '120',
-            'display_index' => 100
-        ],
-        'bb&t' => [
-            'icon_path' => '/images/client_logos/BB&T/logo.png',
-            'tooltip_text' => 'BB&T',
             'width' => '120',
             'display_index' => 100
         ],
@@ -85,12 +73,6 @@ return [
             'width' => '80',
             'display_index' => 17
         ],
-        'clarica' => [
-            'icon_path' => '/images/client_logos/Clarica/logo.png',
-            'tooltip_text' => 'Clarica',
-            'width' => '120',
-            'display_index' => 100
-        ],
         'continental_insurance' => [
             'icon_path' => '/images/client_logos/Continental Insurance/logo.png',
             'tooltip_text' => 'Continental Insurance',
@@ -98,8 +80,8 @@ return [
             'display_index' => 100
         ],
         'cvh' => [
-            'icon_path' => '/images/client_logos/CVH/logo.png',
-            'tooltip_text' => 'Credit Valley Hospital',
+            'icon_path' => '/images/client_logos/CVH/logo.png', // trillium health partners
+            'tooltip_text' => 'Trillium Health Parters',
             'width' => '160',
             'display_index' => 100
         ],
@@ -221,12 +203,6 @@ return [
             'width' => '160',
             'display_index' => 100
         ],
-        'manila_water' => [
-            'icon_path' => '/images/client_logos/Manila Water/logo.png',
-            'tooltip_text' => 'Manila Water',
-            'width' => '120',
-            'display_index' => 100
-        ],
         'millstone' => [
             'icon_path' => '/images/client_logos/Millstone/logo.png',
             'tooltip_text' => 'Millstone',
@@ -279,16 +255,6 @@ return [
             'width' => '160',
             'display_index' => 100
         ],
-        // 'postbank' => [
-        //     'icon_path' => '/images/client_logos/Postbank/logo.png',
-        //     'tooltip_text' => 'Postbank'
-        // ],
-        'region_of_peel' => [
-            'icon_path' => '/images/client_logos/Region Of Peel/logo.png',
-            'tooltip_text' => 'Region Of Peel',
-            'width' => '120',
-            'display_index' => 100
-        ],
         'revenue_canada' => [
             'icon_path' => '/images/client_logos/Revenue Canada/logo.png',
             'tooltip_text' => 'Revenue Canada',
@@ -307,12 +273,6 @@ return [
             'width' => '160',
             'display_index' => 23
         ],
-        's1_enterprises' => [
-            'icon_path' => '/images/client_logos/S1 Enterprises/logo.png',
-            'tooltip_text' => 'S1 Enterprises',
-            'width' => '80',
-            'display_index' => 100
-        ],
         'sara_lee' => [
             'icon_path' => '/images/client_logos/Sara Lee/logo.png',
             'tooltip_text' => 'Sara Lee',
@@ -322,12 +282,6 @@ return [
         'spectra_precision' => [
             'icon_path' => '/images/client_logos/Spectra Precision/logo.png',
             'tooltip_text' => 'Spectra Precision',
-            'width' => '160',
-            'display_index' => 100
-        ],
-        'the_charlotte_observer' => [
-            'icon_path' => '/images/client_logos/The Charlotte Observer/logo.png',
-            'tooltip_text' => 'The Charlotte Observer',
             'width' => '160',
             'display_index' => 100
         ],
@@ -355,12 +309,6 @@ return [
             'width' => '120',
             'display_index' => 7
         ],
-        'wachovia' => [
-            'icon_path' => '/images/client_logos/Wachovia/logo.png',
-            'tooltip_text' => 'Wachovia',
-            'width' => '120',
-            'display_index' => 100
-        ],
         'walmart' => [
             'icon_path' => '/images/client_logos/Walmart/logo.png',
             'tooltip_text' => 'Walmart',
@@ -372,12 +320,6 @@ return [
             'tooltip_text' => 'Wells Fargo',
             'width' => '80',
             'display_index' => 20
-        ],
-        'wells_fargo_private' => [
-            'icon_path' => '/images/client_logos/Wells Fargo/gold_logo.png',
-            'tooltip_text' => 'Wells Fargo Private',
-            'width' => '80',
-            'display_index' => 26
         ],
       ],
     'section_2_header' => 'Imagine...',

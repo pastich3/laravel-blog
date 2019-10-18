@@ -40,7 +40,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left" style="margin-top:-14px">
-        <a href="#home" class="no-hover-highlight"><img src="images/alt_logo_002.png" class="" style="margin-top:-16px; height: 50px" alt="" title="" /><span style="font-family: 'Lato'; letter-spacing:1px; font-size: 2.2em; font-style: italic">&nbsp;TATHAM</span></a>
+        <a href="#home" class="no-hover-highlight"><img src="images/alt_logo_002.png" class="" style="margin-top:-16px; height: 50px" alt="" title="" /><span style="font-family: 'Lato'; letter-spacing:1px; font-size: 2em; font-style: italic">&nbsp;TATHAM</span></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#home">Regna</a></h1>-->
       </div>
