@@ -259,7 +259,7 @@ starting with your customers.</p>
     ============================-->
     <section id="clients">
       <div class="container wow fadeIn">
-        <div class="section-header" style="margin-bottom: 80px;">
+        <div class="section-header" style="margin-bottom: 180px;">
           <h3 class="section-title">Clients</h3>
           <!-- <p class="section-description">Here are some of our clients</p> -->
         </div>
@@ -313,13 +313,13 @@ starting with your customers.</p>
       <!-- <div class="d-flex justify-content-center mt-5">
         <img class="w-100 wow fadeInUp" style="max-width: 900px" src="images/clients.png">
       </div> -->
-      <div id="starWrapper" style="overflow: hidden; max-width: 900px;" class="ml-auto mr-auto d-flex justify-content-center flex-wrap mt-5">
+      <div id="starWrapper" style="overflow: hidden; max-width: 1200px;" class="ml-auto mr-auto d-flex justify-content-center flex-wrap mt-5">
         @php ($count = 0)
         @php ($effectsList = ['starUp', 'starUpRight', 'starRight', 'starBottomRight', 'starBottom', 'starBottomLeft', 'starLeft', 'starUpLeft'])
         @foreach (collect(__('tatham.landing_page.icon_case_study_list'))->sortBy('display_index') as $iconData)
         @php ($count++)
             <img
-              style="width: {{ $iconData['width'] }}px; margin: 8px 8px 8px 8px"
+              style="width: {{ $iconData['width'] }}px; margin: 15px 15px 15px 15px"
               data-transition-delay="{{ $count / 10 }}"
               data-animation-name="{{ $effectsList[($count + rand(0, count($effectsList) - 1)) % count($effectsList)] }}"
               class="star star_animate hover-expand h-100"
@@ -619,7 +619,7 @@ starting with your customers.</p>
     {
         var docViewTop = $(window).scrollTop();
         var docViewBottom = docViewTop + $(window).height();
-        var threshold = 0.6;
+        var threshold = 0.9;
 
         var elemTop = $(elem).offset().top;
         var elemBottom = elemTop + $(elem).height();
@@ -657,7 +657,7 @@ starting with your customers.</p>
       animateStars(); // conditional - if the starWrapper is inview
     });
 
-    // animateStars(); // if the starWrapper is in view on page-load, don't wait for user to scroll
+    animateStars(); // if the starWrapper is in view on page-load, don't wait for user to scroll
 
     function animateStars()
     {
