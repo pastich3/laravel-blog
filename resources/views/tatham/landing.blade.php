@@ -313,13 +313,14 @@ starting with your customers.</p>
       <!-- <div class="d-flex justify-content-center mt-5">
         <img class="w-100 wow fadeInUp" style="max-width: 900px" src="images/clients.png">
       </div> -->
-      <div id="starWrapper" style="overflow: hidden;" class="mx-4 d-flex justify-content-center flex-wrap mt-5 px-5">
+      <!-- <div class='d-flex justify-content-center'> -->
+      <div id="starWrapper" style="overflow: hidden; max-width: 800px;" class="d-flex justify-content-center flex-wrap mt-3">
         @php ($count = 0)
         @php ($effectsList = ['starUp', 'starUpRight', 'starRight', 'starBottomRight', 'starBottom', 'starBottomLeft', 'starLeft', 'starUpLeft'])
         @foreach (collect(__('tatham.landing_page.icon_case_study_list'))->sortBy('display_index') as $iconData)
         @php ($count++)
             <img
-              style="width: {{ $iconData['width'] }}px; margin: 5px 5px 5px 5px"
+              style="width: {{ $iconData['width'] }}px; margin: 8px 8px 8px 8px"
               data-transition-delay="{{ $count / 10 }}"
               data-animation-name="{{ $effectsList[($count + rand(0, count($effectsList) - 1)) % count($effectsList)] }}"
               class="star hover-expand h-100"
@@ -329,6 +330,7 @@ starting with your customers.</p>
             >
         @endforeach
       </div>
+<!-- </div> -->
     </section><!-- #clients -->
 
     <!--==========================
@@ -613,15 +615,44 @@ starting with your customers.</p>
   <script src="js/main.js"></script>
 
   <script id="starsAnimationScript">
+    $(document).ready(function(){
+      setTimeout(function(){
     function isScrolledIntoView(elem)
     {
         var docViewTop = $(window).scrollTop();
         var docViewBottom = docViewTop + $(window).height();
+        var threshold = 0.6;
 
-        var elemTop = $(elem).offset().top;
+        var elemTop = $(elem).offset().top; 
         var elemBottom = elemTop + $(elem).height();
 
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+        var paddingTop = $(window).height() * threshold; // smaller means scroll down more before returning true
+        var paddingBottom = $(window).height() * threshold; // smaller means scroll up more before returning true
+        
+        
+        var deltaTop = Math.abs(docViewTop - elemTop);
+        var deltaBottom = Math.abs(docViewBottom - elemBottom);
+        
+        if (deltaTop >= deltaBottom) // scrolling up from the bottom of the screen, lower half of element
+        {
+          console.log('Up from bottom');
+          console.log('return' + '(' + docViewBottom + '<=' + '(' + (elemBottom + paddingBottom) +'));');
+          return (docViewBottom <= (elemBottom + paddingBottom));
+        }
+        else if (deltaTop < deltaBottom) // coming from the top, or on top half of element
+        {
+          console.log('Down from top');
+          console.log('return' + '(' + docViewTop + '>=' + '(' + (elemTop - paddingTop) +'));');
+          return (docViewTop >= (elemTop - paddingTop));
+        }
+        else
+        {
+          return false;
+        }
+
+
+        // return ((docViewBottom <= elemBottom) || (docViewTop >= elemTop));
+
     }
 
     $(document).on('scroll', function() {
@@ -656,6 +687,8 @@ starting with your customers.</p>
         $("#starsAnimationScript").remove(); // delete this script so the scroll event doesn't keep firing
       }, deleteDelay);
     });
+  },250);
+  });
   </script>
 
   <script>
