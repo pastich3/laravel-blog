@@ -20,6 +20,267 @@ body {
   transition-duration: 0.33s;
 }
 
+.star {
+  opacity: 0;
+}
+
+@keyframes starUpRight {
+  0% {
+    position: relative;
+    transform: scale(1);
+    top: -600px;
+    right: -600px;
+    transition: all 1s;
+    opacity: 0.5;
+  }
+  50% {
+    position: relative;
+    transform: scale(2);
+    top: -200px;
+    right: -200px;
+    transition: all 2s;
+    opacity: 0.7;
+  }
+  75% {
+    position: relative;
+    transform: scale(1.33);
+    top: -100px;
+    right: -100px;
+    transition: all 1s;
+    opacity: 1;
+  }
+  100% {
+    position: relative;
+    transform: scale(1);
+    top: 0;
+    right: 0;
+    transition: all 1s;
+  }
+}
+
+@keyframes starRight {
+  0% {
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    right: -600px;
+    opacity: 0.5;
+  }
+  50% {
+    position: relative;
+    transform: scale(2);
+    transition: all 2s;
+    right: -200px;
+    opacity: 0.7;
+  }
+  75% {
+    position: relative;
+    transform: scale(1.33);
+    transition: all 1s;
+    right: -100px;
+    opacity: 1;
+  }
+  100% {
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    right: 0;
+  }
+}
+
+@keyframes starBottomRight {
+  0% {
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    bottom: -600px;
+    right: -600px;
+    opacity: 0.5;
+  }
+  50% {
+    position: relative;
+    transform: scale(2);
+    transition: all 2s;
+    bottom: -200px;
+    right: -200px;
+    opacity: 0.7;
+  }
+  75% {
+    position: relative;
+    transform: scale(1.33);
+    bottom: -100px;
+    right: -100px;
+    transition: all 1s;
+    opacity: 1;
+  }
+  100% {
+    position: relative;
+    transform: scale(1);
+    bottom: 0;
+    right: 0;
+    transition: all 1s;
+  }
+}
+
+@keyframes starBottom {
+  0% {
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    opacity: 0.5;
+    bottom: -600px;
+  }
+  50% {
+    position: relative;
+    transform: scale(2);
+    transition: all 2s;
+    opacity: 0.7;
+    bottom: -200px;
+  }
+  75% {
+    position: relative;
+    transform: scale(1.33);
+    transition: all 1s;
+    opacity: 1;
+    bottom: -100px;
+  }
+  100% {
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    bottom: 0;
+  }
+}
+
+@keyframes starBottomLeft {
+  0% {
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    opacity: 0.5;
+    bottom: -600px;
+    left: -600px;
+  }
+  50% {
+    position: relative;
+    transform: scale(2);
+    transition: all 2s;
+    opacity: 0.7;
+    bottom: -200px;
+    left: -200px;
+  }
+  75% {
+    position: relative;
+    transform: scale(1.33);
+    transition: all 1s;
+    opacity: 1;
+    bottom: -100px;
+    left: -100px;
+  }
+  100% {
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@keyframes starLeft {
+  0% {
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    opacity: 0.5;
+    left: -600px;
+  }
+  50% {
+    position: relative;
+    transform: scale(2);
+    transition: all 2s;
+    opacity: 0.7;
+    left: -200px;
+  }
+  75% {
+    position: relative;
+    transform: scale(1.33);
+    transition: all 1s;
+    opacity: 1;
+    left: -100px;
+  }
+  100% {
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    left: 0;
+  }
+}
+
+@keyframes starUpLeft {
+  0% {
+    position: relative;
+    top: -600px;
+    left: -600px;
+    transform: scale(1);
+    transition: all 1s;
+    opacity: 0.5;
+  }
+  50% {
+    position: relative;
+    top: -200px;
+    left: -200px;
+    transform: scale(2);
+    transition: all 2s;
+    opacity: 0.7;
+  }
+  75% {
+    position: relative;
+    top: -100px;
+    left: -100px;
+    transform: scale(1.33);
+    transition: all 1s;
+    opacity: 1;
+  }
+  100% {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: scale(1);
+    transition: all 1s;
+  }
+}
+
+
+@keyframes starUp {
+  0% {
+    position: relative;
+    top: -600px;
+    transform: scale(1);
+    transition: all 1s;
+    opacity: 0.5;
+  }
+  50% {
+    position: relative;
+    top: -200px;
+    transform: scale(2);
+    transition: all 2s;
+    opacity: 0.7;
+  }
+  75% {
+    position: relative;
+    top: -100px;
+    transform: scale(1.33);
+    transition: all 1s;
+    opacity: 1;
+  }
+  100% {
+    position: relative;
+    top: 0;
+    transform: scale(1);
+    transition: all 1s;
+  }
+}
+
 a {
   color: #008ba1;
 }

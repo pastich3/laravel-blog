@@ -17,175 +17,175 @@ return [
             'icon_path' => '/images/client_logos/Aegon/logo2.png',
             'tooltip_text' => 'Aegon',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'agf' => [
             'icon_path' => '/images/client_logos/AGF Investments/agf.png',
             'tooltip_text' => 'AGF Investments',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'atlas' => [
             'icon_path' => '/images/client_logos/Atlas Cold Storage/BLUEATLASMAN.png',
             'tooltip_text' => 'Atlas Cold Storage',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'avon' => [
             'icon_path' => '/images/client_logos/Avon/logo.png',
             'tooltip_text' => 'Avon',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'ayala' => [
             'icon_path' => '/images/client_logos/Ayala Land/logo.png',
             'tooltip_text' => 'Ayala Land',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'bofa' => [
             'icon_path' => '/images/client_logos/B of A/logo.png',
             'tooltip_text' => 'Bank of America',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'bankofphilippineislands' => [
             'icon_path' => '/images/client_logos/Bank Of Philippine Islands/logo.png',
             'tooltip_text' => 'Bank Of Philippine Islands',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'bassett_furniture' => [
             'icon_path' => '/images/client_logos/Bassett Furniture/logo.png',
             'tooltip_text' => 'Bassett Furniture',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'bb&t' => [
             'icon_path' => '/images/client_logos/BB&T/logo.png',
             'tooltip_text' => 'BB&T',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'bell_sygma' => [
             'icon_path' => '/images/client_logos/Bell Sygma/logo.png',
             'tooltip_text' => 'Bell Sygma',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'canada_life' => [
             'icon_path' => '/images/client_logos/Canada Life/logo.png',
             'tooltip_text' => 'Canada Life',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'citi_bank' => [
             'icon_path' => '/images/client_logos/Citi Bank/logo.png',
             'tooltip_text' => 'Citi Bank',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'clarica' => [
             'icon_path' => '/images/client_logos/Clarica/logo.png',
             'tooltip_text' => 'Clarica',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'continental_insurance' => [
             'icon_path' => '/images/client_logos/Continental Insurance/logo.png',
             'tooltip_text' => 'Continental Insurance',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'cvh' => [
             'icon_path' => '/images/client_logos/CVH/logo.png',
             'tooltip_text' => 'Credit Valley Hospital',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'delco_remy' => [
             'icon_path' => '/images/client_logos/Delco Remy/logo.png',
             'tooltip_text' => 'Delco Remy',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'delphax' => [
             'icon_path' => '/images/client_logos/Delphax/logo.png',
             'tooltip_text' => 'Delphax',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'delta_airlines' => [
             'icon_path' => '/images/client_logos/Delta Airlines/logo.png',
             'tooltip_text' => 'Delta Airlines',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'duke_energy' => [
             'icon_path' => '/images/client_logos/Duke Energy/logo.png',
             'tooltip_text' => 'Duke Energy',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'equitable_life' => [
             'icon_path' => '/images/client_logos/Equitable Life/logo.png',
             'tooltip_text' => 'Equitable Life',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'ford' => [
             'icon_path' => '/images/client_logos/Ford/logo.png',
             'tooltip_text' => 'Ford',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'gm' => [
             'icon_path' => '/images/client_logos/GM/logo.png',
             'tooltip_text' => 'GM',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'greyhound' => [
             'icon_path' => '/images/client_logos/Greyhound/logo.png',
             'tooltip_text' => 'Greyhound',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'hartford_life' => [
             'icon_path' => '/images/client_logos/Hartford Life/logo.png',
             'tooltip_text' => 'Hartford Life',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'health_canada' => [
             'icon_path' => '/images/client_logos/Health Canada/logo.png',
             'tooltip_text' => 'Health Canada',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'hp' => [
             'icon_path' => '/images/client_logos/HP/logo.png',
             'tooltip_text' => 'HP',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'ibm' => [
             'icon_path' => '/images/client_logos/IBM/logo.png',
             'tooltip_text' => 'IBM',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'insular_life' => [
             'icon_path' => '/images/client_logos/Insular Life/logo.png',
             'tooltip_text' => 'Insular Life',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'johnsonjohnson' => [
             'icon_path' => '/images/client_logos/Johnson & Johnson/logo.png',
             'tooltip_text' => 'Johnson & Johnson',
             'width' => '160',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         // 'karmax' => [
         //     'icon_path' => '/images/client_logos/Karmax/logo.png',
@@ -195,61 +195,61 @@ return [
             'icon_path' => '/images/client_logos/KFC/logo.png',
             'tooltip_text' => 'KFC',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'lever_bros' => [
             'icon_path' => '/images/client_logos/Lever Bros/logo.png',
             'tooltip_text' => 'Lever Bros',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'lockheed_martin' => [
             'icon_path' => '/images/client_logos/Lockheed Martin/logo.png',
             'tooltip_text' => 'Lockheed Martin',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'logicon' => [
             'icon_path' => '/images/client_logos/Logicon/logo.png',
             'tooltip_text' => 'Logicon',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'magna' => [
             'icon_path' => '/images/client_logos/Magna/logo.png',
             'tooltip_text' => 'Magna',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'manila_water' => [
             'icon_path' => '/images/client_logos/Manila Water/logo.png',
             'tooltip_text' => 'Manila Water',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'millstone' => [
             'icon_path' => '/images/client_logos/Millstone/logo.png',
             'tooltip_text' => 'Millstone',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'mitel' => [
             'icon_path' => '/images/client_logos/Mitel/logo.png',
             'tooltip_text' => 'Mitel',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'nasa' => [
             'icon_path' => '/images/client_logos/NASA/logo.png',
             'tooltip_text' => 'NASA',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'nestle' => [
             'icon_path' => '/images/client_logos/Nestle/logo.png',
             'tooltip_text' => 'Nestle',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         // 'noma' => [
         //     'icon_path' => '/images/client_logos/NOMA/logo.png',
@@ -259,25 +259,25 @@ return [
             'icon_path' => '/images/client_logos/Nortel/logo.png',
             'tooltip_text' => 'Nortel',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'northeast_nuclear_energy' => [
             'icon_path' => '/images/client_logos/Northeast Nuclear Energy/logo.png',
             'tooltip_text' => 'Northeast Nuclear Energy',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'northrop_grumman' => [
             'icon_path' => '/images/client_logos/Northrop Grumman/logo.png',
             'tooltip_text' => 'Northrop Grumman',
             'width' => '160',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'opg' => [
             'icon_path' => '/images/client_logos/OPG/logo.png',
             'tooltip_text' => 'OPG',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         // 'postbank' => [
         //     'icon_path' => '/images/client_logos/Postbank/logo.png',
@@ -287,104 +287,104 @@ return [
             'icon_path' => '/images/client_logos/Region Of Peel/logo.png',
             'tooltip_text' => 'Region Of Peel',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'revenue_canada' => [
             'icon_path' => '/images/client_logos/Revenue Canada/logo.png',
             'tooltip_text' => 'Revenue Canada',
             'width' => '160',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'robertshaw' => [
             'icon_path' => '/images/client_logos/Robertshaw/logo.png',
             'tooltip_text' => 'Robertshaw',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'rockwell_colins' => [
             'icon_path' => '/images/client_logos/Rockwell Colins/logo.png',
             'tooltip_text' => 'Rockwell Colins',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         's1_enterprises' => [
             'icon_path' => '/images/client_logos/S1 Enterprises/logo.png',
             'tooltip_text' => 'S1 Enterprises',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'opg' => [
             'icon_path' => '/images/client_logos/OPG/logo.png',
             'tooltip_text' => 'OPG',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'sara_lee' => [
             'icon_path' => '/images/client_logos/Sara Lee/logo.png',
             'tooltip_text' => 'Sara Lee',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'spectra_precision' => [
             'icon_path' => '/images/client_logos/Spectra Precision/logo.png',
             'tooltip_text' => 'Spectra Precision',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'the_charlotte_observer' => [
             'icon_path' => '/images/client_logos/The Charlotte Observer/logo.png',
             'tooltip_text' => 'The Charlotte Observer',
             'width' => '160',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'Transamerica' => [
             'icon_path' => '/images/client_logos/Transamerica/logo.png',
             'tooltip_text' => 'Transamerica',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'trw' => [
             'icon_path' => '/images/client_logos/TRW/logo.png',
             'tooltip_text' => 'TRW',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'unitel' => [
             'icon_path' => '/images/client_logos/Unitel/logo.png',
             'tooltip_text' => 'Unitel',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'usaf' => [
             'icon_path' => '/images/client_logos/US Airforce/logo.png',
             'tooltip_text' => 'US Airforce',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'wachovia' => [
             'icon_path' => '/images/client_logos/Wachovia/logo.png',
             'tooltip_text' => 'Wachovia',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'walmart' => [
             'icon_path' => '/images/client_logos/Walmart/logo.png',
             'tooltip_text' => 'Walmart',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'wells_fargo' => [
             'icon_path' => '/images/client_logos/Wells Fargo/logo.png',
             'tooltip_text' => 'Wells Fargo',
             'width' => '80',
-            'effect' => 'fadeIn'
+            'display_index' => 0
         ],
         'wells_fargo_private' => [
             'icon_path' => '/images/client_logos/Wells Fargo/gold_logo.png',
             'tooltip_text' => 'Wells Fargo Private',
             'width' => '80',
-            'effect' => 'fadeIn'
-        ],  
+            'display_index' => 0
+        ],
       ],
     'section_2_header' => 'Imagine...',
     'section_2_content' => nl2br('Imagine a future where change is not a program or an intiative, but what you do everyday.
