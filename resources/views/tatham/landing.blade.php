@@ -624,7 +624,7 @@ starting with your customers.</p>
         var elemTop = $(elem).offset().top;
         var elemBottom = elemTop + $(elem).height();
 
-        var paddingTop = $(window).height() * threshold; // smaller means scroll down more before returning true
+        var paddingTop = $(window).height() * (threshold); // smaller means scroll down more before returning true
         var paddingBottom = $(window).height() * threshold; // smaller means scroll up more before returning true
 
 
@@ -657,7 +657,7 @@ starting with your customers.</p>
       animateStars(); // conditional - if the starWrapper is inview
     });
 
-    animateStars(); // if the starWrapper is in view on page-load, don't wait for user to scroll
+    // animateStars(); // if the starWrapper is in view on page-load, don't wait for user to scroll
 
     function animateStars()
     {
