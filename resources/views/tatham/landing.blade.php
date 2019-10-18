@@ -612,8 +612,7 @@ starting with your customers.</p>
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 
-  <script>
-
+  <script id="starsAnimationScript">
     function isScrolledIntoView(elem)
     {
         var docViewTop = $(window).scrollTop();
@@ -627,6 +626,7 @@ starting with your customers.</p>
 
     $(document).on('scroll', function() {
       var starWrapper = $("#starWrapper");
+      var maxStarDelay = 0;
       if (isScrolledIntoView($(starWrapper)))
       {
         var starList = $('.star');
@@ -640,14 +640,25 @@ starting with your customers.</p>
               $(star).removeClass('star');
             },100 + dataDelay*1000); // give it a fraction of a second to warp off screen before being revealed, plus the delay itself
 
+            if (dataDelay * 1000 > maxStarDelay)
+            {
+              maxStarDelay = dataDelay * 1000;
+            }
+
             // apply the animation effect; the animation will end on its own
             $(star).attr('style', starStyle + '; animation: ' + dataAnimationName + ' 1s linear ' + dataDelay + 's;');
         });
       }
+
+      var deleteDelay = maxStarDelay + 3250; // give some extra time to make sure everything goes smoothly
+
+      setTimeout(function() {
+        $("#starsAnimationScript").remove(); // delete this script so the scroll event doesn't keep firing
+      }, deleteDelay);
     });
+  </script>
 
-    // $('.star').
-
+  <script>
     function fix()
     {
       var el = this;
