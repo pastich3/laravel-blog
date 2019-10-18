@@ -313,7 +313,7 @@ starting with your customers.</p>
       <!-- <div class="d-flex justify-content-center mt-5">
         <img class="w-100 wow fadeInUp" style="max-width: 900px" src="images/clients.png">
       </div> -->
-      <div id="starWrapper" class="mx-4 d-flex justify-content-center flex-wrap mt-5 px-5">
+      <div id="starWrapper" style="overflow: hidden;" class="mx-4 d-flex justify-content-center flex-wrap mt-5 px-5">
         @php ($count = 0)
         @php ($effectsList = ['starUp', 'starUpRight', 'starRight', 'starBottomRight', 'starBottom', 'starBottomLeft', 'starLeft', 'starUpLeft'])
         @foreach (collect(__('tatham.landing_page.icon_case_study_list'))->sortBy('display_index') as $iconData)
