@@ -693,7 +693,7 @@ starting with your customers.</p>
         $("#starsAnimationScript").remove(); // delete this script so the scroll event doesn't keep firing
       }, deleteDelay);
     }
-  },250);
+  },450);
   });
   </script>
 
