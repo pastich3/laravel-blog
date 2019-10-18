@@ -313,7 +313,7 @@ starting with your customers.</p>
       <!-- <div class="d-flex justify-content-center mt-5">
         <img class="w-100 wow fadeInUp" style="max-width: 900px" src="images/clients.png">
       </div> -->
-      <div class="mx-4 d-flex justify-content-center flex-wrap mt-5 px-5">
+      <div id="starWrapper" class="mx-4 d-flex justify-content-center flex-wrap mt-5 px-5">
         @php ($count = 0)
         @php ($effectsList = ['starUp', 'starUpRight', 'starRight', 'starBottomRight', 'starBottom', 'starBottomLeft', 'starLeft', 'starUpLeft'])
         @foreach (collect(__('tatham.landing_page.icon_case_study_list'))->sortBy('display_index') as $iconData)
@@ -626,32 +626,24 @@ starting with your customers.</p>
     }
 
     $(document).on('scroll', function() {
-      var starList = $('.star');
-      starList.each(function(index, star) {
-        if (isScrolledIntoView($(star)))
-        {
-          // var dataFlyInTransitionDelay = $(star).attr('data-fly-in-transition-delay') || 1;
-          // var dataExpandInTransitionDelay = $(star).attr('data-expand-in-transition-delay') || 1;
+      var starWrapper = $("#starWrapper");
+      if (isScrolledIntoView($(starWrapper)))
+      {
+        var starList = $('.star');
+        starList.each(function(index, star) {
+            var starStyle = $(star).attr('style');
+            var dataDelay = $(star).attr('data-transition-delay');
+            var dataAnimationName = $(star).attr('data-animation-name');
 
-          // var positionX = 0;
-          // var positionY = 0;
+            // removing the star class will set opacity back to 1 so it doesn't dissappear after the animation
+            setTimeout(function() {
+              $(star).removeClass('star');
+            },100 + dataDelay*1000); // give it a fraction of a second to warp off screen before being revealed, plus the delay itself
 
-
-          // var dataExpandLandTransitionDelay = $(star).attr('data-expand-land-transition-delay') || 0.3;
-
-          var starStyle = $(star).attr('style');
-          var dataDelay = $(star).attr('data-transition-delay');
-          var dataAnimationName = $(star).attr('data-animation-name');
-          setTimeout(function() {
-            $(star).removeClass('star');
-          },100 + dataDelay*1000);
-          // $(star).attr('style', starStyle + '; transform: scale(3) translate(' + positionX + ', ' + positionY + '); transition-duration: ' + dataExpandInTransitionDelay + 's;');
-          $(star).attr('style', starStyle + '; animation: ' + dataAnimationName + ' 1s linear ' + dataDelay + 's;');
-          // setTimeout(function() {
-          //   $(star).attr('style', starStyle + '; transform: scale(1); transition-duration: ' + dataExpandLandTransitionDelay + 's;');
-          // }, 950);
-        }
-      });
+            // apply the animation effect; the animation will end on its own
+            $(star).attr('style', starStyle + '; animation: ' + dataAnimationName + ' 1s linear ' + dataDelay + 's;');
+        });
+      }
     });
 
     // $('.star').
