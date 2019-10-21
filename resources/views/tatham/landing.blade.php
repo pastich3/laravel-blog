@@ -319,7 +319,7 @@ starting with your customers.</p>
         @foreach (collect(__('tatham.landing_page.icon_case_study_list'))->sortBy('display_index') as $iconData)
         @php ($count++)
             <img
-              style="width: {{ $iconData['width'] }}px; margin: 15px 15px 15px 15px"
+              style="width: {{ $iconData['width'] }}px; margin: 45px 45px 45px 45px"
               data-transition-delay="{{ $count / 10 }}"
               data-animation-name="{{ $effectsList[($count + rand(0, count($effectsList) - 1)) % count($effectsList)] }}"
               class="star star_animate hover-expand h-100"

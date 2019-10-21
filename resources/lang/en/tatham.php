@@ -19,12 +19,12 @@ return [
             'width' => '80',
             'display_index' => 13
         ],
-        'agf' => [
-            'icon_path' => '/images/client_logos/AGF Investments/agf.png',
-            'tooltip_text' => 'AGF Investments',
-            'width' => '80',
-            'display_index' => 100
-        ],
+        // 'agf' => [
+        //     'icon_path' => '/images/client_logos/AGF Investments/agf.png',
+        //     'tooltip_text' => 'AGF Investments',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
         // 'atlas' => [
         //     'icon_path' => '/images/client_logos/Atlas Cold Storage/BLUEATLASMAN.png',
         //     'tooltip_text' => 'Atlas Cold Storage',
@@ -37,114 +37,114 @@ return [
             'width' => '120',
             'display_index' => 10
         ],
-        'ayala' => [
-            'icon_path' => '/images/client_logos/Ayala Land/logo.png',
-            'tooltip_text' => 'Ayala Land',
-            'width' => '160',
-            'display_index' => 100
-        ],
+        // 'ayala' => [
+        //     'icon_path' => '/images/client_logos/Ayala Land/logo.png',
+        //     'tooltip_text' => 'Ayala Land',
+        //     'width' => '160',
+        //     'display_index' => 100
+        // ],
         'bofa' => [
             'icon_path' => '/images/client_logos/B of A/logo.png',
             'tooltip_text' => 'Bank of America',
             'width' => '160',
             'display_index' => 4
         ],
-        'bassett_furniture' => [
-            'icon_path' => '/images/client_logos/Bassett Furniture/logo.png',
-            'tooltip_text' => 'Bassett Furniture',
-            'width' => '120',
-            'display_index' => 100
-        ],
-        'bell_sygma' => [
-            'icon_path' => '/images/client_logos/Bell Sygma/logo.png',
-            'tooltip_text' => 'Bell Sygma',
-            'width' => '80',
-            'display_index' => 100
-        ],
-        'canada_life' => [
-            'icon_path' => '/images/client_logos/Canada Life/logo.png',
-            'tooltip_text' => 'Canada Life',
-            'width' => '160',
-            'display_index' => 14
-        ],
+        // 'bassett_furniture' => [
+        //     'icon_path' => '/images/client_logos/Bassett Furniture/logo.png',
+        //     'tooltip_text' => 'Bassett Furniture',
+        //     'width' => '120',
+        //     'display_index' => 100
+        // ],
+        // 'bell_sygma' => [
+        //     'icon_path' => '/images/client_logos/Bell Sygma/logo.png',
+        //     'tooltip_text' => 'Bell Sygma',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
+        // 'canada_life' => [
+        //     'icon_path' => '/images/client_logos/Canada Life/logo.png',
+        //     'tooltip_text' => 'Canada Life',
+        //     'width' => '160',
+        //     'display_index' => 14
+        // ],
         'citi_bank' => [
             'icon_path' => '/images/client_logos/Citi Bank/logo.png',
             'tooltip_text' => 'Citi Bank',
             'width' => '80',
             'display_index' => 17
         ],
-        'continental_insurance' => [
-            'icon_path' => '/images/client_logos/Continental Insurance/logo.png',
-            'tooltip_text' => 'Continental Insurance',
-            'width' => '80',
-            'display_index' => 100
-        ],
-        'cvh' => [
-            'icon_path' => '/images/client_logos/CVH/logo.png', // trillium health partners
-            'tooltip_text' => 'Trillium Health Parters',
-            'width' => '160',
-            'display_index' => 100
-        ],
-        'delco_remy' => [
-            'icon_path' => '/images/client_logos/Delco Remy/logo.png',
-            'tooltip_text' => 'Delco Remy',
-            'width' => '80',
-            'display_index' => 100
-        ],
-        'delphax' => [
-            'icon_path' => '/images/client_logos/Delphax/logo.png',
-            'tooltip_text' => 'Delphax',
-            'width' => '120',
-            'display_index' => 100
-        ],
+        // 'continental_insurance' => [
+        //     'icon_path' => '/images/client_logos/Continental Insurance/logo.png',
+        //     'tooltip_text' => 'Continental Insurance',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
+        // 'cvh' => [
+        //     'icon_path' => '/images/client_logos/CVH/logo.png', // trillium health partners
+        //     'tooltip_text' => 'Trillium Health Parters',
+        //     'width' => '160',
+        //     'display_index' => 100
+        // ],
+        // 'delco_remy' => [
+        //     'icon_path' => '/images/client_logos/Delco Remy/logo.png',
+        //     'tooltip_text' => 'Delco Remy',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
+        // 'delphax' => [
+        //     'icon_path' => '/images/client_logos/Delphax/logo.png',
+        //     'tooltip_text' => 'Delphax',
+        //     'width' => '120',
+        //     'display_index' => 100
+        // ],
         'delta_airlines' => [
             'icon_path' => '/images/client_logos/Delta Airlines/logo.png',
             'tooltip_text' => 'Delta Airlines',
             'width' => '120',
             'display_index' => 6
         ],
-        'duke_energy' => [
-            'icon_path' => '/images/client_logos/Duke Energy/logo.png',
-            'tooltip_text' => 'Duke Energy',
-            'width' => '120',
-            'display_index' => 100
-        ],
-        'equitable_life' => [
-            'icon_path' => '/images/client_logos/Equitable Life/logo.png',
-            'tooltip_text' => 'Equitable Life',
-            'width' => '120',
-            'display_index' => 100
-        ],
-        'ford' => [
-            'icon_path' => '/images/client_logos/Ford/logo.png',
-            'tooltip_text' => 'Ford',
-            'width' => '120',
-            'display_index' => 5
-        ],
+        // 'duke_energy' => [
+        //     'icon_path' => '/images/client_logos/Duke Energy/logo.png',
+        //     'tooltip_text' => 'Duke Energy',
+        //     'width' => '120',
+        //     'display_index' => 100
+        // ],
+        // 'equitable_life' => [
+        //     'icon_path' => '/images/client_logos/Equitable Life/logo.png',
+        //     'tooltip_text' => 'Equitable Life',
+        //     'width' => '120',
+        //     'display_index' => 100
+        // ],
+        // 'ford' => [
+        //     'icon_path' => '/images/client_logos/Ford/logo.png',
+        //     'tooltip_text' => 'Ford',
+        //     'width' => '120',
+        //     'display_index' => 15
+        // ],
         'gm' => [
             'icon_path' => '/images/client_logos/GM/logo.png',
             'tooltip_text' => 'GM',
             'width' => '90',
-            'display_index' => 15
+            'display_index' => 5
         ],
-        'greyhound' => [
-            'icon_path' => '/images/client_logos/Greyhound/logo.png',
-            'tooltip_text' => 'Greyhound',
-            'width' => '160',
-            'display_index' => 16
-        ],
-        'hartford_life' => [
-            'icon_path' => '/images/client_logos/Hartford Life/logo.png',
-            'tooltip_text' => 'Hartford Life',
-            'width' => '80',
-            'display_index' => 100
-        ],
-        'health_canada' => [
-            'icon_path' => '/images/client_logos/Health Canada/logo.png',
-            'tooltip_text' => 'Health Canada',
-            'width' => '160',
-            'display_index' => 100
-        ],
+        // 'greyhound' => [
+        //     'icon_path' => '/images/client_logos/Greyhound/logo.png',
+        //     'tooltip_text' => 'Greyhound',
+        //     'width' => '160',
+        //     'display_index' => 16
+        // ],
+        // 'hartford_life' => [
+        //     'icon_path' => '/images/client_logos/Hartford Life/logo.png',
+        //     'tooltip_text' => 'Hartford Life',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
+        // 'health_canada' => [
+        //     'icon_path' => '/images/client_logos/Health Canada/logo.png',
+        //     'tooltip_text' => 'Health Canada',
+        //     'width' => '160',
+        //     'display_index' => 100
+        // ],
         'hp' => [
             'icon_path' => '/images/client_logos/HP/logo.png',
             'tooltip_text' => 'HP',
@@ -157,12 +157,12 @@ return [
             'width' => '80',
             'display_index' => 11
         ],
-        'insular_life' => [
-            'icon_path' => '/images/client_logos/Insular Life/logo.png',
-            'tooltip_text' => 'Insular Life',
-            'width' => '160',
-            'display_index' => 100
-        ],
+        // 'insular_life' => [
+        //     'icon_path' => '/images/client_logos/Insular Life/logo.png',
+        //     'tooltip_text' => 'Insular Life',
+        //     'width' => '160',
+        //     'display_index' => 100
+        // ],
         'johnsonjohnson' => [
             'icon_path' => '/images/client_logos/Johnson & Johnson/logo.png',
             'tooltip_text' => 'Johnson & Johnson',
@@ -179,130 +179,130 @@ return [
             'width' => '120',
             'display_index' => 8
         ],
-        'lever_bros' => [
-            'icon_path' => '/images/client_logos/Lever Bros/logo.png',
-            'tooltip_text' => 'Lever Bros',
-            'width' => '80',
-            'display_index' => 100
-        ],
+        // 'lever_bros' => [
+        //     'icon_path' => '/images/client_logos/Lever Bros/logo.png',
+        //     'tooltip_text' => 'Lever Bros',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
         'lockheed_martin' => [
             'icon_path' => '/images/client_logos/Lockheed Martin/logo.png',
             'tooltip_text' => 'Lockheed Martin',
             'width' => '190',
             'display_index' => 9
         ],
-        'logicon' => [
-            'icon_path' => '/images/client_logos/Logicon/logo.png',
-            'tooltip_text' => 'Logicon',
-            'width' => '160',
-            'display_index' => 100
-        ],
-        'magna' => [
-            'icon_path' => '/images/client_logos/Magna/logo.png',
-            'tooltip_text' => 'Magna',
-            'width' => '160',
-            'display_index' => 100
-        ],
-        'millstone' => [
-            'icon_path' => '/images/client_logos/Millstone/logo.png',
-            'tooltip_text' => 'Millstone',
-            'width' => '80',
-            'display_index' => 100
-        ],
-        'mitel' => [
-            'icon_path' => '/images/client_logos/Mitel/logo.png',
-            'tooltip_text' => 'Mitel',
-            'width' => '160',
-            'display_index' => 100
-        ],
+        // 'logicon' => [
+        //     'icon_path' => '/images/client_logos/Logicon/logo.png',
+        //     'tooltip_text' => 'Logicon',
+        //     'width' => '160',
+        //     'display_index' => 100
+        // ],
+        // 'magna' => [
+        //     'icon_path' => '/images/client_logos/Magna/logo.png',
+        //     'tooltip_text' => 'Magna',
+        //     'width' => '160',
+        //     'display_index' => 100
+        // ],
+        // 'millstone' => [
+        //     'icon_path' => '/images/client_logos/Millstone/logo.png',
+        //     'tooltip_text' => 'Millstone',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
+        // 'mitel' => [
+        //     'icon_path' => '/images/client_logos/Mitel/logo.png',
+        //     'tooltip_text' => 'Mitel',
+        //     'width' => '160',
+        //     'display_index' => 100
+        // ],
         'nasa' => [
             'icon_path' => '/images/client_logos/NASA/logo.png',
             'tooltip_text' => 'NASA',
             'width' => '100',
             'display_index' => 1
         ],
-        'nestle' => [
-            'icon_path' => '/images/client_logos/Nestle/logo.png',
-            'tooltip_text' => 'Nestle',
-            'width' => '120',
-            'display_index' => 19
-        ],
+        // 'nestle' => [
+        //     'icon_path' => '/images/client_logos/Nestle/logo.png',
+        //     'tooltip_text' => 'Nestle',
+        //     'width' => '120',
+        //     'display_index' => 19
+        // ],
         // 'noma' => [
         //     'icon_path' => '/images/client_logos/NOMA/logo.png',
         //     'tooltip_text' => 'NOMA'
         // ],
-        'nortel' => [
-            'icon_path' => '/images/client_logos/Nortel/logo.png',
-            'tooltip_text' => 'Nortel',
-            'width' => '80',
-            'display_index' => 100
-        ],
-        'northeast_nuclear_energy' => [
-            'icon_path' => '/images/client_logos/Northeast Nuclear Energy/logo.png',
-            'tooltip_text' => 'Northeast Nuclear Energy',
-            'width' => '160',
-            'display_index' => 100
-        ],
+        // 'nortel' => [
+        //     'icon_path' => '/images/client_logos/Nortel/logo.png',
+        //     'tooltip_text' => 'Nortel',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
+        // 'northeast_nuclear_energy' => [
+        //     'icon_path' => '/images/client_logos/Northeast Nuclear Energy/logo.png',
+        //     'tooltip_text' => 'Northeast Nuclear Energy',
+        //     'width' => '160',
+        //     'display_index' => 100
+        // ],
         'northrop_grumman' => [
             'icon_path' => '/images/client_logos/Northrop Grumman/logo.png',
             'tooltip_text' => 'Northrop Grumman',
             'width' => '160',
             'display_index' => 21
         ],
-        'opg' => [
-            'icon_path' => '/images/client_logos/OPG/logo.png',
-            'tooltip_text' => 'OPG',
-            'width' => '160',
-            'display_index' => 100
-        ],
-        'revenue_canada' => [
-            'icon_path' => '/images/client_logos/Revenue Canada/logo.png',
-            'tooltip_text' => 'Revenue Canada',
-            'width' => '160',
-            'display_index' => 24
-        ],
-        'robertshaw' => [
-            'icon_path' => '/images/client_logos/Robertshaw/logo.png',
-            'tooltip_text' => 'Robertshaw',
-            'width' => '80',
-            'display_index' => 100
-        ],
-        'rockwell_colins' => [
-            'icon_path' => '/images/client_logos/Rockwell Colins/logo.png',
-            'tooltip_text' => 'Rockwell Colins',
-            'width' => '160',
-            'display_index' => 23
-        ],
-        'sara_lee' => [
-            'icon_path' => '/images/client_logos/Sara Lee/logo.png',
-            'tooltip_text' => 'Sara Lee',
-            'width' => '120',
-            'display_index' => 22
-        ],
-        'spectra_precision' => [
-            'icon_path' => '/images/client_logos/Spectra Precision/logo.png',
-            'tooltip_text' => 'Spectra Precision',
-            'width' => '160',
-            'display_index' => 100
-        ],
-        'Transamerica' => [
-            'icon_path' => '/images/client_logos/Transamerica/logo.png',
-            'tooltip_text' => 'Transamerica',
-            'width' => '80',
-            'display_index' => 100
-        ],
-        'trw' => [
-            'icon_path' => '/images/client_logos/TRW/logo.png',
-            'tooltip_text' => 'TRW',
-            'width' => '80',
-            'display_index' => 18
-        ],
-        'unitel' => [
-            'icon_path' => '/images/client_logos/Unitel/logo.png',
-            'tooltip_text' => 'Unitel',
-            'width' => '80',
-            'display_index' => 100
-        ],
+        // 'opg' => [
+        //     'icon_path' => '/images/client_logos/OPG/logo.png',
+        //     'tooltip_text' => 'OPG',
+        //     'width' => '160',
+        //     'display_index' => 100
+        // ],
+        // 'revenue_canada' => [
+        //     'icon_path' => '/images/client_logos/Revenue Canada/logo.png',
+        //     'tooltip_text' => 'Revenue Canada',
+        //     'width' => '160',
+        //     'display_index' => 24
+        // ],
+        // 'robertshaw' => [
+        //     'icon_path' => '/images/client_logos/Robertshaw/logo.png',
+        //     'tooltip_text' => 'Robertshaw',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
+        // 'rockwell_colins' => [
+        //     'icon_path' => '/images/client_logos/Rockwell Colins/logo.png',
+        //     'tooltip_text' => 'Rockwell Colins',
+        //     'width' => '160',
+        //     'display_index' => 23
+        // ],
+        // 'sara_lee' => [
+        //     'icon_path' => '/images/client_logos/Sara Lee/logo.png',
+        //     'tooltip_text' => 'Sara Lee',
+        //     'width' => '120',
+        //     'display_index' => 20
+        // ],
+        // 'spectra_precision' => [
+        //     'icon_path' => '/images/client_logos/Spectra Precision/logo.png',
+        //     'tooltip_text' => 'Spectra Precision',
+        //     'width' => '160',
+        //     'display_index' => 100
+        // ],
+        // 'Transamerica' => [
+        //     'icon_path' => '/images/client_logos/Transamerica/logo.png',
+        //     'tooltip_text' => 'Transamerica',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
+        // 'trw' => [
+        //     'icon_path' => '/images/client_logos/TRW/logo.png',
+        //     'tooltip_text' => 'TRW',
+        //     'width' => '80',
+        //     'display_index' => 18
+        // ],
+        // 'unitel' => [
+        //     'icon_path' => '/images/client_logos/Unitel/logo.png',
+        //     'tooltip_text' => 'Unitel',
+        //     'width' => '80',
+        //     'display_index' => 100
+        // ],
         'usaf' => [
             'icon_path' => '/images/client_logos/US Airforce/logo.png',
             'tooltip_text' => 'US Airforce',
@@ -319,7 +319,7 @@ return [
             'icon_path' => '/images/client_logos/Wells Fargo/logo.png',
             'tooltip_text' => 'Wells Fargo',
             'width' => '80',
-            'display_index' => 20
+            'display_index' => 10
         ],
       ],
     'section_2_header' => 'Imagine...',
