@@ -452,9 +452,9 @@ You’re self-sufficient, don’t need consultants, building your business with 
     The dependancy on consultants comes to an end.</p>',
 
     'experience_content' => '<div class="icon"><i class="fa fa-graduation-cap"></i></div>
-    <h4 class="title"><a href="#call-to-action">Experiential learning</a></h4><p class="description">Experiential exercises like Boot Camp will be the lightning rod to initiate the fundamental changes necessary in the way the business is run — at all levels uniting all generations.
+    <h4 class="title"><a href="#call-to-action">Experiential learning</a></h4><p class="description">Experiential exercises like Boot Camp will be the catalyst to initiate the fundamental changes necessary in the way the business is run at all levels.
     <br><br>
-    Experiential exercises rally the organization to a common vision, language and understanding of the change, how it will happen and the role each person will play.</p>',
+    Experiential exercises rally the organization to a common vision, language, and understanding of the change, as well as how it will happen and the role each person will play.</p>',
 
     'customer_compass_content' => '<div class="icon"><i class="fa fa-location-arrow"></i></div>
     <h4 class="title"><a href="#call-to-action">Customer Compass</a></h4><p class="description">Develop comfort with ambiguity: Ditch the roadmap and use your customers as the compass. This will show what is possible and drive an emotional connection between the customer and business.
