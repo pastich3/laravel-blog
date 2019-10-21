@@ -215,18 +215,18 @@ return [
         //     'width' => '160',
         //     'display_index' => 100
         // ],
-        'nasa' => [
-            'icon_path' => '/images/client_logos/NASA/logo.png',
-            'tooltip_text' => 'NASA',
-            'width' => '100',
-            'display_index' => 1
-        ],
-        // 'nestle' => [
-        //     'icon_path' => '/images/client_logos/Nestle/logo.png',
-        //     'tooltip_text' => 'Nestle',
-        //     'width' => '120',
-        //     'display_index' => 19
+        // 'nasa' => [
+        //     'icon_path' => '/images/client_logos/NASA/logo.png',
+        //     'tooltip_text' => 'NASA',
+        //     'width' => '100',
+        //     'display_index' => 1
         // ],
+        'nestle' => [
+            'icon_path' => '/images/client_logos/Nestle/logo.png',
+            'tooltip_text' => 'Nestle',
+            'width' => '120',
+            'display_index' => 19
+        ],
         // 'noma' => [
         //     'icon_path' => '/images/client_logos/NOMA/logo.png',
         //     'tooltip_text' => 'NOMA'
@@ -255,12 +255,12 @@ return [
         //     'width' => '160',
         //     'display_index' => 100
         // ],
-        // 'revenue_canada' => [
-        //     'icon_path' => '/images/client_logos/Revenue Canada/logo.png',
-        //     'tooltip_text' => 'Revenue Canada',
-        //     'width' => '160',
-        //     'display_index' => 24
-        // ],
+        'revenue_canada' => [
+            'icon_path' => '/images/client_logos/Revenue Canada/logo.png',
+            'tooltip_text' => 'Revenue Canada',
+            'width' => '160',
+            'display_index' => 24
+        ],
         // 'robertshaw' => [
         //     'icon_path' => '/images/client_logos/Robertshaw/logo.png',
         //     'tooltip_text' => 'Robertshaw',
@@ -309,18 +309,18 @@ return [
             'width' => '120',
             'display_index' => 7
         ],
-        'walmart' => [
-            'icon_path' => '/images/client_logos/Walmart/logo.png',
-            'tooltip_text' => 'Walmart',
-            'width' => '160',
-            'display_index' => 3
-        ],
-        'wells_fargo' => [
-            'icon_path' => '/images/client_logos/Wells Fargo/logo.png',
-            'tooltip_text' => 'Wells Fargo',
-            'width' => '80',
-            'display_index' => 10
-        ],
+        // 'walmart' => [
+        //     'icon_path' => '/images/client_logos/Walmart/logo.png',
+        //     'tooltip_text' => 'Walmart',
+        //     'width' => '160',
+        //     'display_index' => 3
+        // ],
+        // 'wells_fargo' => [
+        //     'icon_path' => '/images/client_logos/Wells Fargo/logo.png',
+        //     'tooltip_text' => 'Wells Fargo',
+        //     'width' => '80',
+        //     'display_index' => 10
+        // ],
       ],
     'section_2_header' => 'Imagine...',
     'section_2_content' => nl2br('Imagine a future where change is not a program or an intiative, but what you do everyday.
@@ -464,7 +464,10 @@ You’re self-sufficient, don’t need consultants, building your business with 
   ],
   'our_story_content' => [
     // SECTION: BOOTCAMP
-    'bootcamp_summary' => nl2br('Boot Camp is a complete immersive learning experience that will get your synapses singing. You’ll learn by doing and applying yourself, through critical thinking and problem solving. You’ll learn — by design.
+    'bootcamp_summary' => nl2br('Passionate people who see things differently change the world. As leaders, our role is to recognize and acknowledge the potential for passion and creativity in our people, and then take action to create the conditions where their passion and creative energy are focused on creating value for our customers.
+
+    Boot Camp is the first step in your journey to unlocking this potential. In bootcamp, you\'ll experience a profound shift in mindset that will bring your organization and your customers sharply into focus. We don\'t just take you and your team through a bootcamp to change your perspective, we put what you learn into immediate action. We work with you and your people to get real, meaningful results within weeks.
+    
 
     This team-building, shared experience with executives and colleagues develops a common vision and language for your Operational Excellence Journey.
 

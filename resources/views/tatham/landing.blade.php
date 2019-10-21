@@ -195,14 +195,15 @@ starting with your customers.</p>
         <div class="content container wow fadeInRight">
           <div class="inner-content box-shadow">
             <div class="h-100 d-flex align-items-between flex-column">
-              <p>Boot Camp is a complete immersive learning experience that will get your synapses singing. You’ll learn by doing and applying yourself, through critical thinking and problem solving. You’ll learn — by design.</p>
+              <p>Passionate people who see things differently change the world. As leaders, our role is to recognize the potential for passion and creativity in our people, and then take action to create conditions where their passion and creative energy are focused on producing value for our customers.</p>
+              <p>In bootcamp, you'll experience a profound shift in mindset that will bring your organization and your customers sharply into focus.</p>
+              <p>We don't just take you and your team through a bootcamp to change your perspective, we put what you learn into immediate action. We work with you and your people to get real, meaningful results within weeks.</p>
               <div id="expandBootcampDiv" class="d-flex mt-auto justify-content-center">
                 <a href="#" id="expandBootcampButton" class="mb-0 learn-more" data-toggle="collapse" data-target="#bootcampDescription" role="button" aria-expanded="false" aria-controls="bootcampDescription">
                   Learn more
                 </a>
               </div>
               <div class="collapse" id="bootcampDescription">
-                <p>This team-building, shared experience with executives and colleagues develops a common vision and language for your Operational Excellence Journey.</p>
                 <p>Boot Camp is a business simulator; 17-20 participants experience the five-year journey to becoming a fast, flexible and innovative company in only two days. While on this journey, participants experience the frustrations of trying to meet customer demands, perform tasks, achieve goals and work as a team to apply current management techniques to the most pressing business issue.</p>
                 <p>In Boot Camp, your team will discover that intuitive responses lack coordination and cause tremendous difficulties running a profitable business. They will learn a new way of viewing their enterprise so that they are able to see opportunities previously hidden in its complexity. Focus is on the customer, decisions are made using data, and solutions solve at root cause.</p>
                 <p>The big ‘aha’ moment for many people is when they see that no matter what the challenge is, they can fix it, because it’s not beyond them. They feel confident they can come up with their own solutions in a systematic and disciplined way.</p>
