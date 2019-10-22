@@ -205,7 +205,7 @@ starting with your customers.</p>
               </div>
               <div class="collapse" id="bootcampDescription">
                 <p>Boot Camp is a business simulator; 17-20 participants experience the five-year journey to becoming a fast, flexible and innovative company in only two days. While on this journey, participants experience the frustrations of trying to meet customer demands, perform tasks, achieve goals and work as a team to apply current management techniques to the most pressing business issue.</p>
-                <p>In Boot Camp, your team will discover that intuitive responses lack coordination and cause tremendous difficulties running a profitable business. They will learn a new way of viewing their enterprise so that they are able to see opportunities previously hidden in its complexity. Focus is on the customer, decisions are made using data, and solutions solve at root cause.</p>
+                <p>Your team will discover that intuitive responses lack coordination and cause tremendous difficulties running a profitable business. They will learn a new way of viewing their enterprise so that they are able to see opportunities previously hidden in its complexity. Focus is on the customer, decisions are made using data, and solutions solve at root cause.</p>
                 <p>The big ‘aha’ moment for many people is when they see that no matter what the challenge is, they can fix it, because it’s not beyond them. They feel confident they can come up with their own solutions in a systematic and disciplined way.</p>
                 <p>Ambiguity is no longer a dark place, it's an opportunity to innovate.</p>
               </div>
