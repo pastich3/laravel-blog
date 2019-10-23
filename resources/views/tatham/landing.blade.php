@@ -196,7 +196,7 @@ starting with your customers.</p>
           <div class="inner-content box-shadow">
             <div class="h-100 d-flex align-items-between flex-column">
               <p>Passionate people who see things differently change the world. As leaders, our role is to recognize the potential for passion and creativity in our people, and then take action to create conditions where their passion and creative energy are focused on producing value for our customers.</p>
-              <p>In bootcamp, you'll experience a profound shift in mindset that will bring your organization and your customers sharply into focus.</p>
+              <p>You'll experience a profound shift in mindset that will bring your organization and your customers sharply into focus.</p>
               <p>We don't just take you and your team through a bootcamp to change your perspective, we put what you learn into immediate action. We work with you and your people to get real, meaningful results within weeks.</p>
               <div id="expandBootcampDiv" class="d-flex mt-auto justify-content-center">
                 <a href="#" id="expandBootcampButton" class="mb-0 learn-more" data-toggle="collapse" data-target="#bootcampDescription" role="button" aria-expanded="false" aria-controls="bootcampDescription">
