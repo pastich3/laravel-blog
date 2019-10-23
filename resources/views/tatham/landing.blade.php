@@ -170,8 +170,8 @@
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left" style="font-size: 20px">
             <h3 class="cta-title">READY FOR WHAT’S NEXT?</h3>
-            <p class="cta-text"> Ask us about our proprietary business simulator. We call it Boot Camp for Executives™. Over the years, it has proven to be the critical catalyst for helping our clients to convert strategy into results.</p>
-            <p class="cta-text">Boot Camp is a window into the “how”. It is a two day business
+            <p class="cta-text"> Ask us about our proprietary business simulator. We call it Boot Camp for Executives™. Over the years, it has proven to be the critical catalyst for helping our clients convert strategy into results.</p>
+            <p class="cta-text">Boot Camp is a window into the “How”. It's a two day business
 simulation designed to let you experience a systematic approach to getting things done
 starting with your customers.</p>
             <p class="cta-text"> Our clients remain our most ardent supporters. Take the  next step. Find out why.</p>
