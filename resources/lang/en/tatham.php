@@ -323,7 +323,7 @@ return [
         // ],
       ],
     'section_2_header' => 'Imagine...',
-    'section_2_content' => nl2br('Imagine a future where change is not a program or an intiative, but what you do everyday.
+    'section_2_content' => nl2br('Imagine a future where change is not a program or an initiative, but what you do everyday.
 
     Customer excellence is built into all levels of your business.
 

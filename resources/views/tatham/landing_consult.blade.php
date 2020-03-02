@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="images/favicon.png" rel="icon">
+  <link href="images/newfavicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -44,7 +44,10 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="/" class="no-hover-highlight"><img src="images/alt_logo_002.png" class="" style="margin-top:-9px; height: 50px" alt="" title="" /><span style="margin-left:5px; font-family: 'Michroma'; letter-spacing:1px; font-size: 1.5em; font-weight: bold;">&nbsp;Tatham</span></a>
+      <a href="#home" class="no-hover-highlight">
+        <!-- <img src="images/newfavicon.png" class="" style="margin-top:-16px; height: 50px" alt="" title="" /> -->
+        <span style="font-family: 'Montserrat'; letter-spacing:1px; font-size: 2em; font-style: regular">&nbsp;Tatham Inc</span>
+        </a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#home">Regna</a></h1>-->
       </div>
