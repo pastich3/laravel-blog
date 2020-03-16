@@ -31,6 +31,11 @@ class WorkflowComponentProcessor {
         {
             case WorkflowMorphMap::TASK: {
                 $result = (new WorkflowTaskProcessor($this->componentInstance, $this->currentComponent))->process();
+                if (isset($this->componentInstance->completed_at))
+                {
+                    // TODO: create new instance of next component then pass to this processor function
+                    dd('success');
+                }
                 break;
             }
             case WorkflowMorphMap::PROGRESSION_POLICY: {

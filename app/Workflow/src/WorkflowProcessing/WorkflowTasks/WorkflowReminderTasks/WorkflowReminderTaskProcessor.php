@@ -24,6 +24,8 @@ class WorkflowTaskProcessor {
             case WorkflowTask::TWO_WEEK_REMINDER: {
                 // $result = (2 weeks until meeting ? sendMail(reminder))
                 echo "TWO WEEK REMINDER" . PHP_EOL;
+                $this->componentInstance->completed_at = date('Y-m-d H:i:s');
+                $this->componentInstance->save();
                 break;
             }
             default: {
