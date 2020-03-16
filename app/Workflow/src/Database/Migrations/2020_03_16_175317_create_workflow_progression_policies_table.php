@@ -14,7 +14,9 @@ class CreateWorkflowProgressionPoliciesTable extends Migration
     public function up()
     {
         Schema::create('workflow_progression_policies', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id');
+            $table->string('name');
+            $table->string('description');
             $table->timestamps();
         });
     }

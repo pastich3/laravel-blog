@@ -15,6 +15,10 @@ class CreateWorkflowComponentInstancesTable extends Migration
     {
         Schema::create('workflow_component_instances', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->bigInteger('workflow_component_id')->unsigned();
+            $table->integer('user_id')->unsigned();
+            $table->datetime('completed_at');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

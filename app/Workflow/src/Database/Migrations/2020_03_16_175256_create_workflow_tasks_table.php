@@ -14,7 +14,9 @@ class CreateWorkflowTasksTable extends Migration
     public function up()
     {
         Schema::create('workflow_tasks', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id');
+            $table->string('name');
+            $table->string('description');
             $table->timestamps();
         });
     }

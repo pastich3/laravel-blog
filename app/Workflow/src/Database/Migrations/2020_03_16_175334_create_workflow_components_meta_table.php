@@ -14,9 +14,9 @@ class CreateWorkflowComponentsMetaTable extends Migration
     public function up()
     {
         Schema::create('workflow_components_meta', function (Blueprint $table) {
-            $table->increments('id');
+            $table->bigIncrements('id');
 
-            $table->integer('workflow_component_id')->unsigned()->index();
+            $table->bigInteger('workflow_component_id')->unsigned()->index();
 
             $table->string('type')->default('null');
 
