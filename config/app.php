@@ -164,6 +164,7 @@ return [
         App\Providers\BladeServiceProvider::class,
         App\Providers\HorizonServiceProvider::class,
         App\Providers\ObserverServiceProvider::class,
+        App\Providers\WorkflowServiceProvider::class,
 
     ],
 
