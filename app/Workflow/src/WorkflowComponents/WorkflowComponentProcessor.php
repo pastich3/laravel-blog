@@ -11,16 +11,17 @@ class WorkflowComponentProcessor {
     protected $componentInstance;
     protected $currentComponent;
     protected $currentComponentTypeId;
-    /*protected $nextComponent;
-    protected $nextComponentTypeId;*/
+    protected $nextComponent;
+    protected $nextComponentTypeId;
 
     public function __construct(WorkflowComponentInstance $componentInstance)
     {
         $this->componentInstance = $componentInstance;
         $this->currentComponent = $componentInstance->workflowComponent->currentComponent;
         $this->currentComponentTypeId = WorkflowMorphMap::CLASS_TO_INT_MAP[get_class($this->currentComponent)];
-        /*$this->nextComponent = $componentInstance->workflowComponent->nextComponent;
-        $this->nextComponentTypeId = WorkflowMorphMap::CLASS_TO_INT_MAP[get_class($this->nextComponent)];*/
+
+        $this->previousComponents = $componentInstance->workflowComponent->previousWorkflowComponents;
+        $this->nextComponents = $componentInstance->workflowComponent->nextWorkflowComponents;
     }
 
     public function process()
@@ -29,7 +30,7 @@ class WorkflowComponentProcessor {
         switch ($this->currentComponentTypeId)
         {
             case WorkflowMorphMap::TASK: {
-                $result = new WorkflowTaskProcessor($this->componentInstance, $this->currentComponent)->process();
+                $result = (new WorkflowTaskProcessor($this->componentInstance, $this->currentComponent))->process();
                 break;
             }
             case WorkflowMorphMap::PROGRESSION_POLICY: {
@@ -40,7 +41,7 @@ class WorkflowComponentProcessor {
             }
             default: {
                 throw new \Exception(
-                    'Unknown component type id at ' __FILE__ . ':' . __LINE__ . PHP_EOL
+                    'Unknown component type id at ' . __FILE__ . ':' . __LINE__ . PHP_EOL
                     . 'Component type id: ' . $this->currentComponentTypeId . PHP_EOL
                     . 'Component instance id: ' . $this->componentInstance->id . PHP_EOL
                 );
