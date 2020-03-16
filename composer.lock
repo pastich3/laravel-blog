@@ -4968,7 +4968,7 @@
             "dist": {
                 "type": "path",
                 "url": "./app/Workflow",
-                "reference": "52fd6288f4e7a06bccd91dc6ab0bde1f447cf318"
+                "reference": "229f67d2c70a90343204dab63177634b10726d85"
             },
             "require": {
                 "kodeine/laravel-meta": "^1.0"
@@ -4976,7 +4976,7 @@
             "type": "laravel module",
             "autoload": {
                 "psr-4": {
-                    "Fetzi\\Package\\": "src"
+                    "App\\Workflow\\": "src"
                 }
             },
             "authors": [
