@@ -24,6 +24,7 @@ class TryProcessNextWorkflowComponent
      */
     public function handle(ComponentInstanceCompleted $event)
     {
+        echo "listened\n";
         $componentInstance = $event->getComponentInstance();
     }
 }

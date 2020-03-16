@@ -24,5 +24,6 @@ class WorkflowServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
+        $this->app->register(WorkflowEventServiceProvider::class);
     }
 }
