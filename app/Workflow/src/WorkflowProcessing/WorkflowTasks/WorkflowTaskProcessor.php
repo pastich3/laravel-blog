@@ -23,6 +23,7 @@ class WorkflowTaskProcessor {
         switch ($this->workflowTask->type)
         {
             case WorkflowTaskTypeMap::REMINDER: {
+                $result = (new WorkflowReminderTaskProcessor($this->componentInstance, $this->workflowTask))->process();
                 break;
             }
             case WorkflowTaskTypeMap::USER_ACTION: {
