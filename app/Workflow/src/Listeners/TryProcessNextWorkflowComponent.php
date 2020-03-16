@@ -25,5 +25,7 @@ class TryProcessNextWorkflowComponent
     public function handle(ComponentInstanceCompleted $event)
     {
         $componentInstance = $event->getComponentInstance();
+
+        // $nextComponents =
     }
 }
