@@ -20,7 +20,7 @@ class WorkflowTaskProcessor extends BaseProcessor {
         switch ($this->workflowTask->type)
         {
             case WorkflowTaskTypeMap::REMINDER: {
-                $result = (new WorkflowReminderTaskProcessor($this->componentInstance, $this->workflowTask))->process();
+                $result = (new WorkflowReminderTaskProcessor($this->componentInstance))->process();
                 break;
             }
             case WorkflowTaskTypeMap::USER_ACTION: {
