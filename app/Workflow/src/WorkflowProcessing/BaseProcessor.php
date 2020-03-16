@@ -18,9 +18,10 @@ abstract class BaseProcessor {
 
     protected function postConstruct() {} // optional, overrideable
 
-    protected function markInstanceCompleted(array $metaData=[])
+    abstract public function process();
+
+    protected function markInstanceCompleted()
     {
-        $this->componentInstance->setMeta($metaData);
         $this->componentInstance->completed_at = date('Y-m-d H:i:s');
         $this->componentInstance->save();
 

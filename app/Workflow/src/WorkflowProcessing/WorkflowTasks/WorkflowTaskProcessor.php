@@ -3,8 +3,6 @@
 namespace App\Workflow\Processing\WorkflowTasks;
 
 use App\Workflow\Processing\BaseProcessor;
-use App\Workflow\Models\WorkflowComponentInstance;
-use App\Workflow\Models\WorkflowTask;
 use App\Workflow\Models\WorkflowTaskTypeMap;
 
 class WorkflowTaskProcessor extends BaseProcessor {
