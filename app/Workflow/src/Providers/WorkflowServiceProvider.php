@@ -2,6 +2,8 @@
 
 namespace App\Workflow\Providers;
 
+use App\Workflow\Models\WorkflowMorphMap;
+
 use Illuminate\Support\ServiceProvider;
 
 class WorkflowServiceProvider extends ServiceProvider
@@ -14,6 +16,7 @@ class WorkflowServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom([
             app_path() . '/Workflow/src/Database/Migrations'
         ]);
+        WorkflowMorphMap::registerMorphMap();
     }
 
     /**

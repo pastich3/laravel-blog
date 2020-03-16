@@ -10,4 +10,15 @@ class WorkflowComponents extends Model
 {
     use Metable;
     protected $guarded = [];
+
+    public function currentComponent()
+    {
+        $name = null, $type = null, $id = null, $ownerKey = null
+        return $this->morphTo();
+    }
+
+    public function nextComponent()
+    {
+        return $this->morphTo();
+    }
 }
