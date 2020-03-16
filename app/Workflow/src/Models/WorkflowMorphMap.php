@@ -10,7 +10,6 @@ class WorkflowMorphMap
     const TASK = 2;
     const PROGRESSION_POLICY = 3;
 
-
     public static function registerMorphMap()
     {
         Relation::morphMap([

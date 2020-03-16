@@ -16,6 +16,7 @@ class CreateWorkflowTasksTable extends Migration
         Schema::create('workflow_tasks', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->tinyInteger('type')->comment('See the WorkflowTaskMap model for references')->unsigned();
             $table->string('description');
             $table->timestamps();
         });
