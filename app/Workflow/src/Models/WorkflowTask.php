@@ -8,7 +8,7 @@ class WorkflowTask extends Model
 {
     protected $guarded = [];
 
-    const TWO_WEEK_REMINDER = 1;
+    const SEND_REMINDER = 1;
 
     public function currentWorkflowComponents()
     {

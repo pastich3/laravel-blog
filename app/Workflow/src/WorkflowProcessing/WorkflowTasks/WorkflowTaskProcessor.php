@@ -2,19 +2,18 @@
 
 namespace App\Workflow\Processing\WorkflowTasks;
 
+use App\Workflow\Processing\BaseProcessor;
 use App\Workflow\Models\WorkflowComponentInstance;
 use App\Workflow\Models\WorkflowTask;
 use App\Workflow\Models\WorkflowTaskTypeMap;
 
-class WorkflowTaskProcessor {
+class WorkflowTaskProcessor extends BaseProcessor {
 
-    protected $componentInstance;
     protected $workflowTask;
 
-    public function __construct(WorkflowComponentInstance $componentInstance, WorkflowTask $workflowTask)
+    protected function postConstruct()
     {
-        $this->componentInstance = $componentInstance;
-        $this->workflowTask = $workflowTask;
+        $this->workflowTask = $this->componentInstance->workflowComponent->currentComponent;
     }
 
     public function process()

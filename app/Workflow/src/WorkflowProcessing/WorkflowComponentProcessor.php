@@ -3,42 +3,34 @@
 namespace App\Workflow\Processing;
 
 use App\Workflow\Models\WorkflowMorphMap;
-use App\Workflow\Models\WorkflowComponentInstance;
 use App\Workflow\Processing\WorkflowTasks\WorkflowTaskProcessor;
 
-class WorkflowComponentProcessor {
+class WorkflowComponentProcessor extends BaseProcessor {
 
-    protected $componentInstance;
-    protected $currentComponent;
     protected $currentComponentTypeId;
-    protected $nextComponent;
-    protected $nextComponentTypeId;
 
-    public function __construct(WorkflowComponentInstance $componentInstance)
+    protected function postConstruct()
     {
-        $this->componentInstance = $componentInstance;
-        $this->currentComponent = $componentInstance->workflowComponent->currentComponent;
-        $this->currentComponentTypeId = WorkflowMorphMap::CLASS_TO_INT_MAP[get_class($this->currentComponent)];
-
-        $this->previousComponents = $componentInstance->workflowComponent->previousWorkflowComponents;
-        $this->nextComponents = $componentInstance->workflowComponent->nextWorkflowComponents;
+        $currentComponent = $this->componentInstance->workflowComponent->currentComponent;
+        $this->currentComponentTypeId = WorkflowMorphMap::CLASS_TO_INT_MAP[get_class($currentComponent)];
     }
 
     public function process()
     {
+        if (isset($this->componentInstance->completed_at))
+        {
+            return null;
+        }
+
         $result = null;
         switch ($this->currentComponentTypeId)
         {
             case WorkflowMorphMap::TASK: {
-                $result = (new WorkflowTaskProcessor($this->componentInstance, $this->currentComponent))->process();
-                if (isset($this->componentInstance->completed_at))
-                {
-                    // TODO: create new instance of next component then pass to this processor function
-                    dd('success');
-                }
+                $result = (new WorkflowTaskProcessor($this->componentInstance))->process();
                 break;
             }
             case WorkflowMorphMap::PROGRESSION_POLICY: {
+                $result = (new WorkflowProgressionPolicyProcessor($this->componentInstance))->process();
                 break;
             }
             case WorkflowMorphMap::WORKFLOW: {
