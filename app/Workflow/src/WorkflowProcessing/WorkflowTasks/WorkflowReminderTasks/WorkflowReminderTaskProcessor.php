@@ -23,15 +23,13 @@ class WorkflowTaskProcessor {
         {
             case WorkflowTask::TWO_WEEK_REMINDER: {
                 // $result = (2 weeks until meeting ? sendMail(reminder))
-                break;
-            }
-            case WorkflowTaskTypeMap::USER_ACTION: {
+                echo "TWO WEEK REMINDER" . PHP_EOL;
                 break;
             }
             default: {
                 throw new \Exception(
                     'Unknown task id at ' . __FILE__ . ':' . __LINE__ . PHP_EOL
-                    . 'Task id: ' . $this->currentComponentTypeId . PHP_EOL
+                    . 'Task id: ' . $this->workflowTask->id . PHP_EOL
                     . 'Component instance id: ' . $this->componentInstance->id . PHP_EOL
                 );
                 break;

@@ -32,7 +32,7 @@ class WorkflowTaskProcessor {
             default: {
                 throw new \Exception(
                     'Unknown task type id at ' . __FILE__ . ':' . __LINE__ . PHP_EOL
-                    . 'Task type id: ' . $this->currentComponentTypeId . PHP_EOL
+                    . 'Task type id: ' . $this->workflowTask->type . PHP_EOL
                     . 'Component instance id: ' . $this->componentInstance->id . PHP_EOL
                 );
                 break;
