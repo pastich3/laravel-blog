@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateWorkflowComponentInstancesTable extends Migration
+class CreateWorkflowComponentInstancesMetaTable extends Migration
 {
     /**
      * Run the migrations.
@@ -16,7 +16,7 @@ class CreateWorkflowComponentInstancesTable extends Migration
         Schema::create('workflow_component_instances_meta', function (Blueprint $table) {
             $table->increments('id');
 
-            $table->integer('workflow_component_instance_id')->unsigned()->index();
+            $table->integer('workflow_component_instance_id')->unsigned()->index('workflow_component_instance_meta_index');
 
             $table->string('type')->default('null');
 

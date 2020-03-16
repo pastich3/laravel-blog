@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace App\Workflow\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -12,7 +12,7 @@ class WorkflowServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadMigrationsFrom([
-            app_path() . '/Workflow/Database/Migrations'
+            app_path() . '/Workflow/src/Database/Migrations'
         ]);
     }
 

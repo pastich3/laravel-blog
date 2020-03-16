@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b8a5c0915854a570d334a7a5b06f139b",
+    "content-hash": "c4dbd0cbc298762bf74181368db2cd76",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -789,8 +789,8 @@
             "authors": [
                 {
                     "name": "Filipe Dobreira",
-                    "role": "Developer",
-                    "homepage": "https://github.com/filp"
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
                 }
             ],
             "description": "php error handling for cool kids",
@@ -1800,9 +1800,9 @@
             "authors": [
                 {
                     "name": "Ben Corlett",
-                    "role": "Developer",
                     "email": "bencorlett@me.com",
-                    "homepage": "http://www.webcomm.com.au"
+                    "homepage": "http://www.webcomm.com.au",
+                    "role": "Developer"
                 }
             ],
             "description": "OAuth 1.0 Client Library",
@@ -3209,9 +3209,9 @@
             "authors": [
                 {
                     "name": "Freek Van der Herten",
-                    "role": "Developer",
                     "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be"
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
                 }
             ],
             "description": "A Laravel package to backup your application",
@@ -3333,9 +3333,9 @@
             "authors": [
                 {
                     "name": "Freek Van der Herten",
-                    "role": "Developer",
                     "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be"
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
                 }
             ],
             "description": "Send CORS headers in a Laravel or Lumen application",
@@ -3417,9 +3417,9 @@
             "authors": [
                 {
                     "name": "Freek Van der Herten",
-                    "role": "Developer",
                     "email": "freek@spatie.be",
-                    "homepage": "https://murze.be"
+                    "homepage": "https://murze.be",
+                    "role": "Developer"
                 }
             ],
             "description": "Associate files with Eloquent models",
@@ -3470,9 +3470,9 @@
             "authors": [
                 {
                     "name": "Freek Van der Herten",
-                    "role": "Developer",
                     "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be"
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
                 }
             ],
             "description": "Convert a pdf to an image",
@@ -4968,7 +4968,7 @@
             "dist": {
                 "type": "path",
                 "url": "./app/Workflow",
-                "reference": "229f67d2c70a90343204dab63177634b10726d85"
+                "reference": "ce1150e097d9ccb64e9d0c92c3613a7778e37b2c"
             },
             "require": {
                 "kodeine/laravel-meta": "^1.0"
@@ -4976,7 +4976,7 @@
             "type": "laravel module",
             "autoload": {
                 "psr-4": {
-                    "App\\Workflow\\": "src"
+                    "App\\Workflow\\": "src/"
                 }
             },
             "authors": [
@@ -7513,8 +7513,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "role": "Developer",
-                    "email": "arne@blankerts.de"
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
@@ -7571,7 +7571,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "tatham/workflow": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
