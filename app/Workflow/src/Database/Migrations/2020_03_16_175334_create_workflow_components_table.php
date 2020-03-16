@@ -15,6 +15,7 @@ class CreateWorkflowComponentsTable extends Migration
     {
         Schema::create('workflow_components', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('workflow_id')->unsigned()->index();
             $table->tinyInteger('current_component_type')->unsigned()->comment('Morphable but as an id rather than a string');
             $table->integer('current_component_id')->unsigned();
             $table->tinyInteger('next_component_type')->unsigned()->comment('Morphable but as an id rather than a string');

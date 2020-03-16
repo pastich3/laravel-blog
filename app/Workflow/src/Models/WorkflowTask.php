@@ -8,8 +8,13 @@ class WorkflowTask extends Model
 {
     protected $guarded = [];
 
-    public function workflowComponents()
+    public function currentWorkflowComponents()
     {
-        return $this->morphMany(workflowComponents::class, 'current_component');
+        return $this->morphMany(WorkflowComponents::class, 'currentComponent');
+    }
+
+    public function nextWorkflowComponents()
+    {
+        return $this->morphMany(WorkflowComponents::class, 'currentComponent');
     }
 }
