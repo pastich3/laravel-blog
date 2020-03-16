@@ -1,0 +1,19 @@
+{
+    "name": "tatham/workflow",
+    "description": "A general purpose state-machine workflow system.",
+    "type": "Laravel module",
+    "authors": [
+        {
+            "name": "Jeremy Ravet",
+            "email": "gamemaker6.1@gmail.com"
+        }
+    ],
+    "require": {
+        "kodeine/laravel-meta": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fetzi\\Package\\": "src"
+        }
+    }
+}

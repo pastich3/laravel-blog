@@ -11,9 +11,9 @@
         "egulias/email-validator": "^2.1",
         "fideloper/proxy": "4.2.0",
         "guzzlehttp/guzzle": "^6.3",
-        "kodeine/laravel-meta": "^1.0",
         "laravel/framework": "5.8.34",
         "laravel/horizon": "3.3.2",
+        "tatham/workflow": "*",
         "laravel/socialite": "4.1.4",
         "laravel/tinker": "1.0.10",
         "laravelcollective/html": "5.8.0",
@@ -33,6 +33,15 @@
         "mockery/mockery": "1.2.3",
         "phpunit/phpunit": "8.3.4"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./app/Workflow",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
     "autoload": {
         "classmap": [
             "database/seeds",
