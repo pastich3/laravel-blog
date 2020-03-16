@@ -3,10 +3,7 @@
 namespace App\Workflow\Models;
 
 // not truly a model but closely related
-class WorkflowTaskTypeMap
-{
-
+class WorkflowTaskTypeMap {
     const REMINDERS = 1;
     const USER_ACTION = 2;
-
 }
