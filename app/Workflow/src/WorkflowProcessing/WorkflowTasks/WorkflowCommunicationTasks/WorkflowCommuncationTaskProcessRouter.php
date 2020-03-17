@@ -21,7 +21,7 @@ class WorkflowCommunicationTaskProcessRouter extends BaseProcessRouter {
         switch ($this->workflowTask->id)
         {
             case WorkflowTask::SEND_REMINDER: {
-                $result = (new WorkflowReminderTaskProcessor($this->componentInstance))->process();
+                $result = (new WorkflowTaskReminderProcessor($this->componentInstance))->process();
                 break;
             }
             default: {
