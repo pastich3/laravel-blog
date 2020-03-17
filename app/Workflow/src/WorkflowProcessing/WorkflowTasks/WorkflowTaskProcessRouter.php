@@ -2,10 +2,10 @@
 
 namespace App\Workflow\Processing\WorkflowTasks;
 
-use App\Workflow\Processing\BaseProcessor;
+use App\Workflow\Processing\BaseProcessRouter;
 use App\Workflow\Models\WorkflowTaskTypeMap;
 
-class WorkflowTaskProcessor extends BaseProcessor {
+class WorkflowTaskProcessRouter extends BaseProcessRouter {
 
     protected $workflowTask;
 
@@ -19,8 +19,12 @@ class WorkflowTaskProcessor extends BaseProcessor {
         $result = null;
         switch ($this->workflowTask->type)
         {
-            case WorkflowTaskTypeMap::REMINDER: {
-                $result = (new WorkflowReminderTaskProcessor($this->componentInstance))->process();
+            case WorkflowTaskTypeMap::UNCATEGORIZED: {
+                $result = (new WorkflowUncategorizedTaskProcessRouter($this->componentInstance))->process();
+                break;
+            }
+            case WorkflowTaskTypeMap::COMMUNICATION: {
+                $result = (new WorkflowCommunicationTaskProcessRouter($this->componentInstance))->process();
                 break;
             }
             case WorkflowTaskTypeMap::USER_ACTION: {

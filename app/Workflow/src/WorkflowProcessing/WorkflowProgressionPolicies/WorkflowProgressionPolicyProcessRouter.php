@@ -2,9 +2,9 @@
 
 namespace App\Workflow\Processing\WorkflowProgressionPolicies;
 
-use App\Workflow\Processing\BaseProcessor;
+use App\Workflow\Processing\BaseProcessRouter;
 
-class WorkflowTaskProcessor extends BaseProcessor {
+class WorkflowTaskProcessRouter extends BaseProcessRouter {
 
     protected $progressionPolicy;
 

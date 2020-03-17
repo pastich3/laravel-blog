@@ -9,7 +9,7 @@ class WorkflowOrProgressionPolicyProcessor extends BaseProgressionPolicyProcesso
     public function processPolicy() : bool
     {
         $result = null;
-        echo "policy" . PHP_EOL;
+        echo "policy " . get_class($this) . PHP_EOL;
 
         $result = true;
 

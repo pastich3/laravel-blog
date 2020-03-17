@@ -3,9 +3,9 @@
 namespace App\Workflow\Processing;
 
 use App\Workflow\Models\WorkflowMorphMap;
-use App\Workflow\Processing\WorkflowTasks\WorkflowTaskProcessor;
+use App\Workflow\Processing\WorkflowTasks\WorkflowTaskProcessRouter;
 
-class WorkflowComponentProcessor extends BaseProcessor {
+class WorkflowComponentProcessRouter extends BaseProcessRouter {
 
     protected $currentComponentTypeId;
 
@@ -26,11 +26,11 @@ class WorkflowComponentProcessor extends BaseProcessor {
         switch ($this->currentComponentTypeId)
         {
             case WorkflowMorphMap::TASK: {
-                $result = (new WorkflowTaskProcessor($this->componentInstance))->process();
+                $result = (new WorkflowTaskProcessRouter($this->componentInstance))->process();
                 break;
             }
             case WorkflowMorphMap::PROGRESSION_POLICY: {
-                $result = (new WorkflowProgressionPolicyProcessor($this->componentInstance))->process();
+                $result = (new WorkflowProgressionPolicyProcessRouter($this->componentInstance))->process();
                 break;
             }
             case WorkflowMorphMap::WORKFLOW: {
