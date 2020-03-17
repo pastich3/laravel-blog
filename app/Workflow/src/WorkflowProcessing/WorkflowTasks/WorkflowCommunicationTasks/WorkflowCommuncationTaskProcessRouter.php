@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Workflow\Processing\WorkflowTasks;
+namespace Tatham\Workflow\Processing\WorkflowTasks;
 
-use App\Workflow\Processing\BaseProcessRouter;
+use Tatham\Workflow\Processing\BaseProcessRouter;
 
-use App\Workflow\Models\WorkflowTask;
+use Tatham\Workflow\Models\WorkflowTask;
 
 class WorkflowCommunicationTaskProcessRouter extends BaseProcessRouter {
 

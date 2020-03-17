@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Workflow\Processing\WorkflowProgressionPolicies;
+namespace Tatham\Workflow\Processing\WorkflowProgressionPolicies;
 
-use App\Workflow\Processing\BaseProcessRouter;
-use App\Workflow\Models\WorkflowProgressionPolicy;
+use Tatham\Workflow\Processing\BaseProcessRouter;
+use Tatham\Workflow\Models\WorkflowProgressionPolicy;
 
 class WorkflowProgressionPolicyProcessRouter extends BaseProcessRouter {
 

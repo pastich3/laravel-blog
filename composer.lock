@@ -1616,16 +1616,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.65",
+            "version": "1.0.66",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "8f17b3ba67097aafb8318cd5c553b1acf7c891c8"
+                "reference": "021569195e15f8209b1c4bebb78bd66aa4f08c21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8f17b3ba67097aafb8318cd5c553b1acf7c891c8",
-                "reference": "8f17b3ba67097aafb8318cd5c553b1acf7c891c8",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/021569195e15f8209b1c4bebb78bd66aa4f08c21",
+                "reference": "021569195e15f8209b1c4bebb78bd66aa4f08c21",
                 "shasum": ""
             },
             "require": {
@@ -1696,7 +1696,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2020-03-08T18:53:20+00:00"
+            "time": "2020-03-17T18:58:12+00:00"
         },
         {
             "name": "league/glide",
@@ -4968,7 +4968,7 @@
             "dist": {
                 "type": "path",
                 "url": "./app/Workflow",
-                "reference": "ce1150e097d9ccb64e9d0c92c3613a7778e37b2c"
+                "reference": "988b8fe5da4d0aab63df97c50b59d0fddd4dc672"
             },
             "require": {
                 "kodeine/laravel-meta": "^1.0"
@@ -4976,7 +4976,7 @@
             "type": "laravel module",
             "autoload": {
                 "psr-4": {
-                    "App\\Workflow\\": "src/"
+                    "Tatham\\Workflow\\": "src/"
                 }
             },
             "authors": [

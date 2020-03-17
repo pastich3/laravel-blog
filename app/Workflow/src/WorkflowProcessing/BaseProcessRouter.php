@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Workflow\Processing;
+namespace Tatham\Workflow\Processing;
 
-use App\Workflow\Models\WorkflowComponentInstance;
+use Tatham\Workflow\Models\WorkflowComponentInstance;
 
 abstract class BaseProcessRouter {
 

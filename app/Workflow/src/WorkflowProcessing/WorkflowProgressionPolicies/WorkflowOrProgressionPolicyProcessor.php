@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Workflow\Processing\WorkflowProgressionPolicies;
+namespace Tatham\Workflow\Processing\WorkflowProgressionPolicies;
 
-use App\Workflow\Processing\WorkflowProgressionPolicies\BaseProgressionPolicyProcessor;
+use Tatham\Workflow\Processing\WorkflowProgressionPolicies\BaseProgressionPolicyProcessor;
 
-use App\Workflow\Models\WorkflowComponent;
+use Tatham\Workflow\Models\WorkflowComponent;
 
 class WorkflowOrProgressionPolicyProcessor extends BaseProgressionPolicyProcessor {
 

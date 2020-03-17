@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Workflow\Providers;
+namespace Tatham\Workflow\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
-use App\Workflow\Events\ComponentInstanceCompleted;
-use App\Workflow\Listeners\TryProcessNextWorkflowComponent;
+use Tatham\Workflow\Events\ComponentInstanceCompleted;
+use Tatham\Workflow\Listeners\TryProcessNextWorkflowComponent;
 
 class WorkflowEventServiceProvider extends ServiceProvider
 {

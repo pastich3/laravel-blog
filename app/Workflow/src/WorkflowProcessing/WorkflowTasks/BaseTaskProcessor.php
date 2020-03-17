@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Workflow\Processing\WorkflowTasks;
+namespace Tatham\Workflow\Processing\WorkflowTasks;
 
-use App\Workflow\Processing\BaseProcessor;
+use Tatham\Workflow\Processing\BaseProcessor;
 
 abstract class BaseTaskProcessor extends BaseProcessor {
 

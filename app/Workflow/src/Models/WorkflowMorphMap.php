@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Workflow\Models;
+namespace Tatham\Workflow\Models;
 
 use Illuminate\Database\Eloquent\Relations\Relation;
 // not truly a model but closely related

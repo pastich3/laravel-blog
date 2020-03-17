@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Workflow\Events;
+namespace Tatham\Workflow\Events;
 
-use App\Workflow\Models\WorkflowComponentInstance;
+use Tatham\Workflow\Models\WorkflowComponentInstance;
 
 class ComponentInstanceCompleted {
 

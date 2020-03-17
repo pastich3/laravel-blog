@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Workflow\Processing;
+namespace Tatham\Workflow\Processing;
 
-use App\Workflow\Models\WorkflowComponentInstance;
+use Tatham\Workflow\Models\WorkflowComponentInstance;
 
-use App\Workflow\Events\ComponentInstanceCompleted;
+use Tatham\Workflow\Events\ComponentInstanceCompleted;
 
 abstract class BaseProcessor {
 

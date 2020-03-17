@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Workflow\Processing;
+namespace Tatham\Workflow\Processing;
 
-use App\Workflow\Models\WorkflowMorphMap;
-use App\Workflow\Processing\WorkflowTasks\WorkflowTaskProcessRouter;
-use App\Workflow\Processing\WorkflowProgressionPolicies\WorkflowProgressionPolicyProcessRouter;
+use Tatham\Workflow\Models\WorkflowMorphMap;
+use Tatham\Workflow\Processing\WorkflowTasks\WorkflowTaskProcessRouter;
+use Tatham\Workflow\Processing\WorkflowProgressionPolicies\WorkflowProgressionPolicyProcessRouter;
 
 class WorkflowComponentProcessRouter extends BaseProcessRouter {
 

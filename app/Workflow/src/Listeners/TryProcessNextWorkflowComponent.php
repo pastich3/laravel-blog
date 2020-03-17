@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Workflow\Listeners;
+namespace Tatham\Workflow\Listeners;
 
-use App\Workflow\Events\ComponentInstanceCompleted;
+use Tatham\Workflow\Events\ComponentInstanceCompleted;
 
-use App\Workflow\Processing\WorkflowComponentProcessRouter;
+use Tatham\Workflow\Processing\WorkflowComponentProcessRouter;
 
-use App\Workflow\Models\WorkflowComponentInstance;
-use App\Workflow\Models\WorkflowMorphMap;
+use Tatham\Workflow\Models\WorkflowComponentInstance;
+use Tatham\Workflow\Models\WorkflowMorphMap;
 
 class TryProcessNextWorkflowComponent
 {
@@ -24,7 +24,7 @@ class TryProcessNextWorkflowComponent
     /**
      * Handle the event.
      *
-     * @param  \App\Events\OrderShipped  $event
+     * @param  \Tatham\Events\OrderShipped  $event
      * @return void
      */
     public function handle(ComponentInstanceCompleted $event)

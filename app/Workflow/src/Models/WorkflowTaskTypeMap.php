@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Workflow\Models;
+namespace Tatham\Workflow\Models;
 
 // not truly a model but closely related
 class WorkflowTaskTypeMap {

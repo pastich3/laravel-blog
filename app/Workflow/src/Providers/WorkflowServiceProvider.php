@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Workflow\Providers;
+namespace Tatham\Workflow\Providers;
 
-use App\Workflow\Models\WorkflowMorphMap;
+use Tatham\Workflow\Models\WorkflowMorphMap;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,9 +14,10 @@ class WorkflowServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadMigrationsFrom([
-            app_path() . '/Workflow/src/Database/Migrations'
+            __DIR__ . '/../Database/Migrations'
         ]);
         WorkflowMorphMap::registerMorphMap();
+        $this->loadRoutesFrom(__DIR__ . '/../Routes/api.php');
     }
 
     /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Workflow\Processing\WorkflowProgressionPolicies;
+namespace Tatham\Workflow\Processing\WorkflowProgressionPolicies;
 
-use App\Workflow\Processing\BaseProcessor;
+use Tatham\Workflow\Processing\BaseProcessor;
 
 abstract class BaseProgressionPolicyProcessor extends BaseProcessor {
 

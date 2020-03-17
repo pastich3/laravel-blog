@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Workflow\Processing\WorkflowTasks;
+namespace Tatham\Workflow\Processing\WorkflowTasks;
 
-use App\Workflow\Processing\WorkflowTasks\BaseTaskProcessor;
+use Tatham\Workflow\Processing\WorkflowTasks\BaseTaskProcessor;
 
 class WorkflowTaskReminderProcessor extends BaseTaskProcessor {
 
