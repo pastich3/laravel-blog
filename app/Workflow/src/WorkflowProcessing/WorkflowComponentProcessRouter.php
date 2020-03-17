@@ -4,6 +4,7 @@ namespace App\Workflow\Processing;
 
 use App\Workflow\Models\WorkflowMorphMap;
 use App\Workflow\Processing\WorkflowTasks\WorkflowTaskProcessRouter;
+use App\Workflow\Processing\WorkflowProgressionPolicies\WorkflowProgressionPolicyProcessRouter;
 
 class WorkflowComponentProcessRouter extends BaseProcessRouter {
 

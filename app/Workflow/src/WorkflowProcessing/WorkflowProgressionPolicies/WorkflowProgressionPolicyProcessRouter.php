@@ -3,8 +3,9 @@
 namespace App\Workflow\Processing\WorkflowProgressionPolicies;
 
 use App\Workflow\Processing\BaseProcessRouter;
+use App\Workflow\Models\WorkflowProgressionPolicy;
 
-class WorkflowTaskProcessRouter extends BaseProcessRouter {
+class WorkflowProgressionPolicyProcessRouter extends BaseProcessRouter {
 
     protected $progressionPolicy;
 
@@ -16,21 +17,21 @@ class WorkflowTaskProcessRouter extends BaseProcessRouter {
     public function process()
     {
         $result = null;
-        switch ($this->workflowTask->type)
+        switch ($this->progressionPolicy->id)
         {
-            case WorkflowProgresionPolicy::OR: {
+            case WorkflowProgressionPolicy::OR: {
                 $result = (new WorkflowOrProgressionPolicyProcessor($this->componentInstance))->process();
                 break;
             }
-            case WorkflowProgresionPolicy::AND: {
+            case WorkflowProgressionPolicy::AND: {
                 $result = (new WorkflowAndProgressionPolicyProcessor($this->componentInstance))->process();
                 break;
             }
-            case WorkflowProgresionPolicy::NOT: {
+            case WorkflowProgressionPolicy::NOT: {
                 $result = (new WorkflowNotProgressionPolicyProcessor($this->componentInstance))->process();
                 break;
             }
-            case WorkflowProgresionPolicy::XOR: {
+            case WorkflowProgressionPolicy::XOR: {
                 $result = (new WorkflowXorProgressionPolicyProcessor($this->componentInstance))->process();
                 break;
             }

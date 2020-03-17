@@ -18,11 +18,11 @@ class WorkflowComponent extends Model
 
     public function nextWorkflowComponents()
     {
-        return $this->belongsToMany(WorkflowComponent::class, 'workflow_component_chains', 'next_workflow_component_id', 'current_workflow_component_id');
+        return $this->belongsToMany(WorkflowComponent::class, 'workflow_component_chains', 'current_workflow_component_id', 'next_workflow_component_id');
     }
 
     public function previousWorkflowComponents()
     {
-        return $this->belongsToMany(WorkflowComponent::class, 'workflow_component_chains', 'current_workflow_component_id', 'next_workflow_component_id');
+        return $this->belongsToMany(WorkflowComponent::class, 'workflow_component_chains', 'next_workflow_component_id', 'current_workflow_component_id');
     }
 }
