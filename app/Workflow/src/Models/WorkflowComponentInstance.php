@@ -16,4 +16,5 @@ class WorkflowComponentInstance extends Model
     {
         return $this->belongsTo(WorkflowComponent::class);
     }
+
 }

@@ -16,6 +16,11 @@ class WorkflowComponent extends Model
         return $this->morphTo();
     }
 
+    public function componentInstances()
+    {
+        return $this->hasMany(WorkflowComponentInstance::class);
+    }
+
     public function nextWorkflowComponents()
     {
         return $this->belongsToMany(WorkflowComponent::class, 'workflow_component_chains', 'current_workflow_component_id', 'next_workflow_component_id');

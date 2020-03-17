@@ -8,12 +8,11 @@ class WorkflowNotProgressionPolicyProcessor extends BaseProgressionPolicyProcess
 
     public function processPolicy() : bool
     {
-        $result = null;
-        echo "policy " . get_class($this) . PHP_EOL;
-
         $result = true;
 
-        return $result;
+        echo __FILE__ . ':' . __LINE__ . ' - NOT policy unimplemented' . PHP_EOL;
+
+        return true;
     }
 
 }

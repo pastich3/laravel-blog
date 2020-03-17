@@ -8,10 +8,23 @@ class WorkflowAndProgressionPolicyProcessor extends BaseProgressionPolicyProcess
 
     public function processPolicy() : bool
     {
-        $result = null;
-        echo "policy " . get_class($this) . PHP_EOL;
-
         $result = true;
+
+        $previousComponents = WorkflowComponent::with([
+            'previousWorkflowComponents.componentInstances' => function($query) {
+                $query->where('user_id', $this->componentInstance->user_id);
+            }
+        ])->find($this->componentInstance->workflowComponent->id);
+
+        foreach ($previousComponents->previousWorkflowComponents as $component)
+        {
+            // should be only 1 instance due to the user_id constraint
+            if (!isset($component->componentInstances->first()->completed_at))
+            {
+                $result = false;
+                break;
+            }
+        }
 
         return $result;
     }
