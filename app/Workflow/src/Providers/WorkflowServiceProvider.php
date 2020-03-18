@@ -14,15 +14,14 @@ class WorkflowServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadMigrationsFrom([
-            __DIR__ . '/../database/migrations'
+            __DIR__ . '/../../database/migrations'
         ]);
         WorkflowMorphMap::registerMorphMap();
-        $this->loadRoutesFrom(__DIR__ . '/../routes/api.php');
+        $this->loadRoutesFrom(__DIR__ . '/../../routes/api.php');
         /*$this->loadRoutesFrom(__DIR__ . '/../routes/web.php');*/
         $this->publishes([
-            __DIR__ . '/../resources/assets' =>
-            resource_path('assets/tatham/workflow'
-        )], 'vue-components');
+            __DIR__ . '/../../resources/assets' => resource_path('vendor/tatham-workflow')
+        ], 'vue-components');
     }
 
     /**

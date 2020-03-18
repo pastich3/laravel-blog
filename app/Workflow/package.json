@@ -4,11 +4,18 @@
   "description": "npm package management to drive VueJs for the Tatham Workflow package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "yarn development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "yarn development -- --watch",
+    "prod": "yarn production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "author": "Jeremy Ravet (gamemaker6.1@gmail.com)",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
+    "cross-env": "^7.0.2",
     "vue": "^2.6.11"
   }
 }
