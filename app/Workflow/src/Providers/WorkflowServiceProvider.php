@@ -6,6 +6,8 @@ use Tatham\Workflow\Models\WorkflowMorphMap;
 
 use Illuminate\Support\ServiceProvider;
 
+use Tatham\Workflow\Console\Commands\PublishWorkflowAssetsCommand;
+
 class WorkflowServiceProvider extends ServiceProvider
 {
     /**
@@ -18,10 +20,15 @@ class WorkflowServiceProvider extends ServiceProvider
         ]);
         WorkflowMorphMap::registerMorphMap();
         $this->loadRoutesFrom(__DIR__ . '/../../routes/api.php');
-        /*$this->loadRoutesFrom(__DIR__ . '/../routes/web.php');*/
         $this->publishes([
-            __DIR__ . '/../../resources/assets' => resource_path('vendor/tatham-workflow')
-        ], 'vue-components');
+            __DIR__ . '/../../resources/views' => resource_path('views/vendor/tatham-workflow')
+        ], 'views');
+
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                PublishWorkflowAssetsCommand::class,
+            ]);
+        }
     }
 
     /**
