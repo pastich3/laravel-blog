@@ -20,9 +20,14 @@ class WorkflowServiceProvider extends ServiceProvider
         ]);
         WorkflowMorphMap::registerMorphMap();
         $this->loadRoutesFrom(__DIR__ . '/../../routes/api.php');
+
         $this->publishes([
             __DIR__ . '/../../resources/views' => resource_path('views/vendor/tatham-workflow')
         ], 'views');
+
+        $this->publishes([
+            __DIR__ . '/../../public' => public_path('/vendor/tatham-workflow')
+        ], 'vue-components');
 
         if ($this->app->runningInConsole()) {
             $this->commands([

@@ -1,5 +1,6 @@
 <template>
     <div>
+        Canvas
     </div>
 </template>
 <script>

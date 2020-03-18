@@ -1,5 +1,6 @@
 <template>
     <div>
+        Component List
     </div>
 </template>
 <script>

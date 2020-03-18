@@ -32,5 +32,10 @@ class PublishWorkflowAssetsCommand extends Command
             '--tag' => 'views',
             '--force' => true,
         ]);
+        $this->call('vendor:publish', [
+            '--provider' => 'Tatham\Workflow\Providers\WorkflowServiceProvider',
+            '--tag' => 'vue-components',
+            '--force' => true,
+        ]);
     }
 }
