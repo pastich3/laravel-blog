@@ -1,0 +1,14 @@
+{
+  "name": "tatham-workflow",
+  "version": "1.0.0",
+  "description": "npm package management to drive VueJs for the Tatham Workflow package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Ravet (gamemaker6.1@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}

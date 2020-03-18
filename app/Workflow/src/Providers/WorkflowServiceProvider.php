@@ -18,7 +18,7 @@ class WorkflowServiceProvider extends ServiceProvider
         ]);
         WorkflowMorphMap::registerMorphMap();
         $this->loadRoutesFrom(__DIR__ . '/../routes/api.php');
-        $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
+        /*$this->loadRoutesFrom(__DIR__ . '/../routes/web.php');*/
         /*$this->publishes([
             __DIR__ . '/../resources/assets' =>
             resource_path('assets/tatham/workflow'
