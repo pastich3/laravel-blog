@@ -7,7 +7,7 @@ const router = new VueRouter({
 	mode: 'history',
 	routes: [
         {
-            path: '/workflowBuilder/{workflowSlug?}',
+            path: '/workflowBuilder',
             component: require('./WorkflowBuilder/WorkflowBuilder').default,
         },
     ]
