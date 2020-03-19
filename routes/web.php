@@ -18,7 +18,7 @@ Route::group([], function() { // for organizational purposes only
     Route::get('/our_approach', 'HomeController@our_approach')->name('our_approach');
     Route::get('/consult', 'HomeController@consult')->name('consult');
     Route::post('/contact', 'TathamContactController@contact')->name('contactPost');
-    Route::get('/test', 'HomeController@test');
+    Route::get('/workflowBuilder', 'HomeController@test'); // TODO this is for testing
 });
 // Route::get('/case_studies', 'HomeController@case_studies')->name('case_studies');
 // Route::get('/your_story', 'HomeController@yourStory')->name('your_story');

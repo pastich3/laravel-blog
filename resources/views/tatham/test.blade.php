@@ -20,11 +20,7 @@
 <body>
 	<div id="app">
         <div class="container" style="margin-top: 90px; margin-bottom: 60px;">
-            <div class="row">
-                <div class="col-md-12">
-					@include('vendor.tatham-workflow.WorkflowBuilder')
-                </div>
-            </div>
+			@include('vendor.tatham-workflow.WorkflowBuilder')
         </div>
 
     </div>

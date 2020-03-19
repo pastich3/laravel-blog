@@ -3,6 +3,7 @@ Vue.component('workflow-builder', require('./components/WorkflowBuilder/Workflow
 import Vue from 'vue';
 import Routes from './components/routes.js';
 import store from './components/store';
+import App from './views/WorkflowApp';
 
 const app = new Vue({
     el: '#workflowApp',
