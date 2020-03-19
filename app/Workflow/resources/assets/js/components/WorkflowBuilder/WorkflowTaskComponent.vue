@@ -16,7 +16,7 @@
         :componentKey="componentData.key"
       ></edit-button> -->
       <div class="d-flex flex-column">
-        <div> Task Name Here </div>
+        <div class="d-flex justify-content-center"> {{componentData.name}} </div>
         <div class="d-flex justify-content-between">
             <div
                 @dragover="handleDragover(-1)"
