@@ -21,18 +21,17 @@
             <div
                 @dragover="handleDragover(-1)"
                 @dragleave="handleDragLeave(-1)"
-                style="direction:ltr;font-size:13px;padding:20px 0;text-align:center;"
-                v-if="dragging && !dropZonesExpanded[-1] && componentData.children.length == 0"
+                style="width: 20px; height: 20px; border: 1px solid red;"
             >
                 <workflow-drop-wrapper
-                    v-if="self"
+                    v-if="self && dragging && dropZonesExpanded[-1]"
                     :expanded="dropZonesExpanded[-1]"
                     :validComponents="self.$options.components"
                     :componentData="componentData"
                     :typeAccepted="'content'"
                     :mode="'prepend'"
                     :dragging="dragging"
-                    style="height: 20px; max-height: 100%; min-height: 20px;"
+                    style="height: 20px; width: 20px;z-index:50;"
                 >
                 </workflow-drop-wrapper>
             </div>
@@ -47,10 +46,10 @@
                 <div
                     @dragover="handleDragover(getChildIndex(child))"
                     @dragleave="handleDragLeave(getChildIndex(child))"
-                    style="width: 20px; direction:ltr;font-size:0px;padding:20px 0;text-align:center;"
-                    v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
+                    style="width: 20px; height: 20px; border: 1px solid red;"
                 >
                     <workflow-drop-wrapper
+                        v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
                         :expanded="dropZonesExpanded[getChildIndex(child)]"
                         :validComponents="self.$options.components"
                         :componentData="componentData"
@@ -58,7 +57,7 @@
                         :index="getChildIndex(child)"
                         :mode="'insertAfter'"
                         :dragging="dragging"
-                        style="height: 20px; max-height: 100%; min-height: 20px;"
+                        style="height: 20px; width: 20px; z-index:50;"
                     >
                     </workflow-drop-wrapper>
                 </div>
@@ -71,6 +70,7 @@
     import WorkflowDropWrapper from './WorkflowDropWrapper';
     import WorkflowDropZoneMixin from './WorkflowDropZoneMixin';
     import WorkflowSelectableZoneMixin from "./WorkflowSelectableZoneMixin";
+    import WorkflowTaskComponent from "./WorkflowTaskComponent";
     // import EditButton from "../EditButton";
 
     export default {
@@ -78,8 +78,10 @@
         mixins: [WorkflowDropZoneMixin, WorkflowSelectableZoneMixin],
         components: {
             'workflow-drop-wrapper': WorkflowDropWrapper,
+            'workflow-task-component': WorkflowTaskComponent
             // 'edit-button': EditButton
         },
+        name: 'workflow-task-component',
         data: function() {
             return {
                 tagName: 'workflow-task',
