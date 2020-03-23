@@ -42,8 +42,8 @@
                 >
                 </workflow-drop-wrapper>
             </div>
-            <template v-for="child in componentData.children">
-                <svg style="position:absolute; width: 100%; height: 100%; top:0;left:0;z-index:-1;">
+            <template v-for="(child, idx) in componentData.children">
+                <svg v-if="elementExists(child.key)" style="position:absolute; width: 100%; height: 100%; top:0;left:0;z-index:-1;">
                     <line
                         :x1="getX(componentData.key)"
                         :y1="getY(componentData.key) + 20"
@@ -79,6 +79,14 @@
                         </workflow-drop-wrapper>
                     </div>
                 </div>
+                <div
+                    v-if="componentData.children.length > 1 && (idx + 1) != componentData.children.length"
+                    :style="{
+                        left: calculateJoinerLeft(child.key) + 'px'
+                    }"
+                    class="workflow-joiner"
+                >
+                </div>
             </template>
         </div>
       </div>
@@ -111,12 +119,26 @@
             getX: function(id) {
                 if ($("#" + id).offset() && $("#" + this.componentData.key).offset()) {
                     return $("#" + id).offset().left - $("#" + this.componentData.key).offset().left + $("#" + id).width()/2;
-                } else {return 0;}
+                } else {return 0;} // for when the DOM hasn't fully loaded; it is properly calculated and updated after
             },
             getY: function(id) {
                 if ($("#" + id).offset() && $("#" + this.componentData.key).offset()) {
                     return $("#" + id).offset().top - $("#" + this.componentData.key).offset().top;
-                } else {return 0;}
+                } else {return 0;} // for when the DOM hasn't fully loaded; it is properly calculated and updated after
+            },
+            elementExists: function(id) {
+                return ($("#" + id) != undefined);
+            },
+            calculateJoinerLeft: function(id) {
+                var childElement = $("#" + id);
+                var childLeft = 0;
+                var childWidth = 0;
+                if (childElement.offset() != undefined && $("#" + this.componentData.key).offset() != undefined) {
+                    childLeft = childElement.offset().left - $("#" + this.componentData.key).offset().left;
+                    childWidth = childElement.width();
+                }
+
+                return childLeft + childWidth;
             }
         }
     }
@@ -130,6 +152,13 @@
     }
     .workflow-component {
         min-height: 50px;
+    }
+    .workflow-joiner {
+        width: 20px;
+        height: 20px;
+        border: 1px solid green;
+        position: absolute;
+        bottom: 0;
     }
     .workflow-component:hover, .workflow-component.selected {
         cursor: move;
