@@ -66,5 +66,7 @@
     .workflow-canvas {
         border: 1px solid black;
         position: relative;
+        min-width: 150px;
+        width: 100%;
     }
 </style>

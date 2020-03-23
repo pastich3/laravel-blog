@@ -1,9 +1,9 @@
 <template>
     <div class="d-flex justify-content-between">
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-start w-75">
             <workflow-component-list  :selectedElement="selectedElement"></workflow-component-list>
         </div>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center w-100">
             <workflow-builder-canvas :dragging="dragging" :componentData="workflow"></workflow-builder-canvas>
         </div>
     </div>

@@ -57,17 +57,12 @@
                 if (this.componentData.children == undefined) {
                     this.$set(this.componentData, 'children', []);
                 }
-                var dataChildren = (data.component.children||[]);
-                var obj = {
-                    name: data.component.name,
-                    component: data.component.component,
-                    children: dataChildren
-                };
+                data.component.children = (data.component.children||[]);
                 if (this.mode == 'insertAfter') {
                     // inserts new element after previous element
-                    this.componentData.children.splice(this.index+1, 0, obj);
+                    this.componentData.children.splice(this.index+1, 0, data.component);
                 } else { // this.mode == prepend
-                    this.componentData.children.splice(0, 0, obj); // unshift == prepend
+                    this.componentData.children.splice(0, 0, data.component); // unshift == prepend
                 }
                 WorkflowBus.$emit('workflow-drag-ended');
             },

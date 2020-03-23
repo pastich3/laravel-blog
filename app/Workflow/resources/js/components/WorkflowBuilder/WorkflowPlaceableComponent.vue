@@ -2,12 +2,13 @@
     <div
         v-if="initialized"
         @click="selectElement($event)"
-        class="workflow-task"
+        class="workflow-component w-100"
         style="position:relative;"
-        :class="{
+        :class="[{
             selected : elementSelected,
-            'workflow-bordered': dragging.component != undefined
-        }"
+            'workflow-bordered': dragging.component != undefined,
+
+        }, 'workflow-' + componentData.type]"
     >
       <!-- <edit-button
         v-if="elementSelected"
@@ -21,7 +22,7 @@
             <div
                 @dragover="handleDragover(-1)"
                 @dragleave="handleDragLeave(-1)"
-                style="width: 20px; height: 20px; border: 1px solid red;"
+                style="min-width: 20px; width: 20px; height: 20px; border: 1px solid red;"
             >
                 <workflow-drop-wrapper
                     v-if="self && dragging && dropZonesExpanded[-1]"
@@ -31,11 +32,11 @@
                     :type="componentData.type"
                     :mode="'prepend'"
                     :dragging="dragging"
-                    style="height: 20px; width: 20px;z-index:50;"
+                    style="height: 20px; width: 20px; z-index:50;"
                 >
                 </workflow-drop-wrapper>
             </div>
-            <div style="position:relative;" v-for="child in componentData.children">
+            <template v-for="child in componentData.children">
                <component
                     :dragging="dragging"
                     :key="componentData.key + '-' + child.key"
@@ -43,25 +44,27 @@
                     :componentData="child"
                 >
                 </component>
-                <div
-                    @dragover="handleDragover(getChildIndex(child))"
-                    @dragleave="handleDragLeave(getChildIndex(child))"
-                    style="width: 20px; height: 20px; border: 1px solid red; position:absolute;top: 0px; right: 0px;"
-                >
-                    <workflow-drop-wrapper
-                        v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
-                        :expanded="dropZonesExpanded[getChildIndex(child)]"
-                        :validComponents="self.$options.components"
-                        :componentData="componentData"
-                        :type="componentData.type"
-                        :index="getChildIndex(child)"
-                        :mode="'insertAfter'"
-                        :dragging="dragging"
-                        style="height: 20px; width: 20px; z-index:50;"
+                <div>
+                    <div
+                        @dragover="handleDragover(getChildIndex(child))"
+                        @dragleave="handleDragLeave(getChildIndex(child))"
+                        style="width: 20px; height: 20px; border: 1px solid red;"
                     >
-                    </workflow-drop-wrapper>
+                        <workflow-drop-wrapper
+                            v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
+                            :expanded="dropZonesExpanded[getChildIndex(child)]"
+                            :validComponents="self.$options.components"
+                            :componentData="componentData"
+                            :type="componentData.type"
+                            :index="getChildIndex(child)"
+                            :mode="'insertAfter'"
+                            :dragging="dragging"
+                            style="height: 20px; width: 20px; z-index:50;"
+                        >
+                        </workflow-drop-wrapper>
+                    </div>
                 </div>
-            </div>
+            </template>
         </div>
       </div>
     </div>
@@ -93,15 +96,21 @@
 </script>
 <style scoped lang="scss">
     .workflow-task {
+        outline-color: orange;
+    }
+    .workflow-progression-policy {
+        outline-color: blue;
+    }
+    .workflow-component {
         min-height: 50px;
     }
-    .workflow-task:hover, .workflow-task.selected {
+    .workflow-component:hover, .workflow-component.selected {
         cursor: move;
-        outline: 1px double gray;
-        outline-offset: -3px;
+        outline-style: double;
+        outline-width: 1px;
     }
     .workflow-bordered {
-        outline: 1px solid gray;
-        outline-offset: -3px;
+        outline-style: solid;
+        outline-width: 1px;
     }
 </style>
