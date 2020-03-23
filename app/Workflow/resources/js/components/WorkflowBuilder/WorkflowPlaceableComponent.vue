@@ -16,8 +16,8 @@
         :attributesList="attributesList"
         :componentKey="componentData.key"
       ></workflow-edit-button>
-      <div class="d-flex flex-column">
-        <div class="d-flex justify-content-center"> {{componentData.name}} </div>
+      <div class="d-flex flex-column" :id="componentData.key">
+        <div class="d-flex justify-content-center text-center mb-3"> {{componentData.name}} </div>
         <div
             class="d-flex"
             :class="{
@@ -43,7 +43,16 @@
                 </workflow-drop-wrapper>
             </div>
             <template v-for="child in componentData.children">
-               <component
+                <svg style="position:absolute; width: 100%; height: 100%; top:0;left:0;z-index:-1;">
+                    <line
+                        :x1="getX(componentData.key)"
+                        :y1="getY(componentData.key) + 20"
+                        :x2="getX(child.key)"
+                        :y2="getY(child.key)"
+                        stroke="black"
+                    />
+                </svg>
+                <component
                     :dragging="dragging"
                     :is="child.component"
                     :componentData="child"
@@ -98,6 +107,18 @@
                 }
             }
         },
+        methods: {
+            getX: function(id) {
+                if ($("#" + id).offset() && $("#" + this.componentData.key).offset()) {
+                    return $("#" + id).offset().left - $("#" + this.componentData.key).offset().left + $("#" + id).width()/2;
+                } else {return 0;}
+            },
+            getY: function(id) {
+                if ($("#" + id).offset() && $("#" + this.componentData.key).offset()) {
+                    return $("#" + id).offset().top - $("#" + this.componentData.key).offset().top;
+                } else {return 0;}
+            }
+        }
     }
 </script>
 <style scoped lang="scss">
