@@ -28,7 +28,7 @@
                     :expanded="dropZonesExpanded[-1]"
                     :validComponents="self.$options.components"
                     :componentData="componentData"
-                    :typeAccepted="'content'"
+                    :type="componentData.type"
                     :mode="'prepend'"
                     :dragging="dragging"
                     style="height: 20px; width: 20px;z-index:50;"
@@ -53,7 +53,7 @@
                         :expanded="dropZonesExpanded[getChildIndex(child)]"
                         :validComponents="self.$options.components"
                         :componentData="componentData"
-                        :typeAccepted="'content'"
+                        :type="componentData.type"
                         :index="getChildIndex(child)"
                         :mode="'insertAfter'"
                         :dragging="dragging"
@@ -70,7 +70,7 @@
     import WorkflowDropWrapper from './WorkflowDropWrapper';
     import WorkflowDropZoneMixin from './WorkflowDropZoneMixin';
     import WorkflowSelectableZoneMixin from "./WorkflowSelectableZoneMixin";
-    import WorkflowTaskComponent from "./WorkflowTaskComponent";
+    import WorkflowPlaceableComponent from "./WorkflowPlaceableComponent";
     // import EditButton from "../EditButton";
 
     export default {
@@ -78,7 +78,7 @@
         mixins: [WorkflowDropZoneMixin, WorkflowSelectableZoneMixin],
         components: {
             'workflow-drop-wrapper': WorkflowDropWrapper,
-            'workflow-task-component': WorkflowTaskComponent
+            'workflow-task-component': WorkflowPlaceableComponent
             // 'edit-button': EditButton
         },
         name: 'workflow-task-component',

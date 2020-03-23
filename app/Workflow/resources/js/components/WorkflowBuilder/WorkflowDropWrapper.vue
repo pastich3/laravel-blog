@@ -26,7 +26,8 @@
             'componentData',
             'validComponents',
             'mode',
-            'typeAccepted',
+            // 'typeAccepted',
+            'type',
             'expanded'
         ],
         components: {

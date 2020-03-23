@@ -11,7 +11,7 @@ mix
     }
   })
   .setPublicPath("public")
-  .js("resources/assets/js/app.js", "public")
+  .js("resources/js/app.js", "public")
   .version()
   .webpackConfig({
     resolve: {

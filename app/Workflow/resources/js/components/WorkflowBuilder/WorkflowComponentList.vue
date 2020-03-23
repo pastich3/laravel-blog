@@ -37,11 +37,20 @@
         data: function() {
             return {
                 dragging: undefined,
-                progressionPolicies: [],
+                progressionPolicies: [{
+                    name: 'Or',
+                    component: 'workflow-placeable-component',
+                    type: 'progression policy'
+                },
+                {
+                    name: 'And',
+                    component: 'workflow-placeable-component',
+                    type: 'task'
+                }],
                 tasks: [{
                     name: 'Test Task',
-                    component: 'workflow-task-component',
-                    type: 'content'
+                    component: 'workflow-placeable-component',
+                    type: 'task'
                 }],
                 workflows: [],
             }
