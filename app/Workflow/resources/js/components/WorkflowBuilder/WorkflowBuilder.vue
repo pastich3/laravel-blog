@@ -29,24 +29,24 @@
             }
         },
         beforeDestroy: function() {
-            WorkflowBus.$off('drag-started');
-            WorkflowBus.$off('drag-ended');
-            WorkflowBus.$off('element-selected');
-            WorkflowBus.$off('delete-component');
-            WorkflowBus.$off('component-deleted');
+            WorkflowBus.$off('workflow-drag-started');
+            WorkflowBus.$off('workflow-drag-ended');
+            WorkflowBus.$off('workflow-element-selected');
+            WorkflowBus.$off('workflow-delete-component');
+            WorkflowBus.$off('workflow-component-deleted');
         },
         mounted: function() {
             var self = this;
-            WorkflowBus.$on('drag-started', function(dragging) {
+            WorkflowBus.$on('workflow-drag-started', function(dragging) {
                 self.dragging = dragging;
             });
-            WorkflowBus.$on('drag-ended', function() {
+            WorkflowBus.$on('workflow-drag-ended', function() {
                 self.dragging = {};
             });
         },
         methods: {
             deselectElements: function() {
-                WorkflowBus.$emit('element-selected', ''); // deselects all
+                WorkflowBus.$emit('workflow-element-selected', ''); // deselects all
             },
         }
     }

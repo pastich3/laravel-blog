@@ -57,10 +57,10 @@
         },
         methods: {
             dragStart: function(component) {
-                WorkflowBus.$emit('drag-started', component);
+                WorkflowBus.$emit('workflow-drag-started', component);
             },
             dragEnd: function() {
-                WorkflowBus.$emit('drag-ended');
+                WorkflowBus.$emit('workflow-drag-ended');
             }
         }
     }

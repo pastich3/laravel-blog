@@ -21,18 +21,18 @@ export default {
         }
         this.fillAttributes();
         this.$set(this.componentData, 'tagName', this.tagName);
-        WorkflowBus.$on('element-selected', function(key) {
+        WorkflowBus.$on('workflow-element-selected', function(key) {
             // select the element by its key; all other elements become de-selected
             self.elementSelected = (key == self.componentData.key);
         });
 
-        WorkflowBus.$on('drag-ended', function() {
+        WorkflowBus.$on('workflow-drag-ended', function() {
             // prevents edit-icons / menus / select-highlights from sticking around erroneously
             // self.componentData.key = self.generateUuid();
             self.elementSelected = false;
         });
 
-        WorkflowBus.$on('component-deleted', function() {
+        WorkflowBus.$on('workflow-component-deleted', function() {
             // sends a signal that the delete-component loop can stop prematurely to save some processing
             self.elementRecentlyDeleted = true;
             // self.componentData.key = self.generateUuid();
@@ -42,7 +42,7 @@ export default {
             }, 150);
         });
 
-        WorkflowBus.$on('delete-component', function(componentKey) {
+        WorkflowBus.$on('workflow-delete-component', function(componentKey) {
             self.elementSelected = false;
             if (self.componentData.children != undefined) { // content-elements don't have children
                 for (var i = 0; i < self.componentData.children.length; i++) {
@@ -51,7 +51,7 @@ export default {
                     }
                     if (self.componentData.children[i].key == componentKey) {
                         self.componentData.children = self.componentData.children.filter(x => x.key != componentKey);
-                        WorkflowBus.$emit('component-deleted'); // forces all elements to update their keys
+                        WorkflowBus.$emit('workflow-component-deleted'); // forces all elements to update their keys
                         break;
                     }
                 }
@@ -65,7 +65,7 @@ export default {
         },
         selectElement: function(event) {
             event.stopImmediatePropagation(); // prevents parents from overriding a childrens' select event
-            WorkflowBus.$emit('element-selected', this.componentData.key);
+            WorkflowBus.$emit('workflow-element-selected', this.componentData.key);
         },
         fillAttributes : function() {
             for (var key in this.attributesList) {

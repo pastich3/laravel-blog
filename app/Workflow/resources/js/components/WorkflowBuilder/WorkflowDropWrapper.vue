@@ -43,10 +43,10 @@
         mounted: function() {
             // dynamically fetch the valid children based on the registered components
             this.$nextTick(() => {
-                this.validChildren = Object.keys(this.validComponents).filter(x => x != 'drop-wrapper' && x != 'edit-button');
+                this.validChildren = Object.keys(this.validComponents).filter(x => x != 'workflow-drop-wrapper' && x != 'workflow-edit-button');
 
                 var self = this;
-                WorkflowBus.$on('drag-ended', function() {
+                WorkflowBus.$on('workflow-drag-ended', function() {
                     clearTimeout(self.dragLeaveTimeout);
                     self.dragOver = false;
                 });
@@ -69,7 +69,7 @@
                 } else { // this.mode == prepend
                     this.componentData.children.splice(0, 0, obj); // unshift == prepend
                 }
-                WorkflowBus.$emit('drag-ended');
+                WorkflowBus.$emit('workflow-drag-ended');
             },
             handleDragover: function (dragging, data, event) {
                 if (!this.dropAllowed(dragging)) {

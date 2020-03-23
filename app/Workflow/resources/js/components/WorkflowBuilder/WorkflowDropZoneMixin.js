@@ -11,7 +11,7 @@
         mounted: function() {
             this.self = this; // a hack to get the second drop wrapper to work
             var self = this;
-            WorkflowBus.$on('drag-ended', function() {
+            WorkflowBus.$on('workflow-drag-ended', function() {
                 for (var index in self.dropZonesExpanded) {
                 self.dropZonesExpanded[index] = false;
                     if (self.dragLeaveTimeouts[index] != undefined) {
