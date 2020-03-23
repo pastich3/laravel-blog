@@ -47,7 +47,7 @@
                 {
                     name: 'And',
                     component: 'workflow-placeable-component',
-                    type: 'task'
+                    type: 'progression-policy'
                 }],
                 tasks: [{
                     name: 'Test Task',

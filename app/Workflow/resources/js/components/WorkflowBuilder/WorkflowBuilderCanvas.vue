@@ -1,5 +1,5 @@
 <template>
-    <div v-if="initialized" class="w-100 h-100 workflow-canvas">
+    <div v-if="initialized" class="w-100 h-100 justify-content-center d-flex workflow-canvas">
         <div
             @dragover="handleDragover(-1)"
             @dragleave="handleDragLeave(-1)"
@@ -18,27 +18,29 @@
             </workflow-drop-wrapper>
         </div>
         <div class="d-flex">
-            <div v-for="child in componentData.children">
+            <template v-for="child in componentData.children">
                 <component :dragging="dragging" :key="child.key" :is="child.component" :componentData="child"></component>
-                <div
-                    @dragover="handleDragover(getChildIndex(child))"
-                    @dragleave="handleDragLeave(getChildIndex(child))"
-                    style="width: 20px; height: 20px; border: 1px solid red; position: absolute; top: 0px; right: 0px;"
-                >
-                    <workflow-drop-wrapper
-                        v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
-                        :expanded="dropZonesExpanded[getChildIndex(child)]"
-                        :validComponents="self.$options.components"
-                        :componentData="componentData"
-                        :type="componentData.type"
-                        :index="getChildIndex(child)"
-                        :mode="'insertAfter'"
-                        :dragging="dragging"
-                        style="height: 20px; width: 20px;"
+                <div>
+                    <div
+                        @dragover="handleDragover(getChildIndex(child))"
+                        @dragleave="handleDragLeave(getChildIndex(child))"
+                        style="width: 20px; height: 20px; border: 1px solid red;"
                     >
-                    </workflow-drop-wrapper>
+                        <workflow-drop-wrapper
+                            v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
+                            :expanded="dropZonesExpanded[getChildIndex(child)]"
+                            :validComponents="self.$options.components"
+                            :componentData="componentData"
+                            :type="componentData.type"
+                            :index="getChildIndex(child)"
+                            :mode="'insertAfter'"
+                            :dragging="dragging"
+                            style="height: 20px; width: 20px;"
+                        >
+                        </workflow-drop-wrapper>
+                    </div>
                 </div>
-            </div>
+            </template>
         </div>
     </div>
 </template>

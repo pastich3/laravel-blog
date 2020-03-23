@@ -18,7 +18,13 @@
       ></edit-button> -->
       <div class="d-flex flex-column">
         <div class="d-flex justify-content-center"> {{componentData.name}} </div>
-        <div class="d-flex justify-content-between">
+        <div
+            class="d-flex"
+            :class="{
+                'justify-content-center': componentData.children.length == 0,
+                'justify-content-between': componentData.children.length > 0,
+            }"
+        >
             <div
                 @dragover="handleDragover(-1)"
                 @dragleave="handleDragLeave(-1)"
@@ -39,9 +45,9 @@
             <template v-for="child in componentData.children">
                <component
                     :dragging="dragging"
-                    :key="componentData.key + '-' + child.key"
                     :is="child.component"
                     :componentData="child"
+                    :key="componentData.key + '-' + child.key"
                 >
                 </component>
                 <div>

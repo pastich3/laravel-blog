@@ -25,7 +25,7 @@
                     children: []
                 },
                 selectedElement: {},
-                dragging: {},
+                dragging: {}
             }
         },
         beforeDestroy: function() {
