@@ -35,7 +35,7 @@
                 >
                 </workflow-drop-wrapper>
             </div>
-            <div v-for="child in componentData.children">
+            <div style="position:relative;" v-for="child in componentData.children">
                <component
                     :dragging="dragging"
                     :key="componentData.key + '-' + child.key"
@@ -46,7 +46,7 @@
                 <div
                     @dragover="handleDragover(getChildIndex(child))"
                     @dragleave="handleDragLeave(getChildIndex(child))"
-                    style="width: 20px; height: 20px; border: 1px solid red;"
+                    style="width: 20px; height: 20px; border: 1px solid red; position:absolute;top: 0px; right: 0px;"
                 >
                     <workflow-drop-wrapper
                         v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
@@ -78,10 +78,10 @@
         mixins: [WorkflowDropZoneMixin, WorkflowSelectableZoneMixin],
         components: {
             'workflow-drop-wrapper': WorkflowDropWrapper,
-            'workflow-task-component': WorkflowPlaceableComponent
+            'workflow-placeable-component': WorkflowPlaceableComponent
             // 'edit-button': EditButton
         },
-        name: 'workflow-task-component',
+        name: 'workflow-placeable-component',
         data: function() {
             return {
                 tagName: 'workflow-task',

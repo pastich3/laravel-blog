@@ -23,7 +23,7 @@
                 <div
                     @dragover="handleDragover(getChildIndex(child))"
                     @dragleave="handleDragLeave(getChildIndex(child))"
-                    style="width: 20px; height: 20px; border: 1px solid red;"
+                    style="width: 20px; height: 20px; border: 1px solid red; position: absolute; top: 0px; right: 0px;"
                 >
                     <workflow-drop-wrapper
                         v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
@@ -53,7 +53,7 @@
         mixins: [WorkflowDropZoneMixin, WorkflowSelectableZoneMixin],
         components: {
             'workflow-drop-wrapper': WorkflowDropWrapper,
-            'workflow-task-component': WorkflowPlaceableComponent
+            'workflow-placeable-component': WorkflowPlaceableComponent
         },
         data: function() {
             return {
@@ -65,5 +65,6 @@
 <style scoped lang="scss">
     .workflow-canvas {
         border: 1px solid black;
+        position: relative;
     }
 </style>
