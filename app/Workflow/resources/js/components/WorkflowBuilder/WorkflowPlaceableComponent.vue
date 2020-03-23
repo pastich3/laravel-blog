@@ -10,12 +10,12 @@
 
         }, 'workflow-' + componentData.type]"
     >
-      <!-- <edit-button
+      <workflow-edit-button
         v-if="elementSelected"
         :componentData="componentData"
         :attributesList="attributesList"
         :componentKey="componentData.key"
-      ></edit-button> -->
+      ></workflow-edit-button>
       <div class="d-flex flex-column">
         <div class="d-flex justify-content-center"> {{componentData.name}} </div>
         <div
@@ -80,15 +80,15 @@
     import WorkflowDropZoneMixin from './WorkflowDropZoneMixin';
     import WorkflowSelectableZoneMixin from "./WorkflowSelectableZoneMixin";
     import WorkflowPlaceableComponent from "./WorkflowPlaceableComponent";
-    // import EditButton from "../EditButton";
+    import WorkflowEditButton from "./WorkflowEditButton";
 
     export default {
         props: ['dragging', 'componentData'],
         mixins: [WorkflowDropZoneMixin, WorkflowSelectableZoneMixin],
         components: {
             'workflow-drop-wrapper': WorkflowDropWrapper,
-            'workflow-placeable-component': WorkflowPlaceableComponent
-            // 'edit-button': EditButton
+            'workflow-placeable-component': WorkflowPlaceableComponent,
+            'workflow-edit-button': WorkflowEditButton
         },
         name: 'workflow-placeable-component',
         data: function() {
