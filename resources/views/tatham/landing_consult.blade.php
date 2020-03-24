@@ -1,6 +1,7 @@
 @extends('layouts.landing')
 
 @section('content')
+  <main id="main">
     <!--==========================
       Case Study Section
     ============================-->

@@ -6,7 +6,16 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700|Lato|Montserrat" rel="stylesheet">
+  @auth
+      <meta name="api-token" content="{{ auth()->user()->api_token }}">
+  @endauth
 
+
+  <!-- Styles -->
+  <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
   <!-- Favicons -->
   <link href="images/newfavicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -40,7 +49,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left" style="margin-top:-14px">
-        <a href="#home" class="no-hover-highlight">
+        <a href="/#home" class="no-hover-highlight">
         <!-- <img src="images/newfavicon.png" class="" style="margin-top:-16px; height: 50px" alt="" title="" /> -->
         <span style="font-family: 'Montserrat'; letter-spacing:1px; font-size: 2em; font-style: regular">&nbsp;Tatham Inc</span>
         </a>
@@ -78,10 +87,9 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-
-  <main id="main">
-    @yield('content')
-  </main>
+    <div id="app">
+      @yield('content')
+    </div>
   <!--==========================
     Footer
   ============================-->
@@ -119,6 +127,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="{{ mix('/js/app.js') }}"></script>
   @stack('inline-scripts')
 
 </body>
