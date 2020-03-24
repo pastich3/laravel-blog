@@ -6,6 +6,7 @@
         <div class="d-flex justify-content-center w-100">
             <workflow-builder-canvas :dragging="dragging" :componentData="workflow"></workflow-builder-canvas>
         </div>
+        <div style="font-size: 3px; width: 25%" v-html="workflow"></div>
     </div>
 </template>
 <script>

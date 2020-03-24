@@ -62,7 +62,7 @@
                         stroke="black"
                     />
                 </svg>
-                <template v-if="child.render != false">
+                <template v-if="child.dontRenderOn == undefined || child.dontRenderOn.indexOf(componentData.key) != -1">
                     <component
                         :dragging="dragging"
                         :is="child.component"
@@ -156,12 +156,12 @@
                 return ($("#" + id) != undefined);
             },
             calculateSvgCanvasTop: function() {
-                if (this.elementExists(this.componentData.key) && this.elementExists('workflowBuilderCanvas')) {
+                if ($("#" + this.componentData.key).offset() && $('#workflowBuilderCanvas').offset()) {
                     return $("#workflowBuilderCanvas").offset().top - $("#" + this.componentData.key).offset().top;
                 }
             },
             calculateSvgCanvasLeft: function() {
-                if (this.elementExists(this.componentData.key) && this.elementExists('workflowBuilderCanvas')) {
+                if ($("#" + this.componentData.key).offset() && $('#workflowBuilderCanvas').offset()) {
                     return $("#workflowBuilderCanvas").offset().left - $("#" + this.componentData.key).offset().left;
                 }
             },

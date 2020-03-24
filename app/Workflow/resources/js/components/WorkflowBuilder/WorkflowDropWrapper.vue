@@ -80,26 +80,16 @@
                 if (this.mode == 'insertAfter') {
                     // inserts new element after previous element
                     componentData.children.splice(index+1, 0, obj);
-                    if (otherSibling != undefined) {
-                        var dupObj = {
-                            name: obj.name,
-                            component: obj.component,
-                            type: obj.type
-                        };
-                        dupObj.render = false;
-                        otherSibling.children.splice(index+1, 0, dupObj);
-                    }
                 } else { // this.mode == prepend
                     componentData.children.splice(0, 0, obj); // unshift == prepend
-                    if (otherSibling != undefined) {
-                        var dupObj = {
-                            name: obj.name,
-                            component: obj.component,
-                            type: obj.type
-                        };
-                        dupObj.render = false;
-                        otherSibling.children.splice(0, 0, dupObj); // unshift == prepend
+                }
+
+                if (otherSibling != undefined) {
+                    if (obj.dontRenderOn == undefined) {
+                        this.$set(obj, 'dontRenderOn', []);
                     }
+                    obj.dontRenderOn.push(otherSibling.key);
+                    otherSibling.children.splice(0, 0, obj);
                 }
                 WorkflowBus.$emit('workflow-drag-ended');
             },
