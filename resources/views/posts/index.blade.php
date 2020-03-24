@@ -1,4 +1,4 @@
-@extends('layouts.landing')
+@extends('layouts.app')
 
 @section('content')
   <div style="background-color: rgba(52, 59, 64, 0.9); padding-top:92px"></div>
