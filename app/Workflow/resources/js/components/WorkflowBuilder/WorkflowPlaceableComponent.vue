@@ -43,8 +43,18 @@
                 </workflow-drop-wrapper>
             </div>
             <template v-for="(child, idx) in componentData.children">
-                <svg v-if="elementExists(child.key)" style="position:absolute; width: 100%; height: 100%; top:0;left:0;z-index:-1;">
+                <svg
+                    v-if="elementExists(child.key)"
+                    class="workflow-svg"
+                    :style="{
+                        top: calculateSvgCanvasTop(),
+                        left: calculateSvgCanvasLeft(),
+                        width: calculateSvgCanvasWidth() + 'px',
+                        height: calculateSvgCanvasHeight() + 'px'
+                    }"
+                >
                     <line
+                        v-if="elementExists(child.key) && elementExists(componentData.key)"
                         :x1="getX(componentData.key)"
                         :y1="getY(componentData.key) + 20"
                         :x2="getX(child.key)"
@@ -52,41 +62,57 @@
                         stroke="black"
                     />
                 </svg>
-                <component
-                    :dragging="dragging"
-                    :is="child.component"
-                    :componentData="child"
-                    :key="componentData.key + '-' + child.key"
-                >
-                </component>
-                <div>
+                <template v-if="child.render != false">
+                    <component
+                        :dragging="dragging"
+                        :is="child.component"
+                        :componentData="child"
+                        :key="componentData.key + '-' + child.key"
+                    >
+                    </component>
+                    <div>
+                        <div
+                            @dragover="handleDragover(getChildIndex(child))"
+                            @dragleave="handleDragLeave(getChildIndex(child))"
+                            style="width: 20px; height: 20px; border: 1px solid red;"
+                        >
+                            <workflow-drop-wrapper
+                                v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
+                                :expanded="dropZonesExpanded[getChildIndex(child)]"
+                                :validComponents="self.$options.components"
+                                :componentData="componentData"
+                                :type="componentData.type"
+                                :index="getChildIndex(child)"
+                                :mode="'insertAfter'"
+                                :dragging="dragging"
+                                style="height: 20px; width: 20px; z-index:50;"
+                            >
+                            </workflow-drop-wrapper>
+                        </div>
+                    </div>
                     <div
                         @dragover="handleDragover(getChildIndex(child))"
                         @dragleave="handleDragLeave(getChildIndex(child))"
-                        style="width: 20px; height: 20px; border: 1px solid red;"
+                        v-if="componentData.children.length > 1 && (idx + 1) != componentData.children.length"
+                        :style="{
+                            left: calculateJoinerLeft(child.key) + 'px'
+                        }"
+                        class="workflow-joiner"
                     >
                         <workflow-drop-wrapper
-                            v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
+                            v-if="self && dragging && dragging.type == 'progression-policy' && dropZonesExpanded[getChildIndex(child)]"
                             :expanded="dropZonesExpanded[getChildIndex(child)]"
                             :validComponents="self.$options.components"
                             :componentData="componentData"
-                            :type="componentData.type"
-                            :index="getChildIndex(child)"
+                            :type="child.type"
+                            :index="getChildIndex(child) + 0.5"
                             :mode="'insertAfter'"
                             :dragging="dragging"
                             style="height: 20px; width: 20px; z-index:50;"
                         >
                         </workflow-drop-wrapper>
                     </div>
-                </div>
-                <div
-                    v-if="componentData.children.length > 1 && (idx + 1) != componentData.children.length"
-                    :style="{
-                        left: calculateJoinerLeft(child.key) + 'px'
-                    }"
-                    class="workflow-joiner"
-                >
-                </div>
+                </template>
             </template>
         </div>
       </div>
@@ -117,17 +143,33 @@
         },
         methods: {
             getX: function(id) {
-                if ($("#" + id).offset() && $("#" + this.componentData.key).offset()) {
-                    return $("#" + id).offset().left - $("#" + this.componentData.key).offset().left + $("#" + id).width()/2;
+                if (this.elementExists(id) && $("#" + id).offset() && this.elementExists("workflowBuilderCanvas")) {
+                    return $("#" + id).offset().left - $("#workflowBuilderCanvas").offset().left + ($("#" + id).width()/2);
                 } else {return 0;} // for when the DOM hasn't fully loaded; it is properly calculated and updated after
             },
             getY: function(id) {
-                if ($("#" + id).offset() && $("#" + this.componentData.key).offset()) {
-                    return $("#" + id).offset().top - $("#" + this.componentData.key).offset().top;
+                if (this.elementExists(id) && $("#" + id).offset() && this.elementExists("workflowBuilderCanvas")) {
+                    return $("#" + id).offset().top - $("#workflowBuilderCanvas").offset().top;
                 } else {return 0;} // for when the DOM hasn't fully loaded; it is properly calculated and updated after
             },
             elementExists: function(id) {
                 return ($("#" + id) != undefined);
+            },
+            calculateSvgCanvasTop: function() {
+                if (this.elementExists(this.componentData.key) && this.elementExists('workflowBuilderCanvas')) {
+                    return $("#workflowBuilderCanvas").offset().top - $("#" + this.componentData.key).offset().top;
+                }
+            },
+            calculateSvgCanvasLeft: function() {
+                if (this.elementExists(this.componentData.key) && this.elementExists('workflowBuilderCanvas')) {
+                    return $("#workflowBuilderCanvas").offset().left - $("#" + this.componentData.key).offset().left;
+                }
+            },
+            calculateSvgCanvasHeight: function() {
+                return $("#workflowBuilderCanvas").height();
+            },
+            calculateSvgCanvasWidth: function() {
+                return $("#workflowBuilderCanvas").width();
             },
             calculateJoinerLeft: function(id) {
                 var childElement = $("#" + id);
@@ -168,5 +210,9 @@
     .workflow-bordered {
         outline-style: solid;
         outline-width: 1px;
+    }
+    .workflow-svg {
+        position: absolute;
+        z-index: -1;
     }
 </style>

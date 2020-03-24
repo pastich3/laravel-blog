@@ -54,8 +54,22 @@
         },
         methods: {
             handleDrop: function (data) {
-                if (this.componentData.children == undefined) {
-                    this.$set(this.componentData, 'children', []);
+                // assume we're working with a single component
+                var componentData = this.componentData;
+                var otherSibling = undefined;
+                var index = this.index;
+                // if index % 1 == 0.5, then its a "joiner" and we'll link siblings together
+                if (index % 1 == 0.5) {
+                    // take the first sibling
+                    componentData = this.componentData.children[index - 0.5];
+                    otherSibling = this.componentData.children[index + 0.5];
+                    index -= 0.5;
+                }
+                if (componentData.children == undefined) {
+                    this.$set(componentData, 'children', []);
+                }
+                if (otherSibling && otherSibling.children == undefined) {
+                    this.$set(otherSibling, 'children', []);
                 }
                 var obj = {
                     name: data.component.name,
@@ -65,9 +79,27 @@
                 obj.children = [];
                 if (this.mode == 'insertAfter') {
                     // inserts new element after previous element
-                    this.componentData.children.splice(this.index+1, 0, obj);
+                    componentData.children.splice(index+1, 0, obj);
+                    if (otherSibling != undefined) {
+                        var dupObj = {
+                            name: obj.name,
+                            component: obj.component,
+                            type: obj.type
+                        };
+                        dupObj.render = false;
+                        otherSibling.children.splice(index+1, 0, dupObj);
+                    }
                 } else { // this.mode == prepend
-                    this.componentData.children.splice(0, 0, obj); // unshift == prepend
+                    componentData.children.splice(0, 0, obj); // unshift == prepend
+                    if (otherSibling != undefined) {
+                        var dupObj = {
+                            name: obj.name,
+                            component: obj.component,
+                            type: obj.type
+                        };
+                        dupObj.render = false;
+                        otherSibling.children.splice(0, 0, dupObj); // unshift == prepend
+                    }
                 }
                 WorkflowBus.$emit('workflow-drag-ended');
             },

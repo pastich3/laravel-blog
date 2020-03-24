@@ -1,5 +1,5 @@
 <template>
-    <div v-if="initialized" class="w-100 h-100 justify-content-center d-flex workflow-canvas">
+    <div id="workflowBuilderCanvas" v-if="initialized" style="position:relative;" class="w-100 h-100 justify-content-center d-flex workflow-canvas">
         <div
             @dragover="handleDragover(-1)"
             @dragleave="handleDragLeave(-1)"
