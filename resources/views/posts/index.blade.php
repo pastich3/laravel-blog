@@ -15,11 +15,11 @@
           @endif
         </div>
 
-        <div class="p-2">
+        <!-- <div class="p-2">
           <a href="{{ route('posts.feed') }}" class="pull-right" data-turbolinks="false">
               <i class="fa fa-rss" aria-hidden="true"></i>
           </a>
-        </div>
+        </div> -->
       </div>
 
       @include ('posts/_expanded_list')
