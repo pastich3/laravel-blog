@@ -1,9 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <div style="background-color: rgba(52, 59, 64, 0.9); padding-top:92px"></div>
-  <div>
-    <div style="padding-top: 5em; padding-left: 2em; padding-right: 2em; padding-bottom: 2em;">
+    <div>
       @include ('posts/_search_form')
 
       <div class="d-flex justify-content-between">
@@ -24,5 +22,4 @@
 
       @include ('posts/_expanded_list')
     </div>
-  </div>
 @endsection

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="h-100" lang="en">
 <head>
   <meta charset="utf-8">
   <title>Tatham</title>
@@ -17,20 +17,20 @@
   <!-- Styles -->
   <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
   <!-- Favicons -->
-  <link href="images/newfavicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/images/newfavicon.png" rel="icon">
+  <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700|Michroma|Montserrat" rel="stylesheet">
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/lib/animate/animate.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
 
   {{-- =======================================================
     Theme Name: Regna
@@ -40,7 +40,7 @@
   ======================================================= --}}
 </head>
 
-<body>
+<body class="h-100 d-flex flex-column">
 
   <!--==========================
   Header
@@ -96,19 +96,21 @@
           </li>
           @endauth
           @guest
-          <li><a href="/login">Login</a>
+          <li><a href="/login">Login</a></li>
           @endguest
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-    <div id="app">
-      @yield('content')
+    <div style="padding-top: 97px;" class="pb-3 px-3">
+        <div id="app">
+          @yield('content')
+        </div>
     </div>
   <!--==========================
     Footer
   ============================-->
-  <footer id="footer">
+  <footer style="margin-top: auto;" id="footer">
     <div class="footer-top">
       <div class="container">
 
@@ -138,10 +140,10 @@
   <script src="/lib/superfish/superfish.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script src="/contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
   <script src="{{ mix('/js/app.js') }}"></script>
   @stack('inline-scripts')
 
