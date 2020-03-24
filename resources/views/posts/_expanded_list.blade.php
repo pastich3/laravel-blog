@@ -1,5 +1,5 @@
 @foreach($posts as $post)
-  <div class="bg-white p-3 post-card">
+  <div class="bg-white p-3 mb-3 post-card">
     @if ($post->hasThumbnail())
       {{ Html::image($post->thumbnail->getUrl(), $post->thumbnail->name, ['class' => 'card-img-top']) }}
     @endif
@@ -26,5 +26,19 @@
     </p>
   </div>
 
-  @include ('comments/_list')
+  @if ($post->comments_count > 0 || auth()->user() !== null)
+      <div>
+        <div class="d-flex justify-content-center my-3">
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#post{{$post->id}}comments" role="button" aria-expanded="false" aria-controls="post{{$post->id}}comments">
+                View {{ trans_choice('comments.count', $post->comments_count) }}
+            </button>
+        </div>
+        <div class="collapse" id="post{{$post->id}}comments">
+            <div class="card card-body">
+            @include ('comments/_list')
+            </div>
+        </div>
+      </div>
+  @endif
+
 @endforeach
