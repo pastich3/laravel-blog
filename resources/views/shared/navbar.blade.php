@@ -2,7 +2,7 @@
     <div class="container">
         <!-- Branding Image -->
         <a href="{{route('home')}}" class="navbar-brand mr-5">
-            <img style="height: 56px" src="{{URL::asset('images/logo.svg')}}">
+            <span style="font-family: 'Montserrat'; letter-spacing:1px; font-size: 1em; font-style: regular">&nbsp;Tatham Inc</span>
         </a>
 
         <!-- Collapsed Hamburger -->
@@ -25,30 +25,30 @@
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="ourStoryDropdownToggle">
-                            {{ link_to_route('your_story', __('tatham.your_story'), [], ['class' => 'dropdown-item']) }}
+                            {{ "link_to_route('your_story', __('tatham.your_story'), [], ['class' => 'dropdown-item'])" }}
                             <div class="dropdown-divider"></div>
-                            {{ link_to_route('our_story', __('tatham.our_story'), [], ['class' => 'dropdown-item']) }}
+                            {{ "link_to_route('our_story', __('tatham.our_story'), [], ['class' => 'dropdown-item'])" }}
                         </div>
                 </li> -->
                 <!-- <li class="nav-item d-flex justify-content-center">
-                    {{ link_to_route('your_story', __('tatham.your_story'), [], ['class' => 'nav-link']) }}
+                    {{ "link_to_route('your_story', __('tatham.your_story'), [], ['class' => 'nav-link'])" }}
                 </li>
                 <li class="nav-item d-flex justify-content-center">
-                    {{ link_to_route('our_story', __('tatham.our_story'), [], ['class' => 'nav-link']) }}
+                    {{ "link_to_route('our_story', __('tatham.our_story'), [], ['class' => 'nav-link'])" }}
                 </li> -->
-                <li class="nav-item d-flex justify-content-center">
+                <!-- <li class="nav-item d-flex justify-content-center">
                     <a href="#" class="nav-link"> Team </a>
-                </li>
-                <li class="nav-item d-flex justify-content-center">
-                    {{ link_to_route('testimonials', __('tatham.testimonials'), [], ['class' => 'nav-link']) }}
-                </li>
+                </li> -->
+                <!-- <li class="nav-item d-flex justify-content-center">
+                    {{ "link_to_route('testimonials', __('tatham.testimonials'), [], ['class' => 'nav-link'])" }}
+                </li> -->
                 <li class="nav-item">
                     {{ link_to_route('blog', __('tatham.blog'), [], ['class' => 'nav-link']) }}
                 </li>
                 @guest
-                    <li class="nav-item d-flex justify-content-center">
-                        {{ link_to_route('contact', __('tatham.contact'), [], ['class' => 'nav-link']) }}
-                    </li>
+                    <!-- <li class="nav-item d-flex justify-content-center">
+                        {{ "link_to_route('contact', __('tatham.contact'), [], ['class' => 'nav-link'])" }}
+                    </li> -->
                 @endguest
             </ul>
             <ul class="navbar-nav ml-auto">
