@@ -522,14 +522,10 @@ starting with your customers.</p>
 
         if (deltaTop >= deltaBottom) // scrolling up from the bottom of the screen, lower half of element
         {
-          console.log('Up from bottom');
-          console.log('return' + '(' + docViewBottom + '<=' + '(' + (elemBottom + paddingBottom) +'));');
           return (docViewBottom <= (elemBottom + paddingBottom));
         }
         else if (deltaTop < deltaBottom) // coming from the top, or on top half of element
         {
-          console.log('Down from top');
-          console.log('return' + '(' + docViewTop + '>=' + '(' + (elemTop - paddingTop) +'));');
           return (docViewTop >= (elemTop - paddingTop));
         }
         else

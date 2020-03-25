@@ -82,7 +82,7 @@
             </ul>
           </li> -->
           <li><a href="/#contact">Contact Us</a></li>
-          <li><a href="/blog">Blog</a></li>
+          <!-- <li><a href="/blog">Blog</a></li> -->
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>

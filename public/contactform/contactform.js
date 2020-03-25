@@ -120,11 +120,22 @@ jQuery(document).ready(function($) {
           {
             $("#message-error").text(data.errors.message[0]);
           }
+        } else {
+          $("#sendmessage").addClass("show");
+          $("#errormessage").removeClass("show");
+          $('.contactForm').find("input, textarea").val("");
+          $(".form-group").hide();
+          $("#submit").hide();
         }
       },
       success: function(msg) {
+          $("#sendmessage").addClass("show");
+          $("#errormessage").removeClass("show");
+          $('.contactForm').find("input, textarea").val("");
+          $(".form-group").hide();
+          $("#submit").hide();
         // alert(msg);
-        if (msg.msg == 'OK') {
+        /*if (msg.msg == 'OK') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
@@ -134,7 +145,7 @@ jQuery(document).ready(function($) {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
           $('#errormessage').html(msg.msg);
-        }
+        }*/
 
       }
     });

@@ -25,9 +25,9 @@ Route::group([], function() { // for organizational purposes only
 // Route::get('/contact', 'HomeController@contact')->name('contact');
 // Route::get('/contact_submitted', 'HomeController@contactInfoSubmitted')->name('contact_submitted');
 // Route::get('/testimonials', 'HomeController@testimonials')->name('testimonials');
-Route::get('/blog', 'PostController@index')->name('blog');
+/*Route::get('/blog', 'PostController@index')->name('blog');
 Route::get('/posts/feed', 'PostFeedController@index')->name('posts.feed');
 Route::resource('posts', 'PostController')->only('show');
-Route::resource('users', 'UserController')->only('show');
+Route::resource('users', 'UserController')->only('show');*/
 
 // Route::get('newsletter-subscriptions/unsubscribe', 'NewsletterSubscriptionController@unsubscribe')->name('newsletter-subscriptions.unsubscribe');
