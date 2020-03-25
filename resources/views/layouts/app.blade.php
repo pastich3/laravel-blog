@@ -102,10 +102,12 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-    <div style="padding-top: 97px;" class="pb-3 px-3">
+    <div style="padding-top: 97px;" class="pb-3 px-3 d-flex justify-content-center">
+      <div style="max-width: 1200px;">
         <div id="app">
           @yield('content')
         </div>
+      </div>
     </div>
   <!--==========================
     Footer

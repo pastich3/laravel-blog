@@ -4,7 +4,7 @@
     <div>
       @include ('posts/_search_form')
 
-      <div class="d-flex justify-content-between">
+      <div class="d-flex justify-content-center">
         <div class="p-2">
           @if (request()->has('q'))
             <div class="h2">{{ trans_choice('posts.search_results', $posts->count(), ['query' => request()->input('q')]) }}</div>
@@ -20,6 +20,6 @@
         </div> -->
       </div>
 
-      @include ('posts/_expanded_list')
+      @include ('posts/_list')
     </div>
 @endsection
