@@ -32,23 +32,10 @@ export default {
             self.elementSelected = false;
         });
 
-        WorkflowBus.$on('workflow-component-deleted', function() {
-            // sends a signal that the delete-component loop can stop prematurely to save some processing
-            self.elementRecentlyDeleted = true;
-            // self.componentData.key = self.generateUuid();
-            // after a short delay, reset the flag so the next delete will work
-            setTimeout(function() {
-                self.elementRecentlyDeleted = false;
-            }, 150);
-        });
-
         WorkflowBus.$on('workflow-delete-component', function(componentKey) {
             self.elementSelected = false;
             if (self.componentData.children != undefined) { // content-elements don't have children
                 for (var i = 0; i < self.componentData.children.length; i++) {
-                    if (self.elementRecentlyDeleted) {
-                        break; // a signal from a different component that this delete succeeded; just saves a little processing
-                    }
                     if (self.componentData.children[i].key == componentKey) {
                         self.componentData.children = self.componentData.children.filter(x => x.key != componentKey);
                         WorkflowBus.$emit('workflow-component-deleted'); // forces all elements to update their keys

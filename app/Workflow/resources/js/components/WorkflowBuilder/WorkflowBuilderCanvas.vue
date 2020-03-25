@@ -3,10 +3,10 @@
         <div
             @dragover="handleDragover(-1)"
             @dragleave="handleDragLeave(-1)"
-            style="width: 20px; height: 20px; border: 1px solid red;"
+            style="width: 20px; height: 20px; border: 1px solid orange;"
         >
             <workflow-drop-wrapper
-                v-if="self && dragging && dropZonesExpanded[-1]"
+                v-if="self && dragging && dragging.type != 'progression-policy' && dropZonesExpanded[-1]"
                 :expanded="dropZonesExpanded[-1]"
                 :validComponents="self.$options.components"
                 :componentData="componentData"
@@ -24,10 +24,10 @@
                     <div
                         @dragover="handleDragover(getChildIndex(child))"
                         @dragleave="handleDragLeave(getChildIndex(child))"
-                        style="width: 20px; height: 20px; border: 1px solid red;"
+                        style="width: 20px; height: 20px; border: 1px solid orange;"
                     >
                         <workflow-drop-wrapper
-                            v-if="self && dragging && dropZonesExpanded[getChildIndex(child)]"
+                            v-if="self && dragging && dragging.type != 'progression-policy' && dropZonesExpanded[getChildIndex(child)]"
                             :expanded="dropZonesExpanded[getChildIndex(child)]"
                             :validComponents="self.$options.components"
                             :componentData="componentData"
