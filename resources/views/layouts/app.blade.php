@@ -102,8 +102,8 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-    <div style="padding-top: 97px;" class="pb-3 px-3 d-flex justify-content-center">
-      <div style="max-width: 1200px;">
+    <div style="padding-top: 120px;" class="pb-3 px-3 d-flex justify-content-center">
+      <div class="w-100" style="max-width: 1200px;">
         <div id="app">
           @yield('content')
         </div>

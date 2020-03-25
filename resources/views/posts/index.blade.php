@@ -9,7 +9,7 @@
           @if (request()->has('q'))
             <div class="h2">{{ trans_choice('posts.search_results', $posts->count(), ['query' => request()->input('q')]) }}</div>
           @else
-            <div class="h2">@lang('posts.last_posts')</div>
+            <!-- <div class="h2">@lang('posts.last_posts')</div> -->
           @endif
         </div>
 
