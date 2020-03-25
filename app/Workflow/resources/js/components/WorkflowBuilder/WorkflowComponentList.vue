@@ -50,7 +50,23 @@
                     type: 'progression-policy'
                 }],
                 tasks: [{
-                    name: 'Test Task',
+                    name: 'Reminder',
+                    component: 'workflow-placeable-component',
+                    type: 'task'
+                },{
+                    name: 'Upload Agenda',
+                    component: 'workflow-placeable-component',
+                    type: 'task'
+                },{
+                    name: 'Have Meeting',
+                    component: 'workflow-placeable-component',
+                    type: 'task'
+                },{
+                    name: 'Debrief',
+                    component: 'workflow-placeable-component',
+                    type: 'task'
+                },{
+                    name: 'Schedule Meeting',
                     component: 'workflow-placeable-component',
                     type: 'task'
                 }],
