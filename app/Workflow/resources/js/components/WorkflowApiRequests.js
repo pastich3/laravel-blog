@@ -1,9 +1,11 @@
-let baseApiRoute = '/api/v1';
-class ApiRequests {
-    static getCurrentUser() {
+let baseApiRoute = '/api/workflow/v1';
+class WorkflowApiRequests {
+    static setWorkflowComponents(workflow_id, data) {
         return axios({
-            method: 'get',
-            url: baseApiRoute + '/users/currentUser',
+            method: 'post',
+            url: baseApiRoute + '/workflows/' + workflow_id + '/setComponents',
         });
     }
 }
+
+export default WorkflowApiRequests;

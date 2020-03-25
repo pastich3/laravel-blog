@@ -16,4 +16,9 @@ class WorkflowApiController extends BaseController
     protected $matchAttributes = ['name', 'client_id'];
     protected $appendAttributes = ['status_id'];
 
+    public function create(Request $request, int $workflow_id)
+    {
+
+    }
+
 }
