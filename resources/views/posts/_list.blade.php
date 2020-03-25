@@ -1,4 +1,4 @@
-<div class="card-columns d-flex flex-wrap">
+<div class="d-flex flex-wrap justify-content-center">
     @each('posts/_show', $posts, 'post', 'posts/_empty')
 </div>
 
