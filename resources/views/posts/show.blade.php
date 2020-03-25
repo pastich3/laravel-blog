@@ -4,9 +4,17 @@
   <div class="d-flex flex-column align-items-center">
     <div style="max-width: 800px" class="w-100 bg-white p-3 post-card">
       @if ($post->hasThumbnail())
-        {{ Html::image($post->thumbnail->getUrl(), $post->thumbnail->name, ['class' => 'card-img-top']) }}
+        <a href="{{ route('posts.show', $post)}}">
+          {{ Html::image($post->thumbnail->getUrl('thumb'), $post->thumbnail->name, [
+              'class' => 'card-img-top',
+              'style' => 'object-fit:contain; object-position:center;',
+              'width' => '200',
+              'height' => '200',
+              'loading' => 'lazy'
+            ])
+          }}
+        </a>
       @endif
-
       <h1 v-pre>{{ $post->title }}</h1>
 
       <div class="mb-3">
