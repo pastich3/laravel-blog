@@ -30,7 +30,8 @@
             return {
                 workflow: {
                     children: [],
-                    name: "New Workflow"
+                    name: "New Workflow", // default
+                    status_id: 1 // new, default
                 },
                 selectedElement: {},
                 dragging: {}
