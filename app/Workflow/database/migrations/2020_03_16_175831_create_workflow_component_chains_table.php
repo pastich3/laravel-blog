@@ -15,8 +15,11 @@ class CreateWorkflowComponentChainsTable extends Migration
     {
         Schema::create('workflow_component_chains', function (Blueprint $table) {
             $table->bigIncrements('id');
+
             $table->bigInteger('current_workflow_component_id')->unsigned()->index();
             $table->bigInteger('next_workflow_component_id')->unsigned()->index();
+            $table->foreign('current_workflow_component_id')->references('id')->on('workflow_components')->onDelete('cascade');
+            $table->foreign('next_workflow_component_id')->references('id')->on('workflow_components')->onDelete('cascade');
             $table->timestamps();
         });
     }

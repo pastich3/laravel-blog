@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateWorkflowComponentInstancesMetaTable extends Migration
+class CreateWorkflowComponentsMetaTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreateWorkflowComponentInstancesMetaTable extends Migration
      */
     public function up()
     {
-        Schema::create('workflow_component_instances_meta', function (Blueprint $table) {
-            $table->increments('id');
+        Schema::create('workflow_components_meta', function (Blueprint $table) {
+            $table->bigIncrements('id');
 
-            $table->integer('workflow_component_instance_id')->unsigned()->index('workflow_component_instance_meta_index');
+            $table->bigInteger('workflow_component_id')->unsigned()->index();
+            $table->foreign('workflow_component_id')->references('id')->on('workflow_components')->onDelete('cascade');
 
             $table->string('type')->default('null');
 
@@ -34,6 +35,6 @@ class CreateWorkflowComponentInstancesMetaTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('workflow_component_instances_meta');
+        Schema::dropIfExists('workflow_components_meta');
     }
 }
