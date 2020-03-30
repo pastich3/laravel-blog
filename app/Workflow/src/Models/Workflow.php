@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Workflow extends Model
 {
+    const STATUS_NEW = 1;
     protected $guarded = [];
 
     public function components()

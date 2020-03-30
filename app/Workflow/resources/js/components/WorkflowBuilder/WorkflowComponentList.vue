@@ -31,6 +31,8 @@
 <script>
     import {Drag, Drop} from 'vue-drag-drop';
     import {WorkflowBus} from '../WorkflowBus';
+    import WorkflowApiRequests from "../WorkflowApiRequests";
+
     export default {
         props: ['selectedElement'],
         components: {
@@ -39,39 +41,15 @@
         data: function() {
             return {
                 dragging: undefined,
-                progressionPolicies: [{
-                    name: 'Or',
-                    component: 'workflow-placeable-component',
-                    type: 'progression-policy'
-                },
-                {
-                    name: 'And',
-                    component: 'workflow-placeable-component',
-                    type: 'progression-policy'
-                }],
-                tasks: [{
-                    name: 'Reminder',
-                    component: 'workflow-placeable-component',
-                    type: 'task'
-                },{
-                    name: 'Upload Agenda',
-                    component: 'workflow-placeable-component',
-                    type: 'task'
-                },{
-                    name: 'Have Meeting',
-                    component: 'workflow-placeable-component',
-                    type: 'task'
-                },{
-                    name: 'Debrief',
-                    component: 'workflow-placeable-component',
-                    type: 'task'
-                },{
-                    name: 'Schedule Meeting',
-                    component: 'workflow-placeable-component',
-                    type: 'task'
-                }],
+                progressionPolicies: [],
+                tasks: [],
                 workflows: [],
             }
+        },
+        mounted: function() {
+            this.loadTasks();
+            this.loadProgressionPolicies();
+            this.loadWorkflows();
         },
         methods: {
             dragStart: function(component) {
@@ -79,6 +57,28 @@
             },
             dragEnd: function() {
                 WorkflowBus.$emit('workflow-drag-ended');
+            },
+            loadTasks: function() {
+                WorkflowApiRequests.getTasks().then((res) => {
+                    this.tasks = res.data;
+                    for (var i = 0; i < this.tasks.length; i++) {
+                        this.tasks[i].component = "workflow-placeable-component";
+                        this.tasks[i].type = "task";
+                    }
+                });
+            },
+            loadProgressionPolicies: function() {
+                WorkflowApiRequests.getProgressionPolicies().then((res) => {
+                    this.progressionPolicies = res.data;
+                    for (var i = 0; i < this.progressionPolicies.length; i++) {
+                        this.progressionPolicies[i].component = "workflow-placeable-component";
+                        this.progressionPolicies[i].type = "progression-policy";
+                    }
+                });
+            },
+            loadWorkflows: function() {
+                // TODO
+                return [];
             }
         }
     }

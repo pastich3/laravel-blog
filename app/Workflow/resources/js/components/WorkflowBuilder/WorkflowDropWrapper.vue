@@ -71,10 +71,11 @@
                 if (otherSibling && otherSibling.children == undefined) {
                     this.$set(otherSibling, 'children', []);
                 }
-                var obj = {
-                    name: data.component.name,
-                    component: data.component.component,
-                    type: data.component.type,
+
+                // make a deep copy
+                var obj = {};
+                for (var key in data.component) {
+                    obj[key] = data.component[key];
                 }
                 obj.children = [];
                 if (this.mode == 'insertAfter') {

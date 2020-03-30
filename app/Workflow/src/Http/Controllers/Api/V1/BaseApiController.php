@@ -28,10 +28,10 @@ class BaseApiController extends BaseController
 
     public function __construct()
     {
-        $class = get_class($this); // e.g. App\Http\Controllers\Api\V1\WorkflowTaskController
+        $class = get_class($this); // e.g. Tatham\Workflow\Http\Controllers\Api\V1\WorkflowTaskController
         $classComponents = explode("\\", $class); // an array of the above, delimited by backslashes
         $className = end($classComponents); // get last word of class
-        $type = substr($className, 0, strlen($className) - strlen("Controller")); // remove the word "Controller"; remainder is "User" etc
+        $type = substr($className, 0, strlen($className) - strlen("ApiController")); // remove the word "Controller"; remainder is "WorkflowTask" etc
 
         $modelClass = $this->modelClass ?? "Tatham\\Workflow\\Models\\" . $type;
         $resourceClass = $this->resourceClass ?? "Tatham\\Workflow\\Http\\Resources\\" . $type . "Resource";

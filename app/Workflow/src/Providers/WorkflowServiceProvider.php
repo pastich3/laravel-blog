@@ -8,6 +8,8 @@ use Illuminate\Support\ServiceProvider;
 
 use Tatham\Workflow\Console\Commands\PublishWorkflowAssetsCommand;
 
+use Tatham\Workflow\Http\Resources\BaseWorkflowResource;
+
 class WorkflowServiceProvider extends ServiceProvider
 {
     /**
@@ -34,6 +36,7 @@ class WorkflowServiceProvider extends ServiceProvider
                 PublishWorkflowAssetsCommand::class,
             ]);
         }
+        BaseWorkflowResource::withoutWrapping();
     }
 
     /**
